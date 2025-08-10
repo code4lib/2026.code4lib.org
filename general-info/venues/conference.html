@@ -1,0 +1,14 @@
+<section class="general-info">
+    <div class="col-12">
+        <h2 id="conference-hotel">Conference Venue</h2>
+
+        <p>Code4Lib {{site.data.conf.year}} will be held at {{site.data.conf.venue.name}} in {{site.data.conf.location}}.  {% if site.data.conf.venue.note %}{{ site.data.conf.venue.note }}{% endif %}</p>
+        <p></p>
+
+        {% if site.data.conf.venue.image %}
+        <div class="col-6">
+            <img class="img-fluid" src="/assets/img/theme-images/{{ site.data.conf.venue.image }}" alt="{{ site.data.conf.venue.image_alt }}" title="{{site.data.conf.venue.image_title }}">
+        </div>
+        {% endif %}
+	</div>
+</section>

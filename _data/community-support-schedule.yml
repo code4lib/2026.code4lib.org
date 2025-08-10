@@ -1,0 +1,133 @@
+# The schedule for Community Support Volunteers, only affects
+# /conduct/#schedule
+# The volunteer(s) fields key off of objects in community-support.yml
+# Everything else is a string; "period" can be text or a time but we
+# usually use a label for the onsite schedule & time for online.
+
+onsite:
+  # template:
+  # - day: Tuesday
+  #   period: Morning Preconferences
+  #   volunteers:
+  #     - surname
+  #     - othersurname
+  - day: Monday
+    period: 8:30am - 11am
+    volunteers:
+      - mesco
+      - derven
+
+  - day: Monday
+    period: 11am - 1pm
+    volunteers:
+      - herring
+      - dowling
+
+  - day: Monday
+    period: 1pm - 3pm
+    volunteers:
+      - allen
+      - mesco
+
+  - day: Monday
+    period: 3pm - EOD
+    volunteers:
+      - fox
+      - yelton
+
+  - day: Tuesday
+    period: 8:30am - 11am
+    volunteers:
+      - dowling
+      - fox
+
+  - day: Tuesday
+    period: 11am - 1pm
+    volunteers:
+      - yelton
+      - herring
+
+  - day: Tuesday
+    period: 1pm - 3pm
+    volunteers:
+      - derven
+      - mesco
+
+  - day: Tuesday
+    period: 3pm - EOD
+    volunteers:
+      - allen
+      - dowling
+
+  - day: Tuesday
+    period: Reception
+    volunteers:
+      - allen
+      - derven
+
+  - day: Wednesday
+    period: 8:30am - 11am
+    volunteers:
+      - fox
+      - derven
+
+  - day: Wednesday
+    period: 11am - 1pm
+    volunteers:
+      - yelton
+      - allen
+
+  - day: Wednesday
+    period: Game Night
+    volunteers:
+      - yelton
+
+  - day: Thursday
+    period: Post-Conferences
+    volunteers:
+      - mesco
+
+online:
+  # template:
+  # - day:
+  #   period:
+  #   volunteer:
+  - day: Monday
+    period: 8:30am - 11am
+    volunteer: battelini
+
+  - day: Monday
+    period: 11am - 1pm
+    volunteer: giarlo
+
+  - day: Monday
+    period: 1pm - 3pm
+    volunteer: navarro
+
+  - day: Monday
+    period: 3pm - EOD
+    volunteer: phetteplace
+
+  - day: Tuesday
+    period: 8:30am - 11am
+    volunteer: battelini
+
+  - day: Tuesday
+    period: 11am - 1pm
+    volunteer: phetteplace
+
+  - day: Tuesday
+    period: 1pm - 3pm
+    volunteer: giarlo
+
+  - day: Tuesday
+    period: 3pm - EOD
+    volunteer: navarro
+
+  - day: Wednesday
+    period: 8:30am - 11am
+    volunteer: lynch
+
+  - day: Wednesday
+    period: 11am - 1pm
+    volunteer: herring

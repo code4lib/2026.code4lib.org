@@ -1,0 +1,119 @@
+allen:
+  name: Natasha Allen
+  last: Allen
+  pronouns: she/her
+  img: /assets/img/conduct/natasha-allen.jpg
+  img_alt:
+  slack_handle: natasha she/her
+  onsite: true
+  online: false
+
+battelini:
+  name: Andrew Battelini
+  last: Battelini
+  pronouns: they/he
+  img:
+  img_alt:
+  slack_handle: Andrew Battelini
+  onsite: false
+  online: true
+
+derven:
+  name: Caleb Derven
+  last: Derven
+  pronouns: he/him/his
+  img: /assets/img/conduct/derven-caleb.jpg
+  img_alt: "Caleb Derven (he/him) is the Head of Digital Scholarship & Library Systems at the University of Limerick."
+  slack_handle: Caleb Derven
+  onsite: true
+  online: false
+
+dowling:
+  name: Thomas Dowling
+  last: Dowling
+  pronouns: he/him/his
+  img:
+  img_alt:
+  slack_handle: tdowling149
+  onsite: true
+  online: false
+
+fox:
+  name: Bobbi Fox
+  last: Fox
+  pronouns: she/her/hers
+  img: /assets/img/conduct/bobbi-fox.jpg
+  img_alt: "An old white woman with glasses and wavy long greying brown hair."
+  slack_handle: Bobbi Fox
+  onsite: true
+  online: false
+
+giarlo:
+  name: Mike Giarlo
+  last: Giarlo
+  pronouns: he/him/his
+  img: /assets/img/conduct/mike-giarlo.jpg
+  img_alt: A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap.
+  slack_handle: mjgiarlo
+  onsite: false
+  online: true
+
+herring:
+  name: Soojeong Herring
+  last: Herring
+  pronouns: she/her/hers
+  img: /assets/img/conduct/soojeong-herring.jpg
+  img_alt: "A portrait of a woman with black mid length hair and a black dress, holding a vase of red and white flowers."
+  slack_handle: Soojeong Herring
+  onsite: true
+  online: true
+
+lynch:
+  name: Kate Lynch
+  last: Lynch
+  pronouns: they/them/theirs
+  img: /assets/img/conduct/lynch-kate.jpg
+  img_alt:
+  slack_handle: kat3_drx
+  onsite: false
+  online: true
+
+mesco:
+  name: Ann Marie Mesco
+  last: Mesco
+  pronouns: she/her/hers
+  img: /assets/img/conduct/ann-marie-mesco.jpg
+  img_alt: Woman with blonde hair, blue eyes, wearing glasses and a black sweater
+  slack_handle: Ann Marie
+  onsite: true
+  online: false
+
+navarro:
+  name: Michelle S. Navarro
+  last: Navarro
+  pronouns: she/her
+  img: /assets/img/conduct/navarro-michelle-s.png
+  img_alt: "A digital illustration of a woman with short brown hair sitting with a laptop. She is wearing a pink T-shirt. A small black cat is draped over their shoulder with closed eyes. A brown and white ragdoll cat with blue eyes is lying on their lap, partially covering the laptop's keyboard. The laptop is gray with a peach sticker on the back."
+  slack_handle: Michelle S. Navarro
+  onsite: false
+  online: true
+
+phetteplace:
+  name: Eric Phetteplace
+  last: Phetteplace
+  pronouns: he/him
+  img: /assets/img/conduct/eric-phetteplace.png
+  img_alt: A bearded, balding white man smiling slightly in a black and white image.
+  slack_handle: phette23
+  onsite: false
+  online: true
+
+yelton:
+  name: Andromeda Yelton
+  last: Yelton
+  pronouns: she/her
+  img: /assets/img/speakers/andromeda-yelton.jpg
+  img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
+  slack_handle: thatandromeda
+  onsite: true
+  online: false

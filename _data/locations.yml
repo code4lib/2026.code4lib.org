@@ -1,0 +1,31 @@
+- id: lewis
+  name: Lewis Science Library
+  google_maps: https://maps.app.goo.gl/DGEejamzQhDDmaiN9
+  embed_code: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9993.55661014683!2d-74.6527775!3d40.3461473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3e6c4a5206509%3A0xea333dba40f3ceca!2sLewis%20Science%20Library!5e1!3m2!1sen!2sus!4v1740677907707!5m2!1sen!2sus"
+  rooms:
+    - id: 117
+      name: 117
+    - id: 120
+      name: 120
+    - id: 121
+      name: 121
+    - id: 122
+      name: 122
+    - id: 134
+      name: 134
+    - id: 138
+      name: 138
+- id: friend
+  name: Friend Center
+  google_maps: https://maps.app.goo.gl/sSpMVJJzybsewLHR8
+  rooms:
+    - id: 101
+      name: 101
+    - id: atrium
+      name: Atrium
+- id: frick
+  name: Frick Chemistry Laboratory
+  google_maps: https://maps.app.goo.gl/A3zF1AJ2fDJACw146
+  rooms:
+    - id: taylor-commons
+      name: Taylor Commons

@@ -1,0 +1,129 @@
+---
+layout: secondary-nav
+title: Lodging and Transportation
+nav: general-info
+active: 'Lodging and Transportation'
+subnav:
+- name: 'Lodging'
+  url: '#lodging'
+- name: 'Transportation'
+  url: '#transportation'
+- name: 'Parking'
+  url: '#parking'
+---
+
+<section class="general-info">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <h1>Lodging and Transportation</h1>
+
+        <h2 id="lodging">Lodging</h2>
+        {% if site.data.conf.venue.hotel.reserved-room-block %}
+        <p>
+            The conference has a block of rooms reserved at the {{site.data.conf.venue.hotel.name}}, starting at a daily rate of {{ site.data.conf.venue.hotel.cost }} ({% if site.data.conf.venue.hotel.with-tax-cost %}{{ site.data.conf.venue.hotel.with-tax-cost }} with taxes{% else %}plus taxes{% endif %}).
+            This rate is valid between the dates of {{site.data.conf.days[0].date}} to {{site.data.conf.days.last.date}}, bookable until {% if site.data.conf.venue.hotel.cost-cutoff-date %}{{ site.data.conf.venue.hotel.cost-cutoff-date | date: "%B %-d" }} or until {% endif %}the block fills up.
+            Rooms may be available at the group rate before or after the above dates, based on availability at the hotel.
+            While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
+        </p>
+        {% elsif site.data.conf.venue.hotel.name != nil %}
+        <p>
+            The conference hotel is the {{ site.data.conf.venue.hotel.name }}. While the reservation will require a credit card, it will not be charged until you arrive (you may also incur a fee if you do not show, or cancel outside of the allowable cancellation time frame).
+        </p>
+        {% endif %}
+        {% if site.data.conf.venue.hotel.check-in-time %}
+        <p>
+            Check-in is at {{site.data.conf.venue.hotel.check-in-time}} while check-out is
+            {{site.data.conf.venue.hotel.check-out-time}}. Included in our reservation is free access to the hotel's guest WiFi
+            network.
+        </p>
+        {% endif %}
+
+        {% if site.data.conf.venue.hotel.multiple-hotels %}
+          <p>{{ site.data.conf.venue.hotel.note }}</p>
+            {%- comment -%} Multiple hotels, slight indent for section {%- endcomment -%}
+            <section class="col-md-8">
+            {% for hotel in site.data.conf.venue.hotel.hotel-options %}
+              <p>
+                <strong class="font-bold">{{hotel.name}}</strong><br/>
+                {{hotel.street}}<br/>
+                {{hotel.city-state}} {{hotel.postal-coe}}<br/>
+                <a href="tel:{{hotel.phone}}">{{hotel.phone}}</a><br/>
+                <a href="{{hotel.website}}">{{hotel.website}}</a><br/>
+                {% if hotel.notes %}{{hotel.notes}}<br/>{% endif %}
+                {% if hotel.warning %}<b>{{hotel.warning}}</b>{% endif %}
+              </p>
+            {% endfor %}
+            </section>
+
+            {% if site.data.conf.venue.hotel.multiple-hotels-map %}
+                <p>
+                    The conference Local Planning Committee has put together <a href="{{ site.data.conf.venue.hotel.multiple-hotels-map }}">a Google Map</a> with pins to help you find lodging in the area around the {{ site.data.conf.venue.name }} building, site of the main conference.
+                </p>
+            {% endif %}
+        {% endif %}
+
+        <h2 id="transportation">Transportation</h2>
+        <p><b>Princeton Junction</b> is the closest train station to Princeton campus on the
+        Northeast Corridor main line. Both <a href="https://www.njtransit.com/airport">NJTransit</a>
+        and <a href="https://www.amtrak.com/home.html">Amtrak</a> trains stop at Princeton Junction,
+        but the Amtrak trains are much more expensive and not much faster.</p>
+
+        <p><b>Princeton Station</b> is the train station on Princeton campus, with a shuttle service
+        called the <a href="https://www.njtransit.com/dinky">"Dinky"</a> connecting to Princeton
+        Junction. Princeton Station is the best station for coming directly to campus or the hotels
+        withing walking distance (Nassau Inn, Peacock Inn). For other hotels on Route 1, taking an
+        Uber/Lyft from Princeton Junction is better.</p>
+
+        <p>The <a href="https://www.njtransit.com/trip-planner-to">NJTransit Trip Planner</a> can
+        be used to help you determine the best way for you to travel to campus. When using the
+        planner, be careful to avoid confusing Princeton Station and Princeton Junction.</p>
+
+        <p>Using the NJTransit app (
+        <a href="https://play.google.com/store/apps/details?id=com.njtransit.njtapp">Google</a>,
+        <a href="https://apps.apple.com/us/app/nj-transit-mobile-app/id589549928">Apple</a>)
+        is the easiest way to buy tickets but paper tickets are also available for purchase at all
+        stations at vending machines with cash or credit/debit card. Tickets don't expire and
+        are valid in either direction between the endpoints printed on the ticket. Tickets are
+        non-refundable and there are no on/off-peak hours. Trains are rarely crowded, though
+        you may need to walk to the front of the train to find a seat at peak times. Tickets are
+        half-price for those 62 and older and for those with disabilities.</p>
+
+        <h3>From Newark Liberty International Airport</h4>
+        <p>Newark Airport is the closest airport to Princeton, and there is a short monorail
+        ("AirTrain") that connects the terminals to the Northeast Corridor train station, where you
+        can catch NJTransit trains southbound to Princeton Junction. You will need to present your
+        train ticket twice (once at the exit from the AirTrain, and then again on the NJTransit
+        train).</p>
+
+        <h3>From Philadelphia International Airport</h4>
+        <p><a href="https://www5.septa.org/">SEPTA</a> and Amtrak trains connect Philadelphia 
+        International Airport to both Trenton and Princeton Junction. From the Trenton Transit 
+        Center, change to the NJTransit train or take the NJTransit bus #606 (bus tickets can be 
+        purchased on the NJTranst app or with exact change in cash upon boarding).</p>
+
+        <h3>Other Cities on the Northeast Corridor</h3>
+        <p><a href="https://www.amtrak.com/home.html">Amtrak</a> service connects Princeton
+        Junction to Washington, D.C., Boston and the greater northeast.</p>
+
+        <h3>TigerTransit and Local Transportation</h3>
+        <p>Princeton's <a href="https://transportation.princeton.edu/getting-around/tigertransit/routes-schedules">TigerTransit
+        shuttles</a> also connect Prinecton Junction with Princeton University campus via Alexander
+        road, which can also be used by Code4Lib attendees staying at the Hyatt Regency hotel to get
+        to campus.</p>
+        <p>For more information about parking, lodging, and transportation, see
+        <a href="https://www.princeton.edu/meet-princeton/visit-us">Princeton University's "Visit
+        Us" website</a>.</p>
+        <p>For more information about accessible public transit in the Princeton area, see the
+        accessibility sites of <a href="https://www.njtransit.com/railaccessibility">New Jersey
+        Transit</a> and <a href="https://www.amtrak.com/accessible-travel-services">Amtrak</a>.</p>
+
+        <h2 id="parking">Parking</h2>
+        <p>Free parking is available at the <a href="https://goo.gl/maps/CnvwvMMAYLRfhUrf8">Stadium
+        Drive Garage</a> on Princeton campus. Please pre-register at the university's
+        <a href="https://transportation.princeton.edu/parking/visiting-campus-events/visitor-parking">visitor
+        parking information</a> page.</p>
+      </div>
+    </div>
+  </div>
+</section>

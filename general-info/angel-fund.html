@@ -1,0 +1,47 @@
+<div class="container-fluid" id="angel-fund">
+	<div class="row">
+		<div class="col-12">
+			{% if site.data.conf.angel-fund.show %}
+			<h2>Individual Giving</h2>
+			<p>
+				Angel Funds are an opportunity for individuals in the community to support Diversity and Inclusion Scholarships. These
+				scholarships provide funding for travel costs & conference fees for qualified applicants from groups typically
+				underrepresented at the conference. Individual donors will be thanked below. If you prefer to donate anonymously, please note NA in the "Donated in the Name Of" text box on the payment page.
+			</p>
+			{%  if site.data.conf.angel-fund.url %}
+				<div>
+					<a class="btn ct-btn-light btn-lg" href="{{ site.data.conf.angel-fund.url }}" target="_blank">Donate to the Angel
+						Fund today!</a>
+				</div><br>
+			{% endif %}
+
+			{%  comment  %} Stripe payment buttons from Concentra, these will change every year {% endcomment %}
+			<div>
+				<script async src="https://js.stripe.com/v3/buy-button.js">
+				</script>
+				{%  comment  %} 25, 50, 100, name-your-price buttons  {% endcomment %}
+				<stripe-buy-button buy-button-id="buy_btn_1OV10iHJ5CvRBfpw1GBEthqy"
+					publishable-key="pk_live_51IiVO2HJ5CvRBfpweD2zm3UYI7L2ImDx2Xo5kSLErNci07SJsxoy4f6Aas21309J4m7PUCGmKmJLtgtcIkjMS17x001TJqHkSr">
+				</stripe-buy-button>
+				<stripe-buy-button buy-button-id="buy_btn_1OV12bHJ5CvRBfpwVQ08m2km"
+					publishable-key="pk_live_51IiVO2HJ5CvRBfpweD2zm3UYI7L2ImDx2Xo5kSLErNci07SJsxoy4f6Aas21309J4m7PUCGmKmJLtgtcIkjMS17x001TJqHkSr">
+				</stripe-buy-button>
+				<stripe-buy-button buy-button-id="buy_btn_1OME07HJ5CvRBfpwHybRcKtt"
+					publishable-key="pk_live_51IiVO2HJ5CvRBfpweD2zm3UYI7L2ImDx2Xo5kSLErNci07SJsxoy4f6Aas21309J4m7PUCGmKmJLtgtcIkjMS17x001TJqHkSr">
+				</stripe-buy-button>
+				<stripe-buy-button buy-button-id="buy_btn_1OV13SHJ5CvRBfpwWKEZRs2v"
+					publishable-key="pk_live_51IiVO2HJ5CvRBfpweD2zm3UYI7L2ImDx2Xo5kSLErNci07SJsxoy4f6Aas21309J4m7PUCGmKmJLtgtcIkjMS17x001TJqHkSr">
+				</stripe-buy-button>
+				<p>The final button "Name Your Price" lets you choose any payment amount in five-dollar increments. Just adjust the Qty, noted beneath the "Code4Lib: Angel Donation" text on the payment page.</p>
+			</div>
+			{% endif %}
+
+			{% if site.data.conf.angel-fund.thermometer %}
+				<div>
+					<iframe width="259" height="371" style="display: block; margin: 0 auto;" seamless frameborder="0" scrolling="no"
+						src="https://docs.google.com/spreadsheets/d/e/2PACX-1vScg-Hgi73wOFxJ5yLxoJiOifVaJ7CuW1lSwawsOei2uZEu4sg2I0ZelVzrs1blmTDHBv8rwZbOEyjW/pubchart?oid=2098545654&amp;format=interactive"></iframe>
+				</div>
+			{% endif %}
+		</div>
+	</div>
+</div>

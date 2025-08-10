@@ -1,0 +1,8 @@
+url: http://2025.code4lib.org
+permalink: /:categories/:title
+exclude: [vendor]
+repository: code4lib/2025.codelib.org
+future: true
+timezone: America/New_York
+sass:
+  sass_dir: assets/_scss

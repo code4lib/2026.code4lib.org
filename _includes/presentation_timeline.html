@@ -1,0 +1,93 @@
+<script src="{{ "/assets/js/placeholder.js" | relative_url }}"></script>
+<div id="cd-timeline" class="cd-container">
+    {% assign sorted_events = include.events | sort: "time" %}
+    {% for event in sorted_events %}
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="/assets/img/clockface/{{ event.timeImg }}" alt="">
+            </div>
+
+            <div class="cd-timeline-content">
+                <div class="row">
+                    <div class="col-sm-7 col-12">
+                        {% if event.groupId == 'key-open' or event.groupId == 'key-close' %}
+                            {% assign keynote = site.posts | where:"group",event.groupId %}
+                            {% assign keynote_speaker_id = keynote[0].speakers[0] %}
+                            <h2 class="cd-timeline-content-title"><a class="keynote-link" href="{{ keynote[0].url }}">{{ event.title }}</a></h2>
+                            <br/>{% include speaker_link.html speaker_id=keynote_speaker_id %}
+                        {% else %}
+                            <h2 class="cd-timeline-content-title">{{ event.title }}</h2>
+                            <p>{{ event.description }}</p>
+                            {% if event.link %}
+                                <p>
+                                    <a class="btn ct-btn-light" href="{{ event.link }}">{{ event.button_label }}</a>
+                                </p>
+                              {% comment %}
+                              	-
+                              	- This creaky structure needs to be improved in/by 2025
+                              	-
+                              {% endcomment %}
+                            {% elsif event.sessions %}
+                           	  {% assign title_class = "" %}
+                              {% if event.title contains "Lightning" %}
+                              	{% assign title_class = " class='lightning-title'" %}
+                              {% endif %}
+                              <ol>
+                              {% for session in event.sessions %}
+                                <li>
+                                  {% if session.presenter %}{{ session.presenter }}: {% endif %}
+                                  {% if session.link %}
+                                  <a href="{{session.link}}"{{ title_class }}>{{ session.title }}</a>
+                                  {% else %}
+                                    {% if event.title contains "Lightning" %}
+                                  <span class="lightning-title">{{ session.title }}</span>
+                                    {% else %}
+                                  {{ session.title }}
+                                    {% endif %}
+                                  {% endif %}
+                                </li>
+                              {% endfor %}
+                              </ol>
+                            {% endif %}
+                            {% if event.menu %}
+                                <a href="/schedule/food/{{ event.menu }}.html#{{ event.submenu }}" class="btn ct-btn-light" >View Menu</a>
+                            {% endif %}
+                        {% endif %}
+                    </div>
+                    <div class="col-sm-5 col-12 text-right">
+                        <h2 class="cd-timeline-content-title">
+                            {% capture eventTime %}{{ event.time | replace: '-', ' ' }}{% endcapture %}
+                            {% capture beginTime %}{{ eventTime | truncatewords: 1, '' }}{% endcapture %}
+                            {% capture endTime %}{{ eventTime | replace: beginTime, '' }}{% endcapture %}
+                            {{ beginTime | date: "%l:%M%p" | strip }} to {{ endTime | date: "%l:%M%p" | strip }}
+                        </h2>
+                        <div class="timezone">{{ site.data.conf.timezone }} Time</div>
+                    </div>
+                </div>
+                {% if event.groupId %}
+                    {% assign talks = site.posts | where:"group",event.groupId | where:"type","talk" | sort:"spot" %}
+                    {% for talk in talks %}
+                        <div class="row talk-row">
+                            <div class="col-12">
+                                {% if event.groupId == 'key-open' %}
+                                {% elsif event.groupId == 'key-close' %}
+                                {% else %}
+                                    
+                                <h3 class="h4 talk-title">{% if talk.status == "canceled" %}<s>{% endif %}<a href="{{ talk.url }}">{{ talk.title }}</a>{% if talk.status == "canceled" %}</s>{% endif %}</h3>
+                                {% endif %}
+                            </div>
+                            <div class="col-12 d-none d-md-flex flex-wrap">
+                                {% for speaker_id in talk.speakers %}
+                                  {% include speaker_link.html speaker_id=speaker_id %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+
+                <div class="clearfix"></div>
+
+            </div>
+        </div> <!-- cd-timeline-block -->
+    {% endfor %}
+</div> <!-- cd-timeline -->

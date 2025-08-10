@@ -1,0 +1,25 @@
+{% assign speaker = site.data.speakers | where: 'id', include.speaker_id | first %}
+{% if speaker %}
+    <div class="col-sm-3 text-center">
+        <a href="/speakers/#{{ speaker.id }}-id">
+            <span>{{ speaker.name }}
+              {% if speaker.pronouns %} ({{ speaker.pronouns }}){% endif %}
+            </span>
+            {% if speaker.image_alt and speaker.image_src %}
+                <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="{{ speaker.image_alt }}">
+            {% elsif speaker.image_src %}
+                <img class="clip-circle-speaker" src="{{ speaker.image_src }}" alt="Profile image for {{ speaker.name }}">
+            {% else %}
+                <script>
+                    placeholderImage("clip-circle-speaker",
+                        " {{ speaker.name | escape }} ",
+                        "/assets/img/nopics/nopic#.jpg",
+                        "Random placeholder for {{ speaker.name |  escape }}",
+                        10);
+                </script>
+            {% endif %}
+        </a>
+    </div>
+{% endif %}
+
+<div class="clearfix"></div>

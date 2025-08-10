@@ -1,0 +1,502 @@
+###################
+# "Global" Vars
+###################
+
+year: 2025
+hashtag: 'c4l25'
+location: 'Princeton, New Jersey'
+timezone: 'Eastern'
+search: false
+online-only-conference: false
+welcome-message:
+
+catchline:
+
+###########################
+# Hero
+###########################
+# Place hero image in /assets/img/theme-images/. Includes optional webp format.
+hero-image-filename: 'princeton.jpg'
+hero-image-source: 'https://unsplash.com/photos/JYqLCa-rv7o'
+hero-image-filename-webp: 'princeton.webp'
+hero-image-alt: "Princeton University campus"
+
+image-attributions:
+ - attribution:
+   creator: 'Tim Alex (@thelondoner)'
+   image-title: 'Nassau Hall, Princeton University'
+   image-url: 'https://unsplash.com/photos/JYqLCa-rv7o'
+   license-name: 'Unsplash License'
+   license-url: 'https://unsplash.com/license'
+
+########################
+# Program & Schedule
+#######################
+# These booleans affect the main menu links in the ways described below, as well
+# as displays in a few other places.
+# if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
+have-talks: true
+have-workshops: true
+# if true Schedule link -> /schedule/, if false -> /schedule/timeline
+have-schedule: true
+have-schedule-details: true
+have-menus: false
+
+# day 0 = dummy day so JS indexing can line up with human-readable semantics of which day of the conference something is happening
+# note: these dates and times are used in the top-level schedule page, but the more granular
+# schedule is taken from schedule.yml, so be careful to make sure that they agree.
+days:
+  - weekday: Sunday
+    date: March 9th
+    # date in a form that JS Date() constructor understands
+    date-data: 2025-03-09:59
+  - weekday: Monday
+    date: March 10th
+    # date in a form that JS Date() constructor understands
+    date-data: 2025-03-10T23:59
+    time: 9AM to 5:15PM
+  - weekday: Tuesday
+    date: March 11th
+    date-data: 2025-03-11T23:59
+    time: 9AM to 5:15PM
+  - weekday: Wednesday
+    date: March 12th
+    date-data: 2025-03-12T23:59
+    time: 9AM to 1:15PM
+  - weekday: Thursday
+    date: March 13th
+    date-data: 2025-03-13T23:59
+    time: 9AM to 4:30PM
+schedule-note: The main conference will be on Monday, March 10 through Wednesday, March 12, followed by post-conference workshops on Thursday, March 13. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
+
+####################
+# Venue Information
+####################
+
+# Short Form for location
+city-state: 'Princeton, NJ'
+city: 'Princeton'
+state: 'NJ'
+
+venue:
+  name: 'Princeton University'
+  street: Friend Center
+  postal-code: 08540
+  image: friend-center.jpg
+  image_alt: 'An exterior view of the Friend Center, a glass and stone building. A path leads through the courtyard to the main entrance.'
+  image_title: 'Friend Center'
+  note: 'Conference sessions will be held in the Friend Center on Princeton campus.'
+  hotel:
+    show: true
+    name: The Graduate
+    cost: $269/night (king) or $299/night (two doubles)
+    cost-cutoff-date: 2025-02-11
+    reserved-room-block: true
+    link: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
+    multiple-hotels: true
+    multiple-hotels-map:
+    note: "Contact information for hotels in the Princeton area:"
+    hotel-options:
+      - name: The Graduate
+        street: 10 Chambers Street
+        city-state: Princeton, NJ
+        postal-code: 08540
+        phone: 609-380-1457
+        website: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
+        warning: Please see your confirmation email to access the Code4Lib rate referenced above.
+      - name: Nassau Inn
+        street: 10 Palmer Square
+        city-state: Princeton, NJ
+        postal-code: 08542
+        phone: 609-921-7500
+        website: https://nassauinn.com/
+      - name: Peacock Inn
+        street: 20 Bayard Lane
+        city-state: Princeton, NJ
+        postal-code: 08540
+        phone: 609-924-1707
+        website: https://www.peacockinn.com/
+      - name: Hyatt Regency Princeton
+        street: 102 Carnegie Center
+        city-state: Princeton, NJ
+        postal-code: 08540
+        phone: 609-987-1234
+        website: https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-regency-princeton/princ
+      - name: Chauncey Conference Center
+        street: One Chauncey Road
+        city-state: Princeton, NJ
+        postal-code: 08541
+        phone: 609-921-3600
+        website: https://www.acc-chaunceyconferencecenter.com/accommodations
+      - name: Residence Inn Princeton at Carnegie Center
+        street: 3563 US Highway 1
+        city-state: Princeton, NJ
+        postal-code: 08540
+        phone: 609-799-0550
+        website: https://www.marriott.com/en-us/hotels/ttnww-residence-inn-princeton-at-carnegie-center/overview
+      - name: Hyatt Place Princeton
+        street: 3565 US Highway 1
+        city-state: Princeton, NJ
+        postal-code: 08540
+        phone: 609-720-0200
+        website: https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-place-princeton/ewrzp
+
+
+################
+# C4l Links
+################
+
+#twitter and instagram are both managed using the code4lib hashtag data
+social-links:
+  slack: 'https://code4lib.slack.com/'
+  irc: 'https://code4lib.org/irc'
+  youtube: 'https://www.youtube.com/user/code4lib/videos'
+
+#############################
+# Various Emails/contact info
+#############################
+
+main-conf-email: 'code4lib@concentra-cms.com'
+sponsor-contact-email: 'code4lib.sponsorship@gmail.com'
+scholarship-contact-email: 'code4lib-scholarships@googlegroups.com'
+workshop-contact-email: 'Code4Lib.Workshops@gmail.com'
+lpc-contact-email: 'code4liblpc@gmail.com'
+accessibility-email: 'code4libaccessibility@googlegroups.com'
+# when empty, community support volunteers page will use main-conf-email
+community-support-email: 'c4lcommunitysupport@googlegroups.com'
+# community-support-phone: '510-423-3356'
+anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
+
+###################
+# Homepage section
+# Values can be one of
+# - pre :   displays the _includes/homepage/timeline.html partial
+#           this section provides an overview of important conference dates.
+# - peri:   for display during the conference. provides homepage links to conference schedule, talks, livestream, etc.
+# - post:   for after the conference is over
+#
+####################
+homepage-display: post
+
+livestream:
+  show: true
+  button-label: 'Livestream'
+  url: 'https://www.youtube.com/c/Code4Lib'
+
+slides:
+  show: true
+  url: 'https://osf.io/meetings/C4L25'
+  contact: ''
+  email: ''
+
+closed-captioning:
+#  url: https://www.streamtext.net/player?event=code4lib
+
+workshops:
+  show: true
+  location: lewis
+
+# Peri display descriptions and titles
+peri:
+  day1:
+    am:
+      title: 'Conference, Day 1'
+      desc: 'Opening Keynote & Talks'
+      link: '/schedule/day-1'
+      menu: 'day1-menus.html'
+    pm:
+      title: 'Newcomer Dinner'
+      desc: 'Dine-Around'
+      link: '/general-info/social/#newcomer-dinner'
+  day2:
+    am:
+      title: 'Conference, Day 2'
+      desc: 'Awesome Talks'
+      link: '/schedule/day-2'
+      menu: 'day2-menus.html'
+    pm:
+      title: 'Reception'
+      desc: 'Frick Taylor Commons'
+      link: '/general-info/venues/#reception'
+      menu: 'day2-menus.html#Reception'
+  day3:
+    am:
+      title: 'Conference, Day 3'
+      desc: 'Closing Keynote & Talks'
+      link: '/schedule/day-3'
+      menu: 'day3-menus.html'
+    pm:
+      title: 'Game Night'
+      desc: 'Board or Card Games'
+      link: '/general-info/social/#game-night'
+  day4:
+    am:
+      title: 'Workshops'
+      desc: 'Workshops'
+      link: '/workshops'
+
+###########
+# Sponsors
+###########
+# If false, hides sponsors link in navigation and footer
+show-sponsors: true
+# Toggles whether prospectus button displays on homepage and sponsor pages
+sponsor-buttons: false
+# if true, the nav/footer links go to /prospectus/ instead of /sponsors/
+# for use early on when we are looking for, but do not have many, sponsors
+sponsors-links-to-prospectus: false
+# URL to document
+prospectus-document:
+sponsor-btn-link: https://www.concentra-cms.com/c4l25sponsorreg.html
+show-sponsorship-details: true
+
+##########
+# !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
+# e.g., 2013-11-29
+##########
+
+###########
+# Proposals
+###########
+
+keynote-proposals:
+  show: false
+  submission-form: 'https://wiki.code4lib.org/2025_Keynote_Speakers_Nominations'
+  end-date: '2024-11-22'
+
+workshop-proposals:
+  show: false
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSchZV9hUVHG7rzp0LEqSdzNrRlvrc3JYqcNODBFIFNuZu5raA/viewform?usp=sf_link'
+  end-date: '2024-11-27'
+
+talk-proposals:
+  show: false
+  submission-form: 'https://forms.gle/v3QmnrA6G5DiiLVi9'
+  end-date: '2024-10-11'
+
+panel-proposals:
+  show: false
+  submission-form: ''
+  end-date: ''
+
+poster-proposals:
+  show: false
+  submission-form: ''
+  end-date: ''
+
+shirt-proposals:
+  show: false
+  submission-form: ''
+  end-date: ''
+
+host-proposals:
+  show: false
+  submission-form: ''
+  end-date: ''
+
+###########
+# Voting
+###########
+
+keynote-voting:
+  show: false
+  url: 'https://forms.gle/Hg1W285awBrLWXGx6'
+  end-date: '2024-12-13'
+
+workshop-voting:
+  show: false
+  url: ''
+  end-date: ''
+
+talk-voting:
+  show: false
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSeytK60BejrKTDjNtFt1je3yCCYBW2y22GF6qiaTkCFdUWctg/viewform'
+  end-date: '2024-11-07'
+
+panel-voting:
+  show: false
+  url: ''
+  end-date:
+
+poster-voting:
+  show: false
+  url: ''
+  end-date: ''
+
+shirt-voting:
+  show: false
+  url: 'https://docs.google.com/forms/d/e/1FAIpQLSckxH6fHcAI2tZ8icAOLdEGshV-hTdUM5M3ZGvplxFugJ81Wg/viewform'
+  end-date: '2024-01-17'
+
+##################
+# Schedule events
+##################
+
+# usually on the wiki
+#social-activities-url: '/general-info/social/'
+
+diy-social:
+  show: true
+
+newcomer-dinner:
+  show: true
+  description: 'The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner as a gentle introduction to the code4lib conference.'
+  signup-url: 'https://docs.google.com/document/d/1Btl1pnELNnQCfj00CZue_m_qW13zkF-dYz4OX_JubNE/edit'
+  signup-button-text: 'Code4Lib 2025 Newcomer Dinner Information and Sign Up'
+  date: '2025-03-10'
+  time: '6pm or later'
+  link: '/general-info/social/#newcomer-dinner'
+
+morning-run:
+  show: true
+  location: 'Start at the  <a href="https://maps.app.goo.gl/dSjMwdQFE7vwLVAB6">Alexander Rd. Parking area</a>.'
+  description: "Jog4lib! Walk, jog or run on the scenic Delaware and Raritan Canal towpath. Out and back flat course. All paces. Go half as far as you want to, then turn around."
+  contact: '@gluejar'
+  date: '2025-03-11'
+  time: '7:00AM'
+
+reception:
+  show: true
+  venue: 'Frick Taylor Commons'
+  street: 'Frick Chemistry Laboratory'
+  city-state: 'Princeton, NJ'
+  postal-code: '08544'
+  phone:
+  image: frick-taylor-commons.jpg
+  image_alt: 'View of the Taylor Commons atrium inside the Frick Chemistry Lab.'
+  image_title: 'Frick Taylor Commons'
+  contact:
+  floorplans:
+  date: '2025-03-11'
+  times: '6:30pm-8:30pm'
+  shuttle: 'All <a href="https://transportation.princeton.edu/getting-around/tigertransit/weekdays">TigerTransit</a> routes stop near the Frick Chemistry Lab. The closest stop is the Goheen Walk stop on Washington Road. From the shuttle stop, cross to the east side of Washington Road and proceed south (downhill) and the Frick Chemistry Lab will be on your left.'
+  special-notes: ''
+
+tours:
+  show: true
+  date: '2025-03-12'
+  time: '2PM to 5PM'
+  tours:
+    - name: 'Campus Tour (2pm)'
+      date: '2025-03-12'
+      time: '2pm'
+      location: 'In front of the <a href="https://maps.app.goo.gl/uNBrDzcC8ePni2Sa9">Friend Center</a>'
+      sign-up-url: https://docs.google.com/forms/d/e/1FAIpQLScy4oEFs2R1uLk2MYQDw8IWZ-cLf7KRVYZYXcagUcolrut8fA/viewform
+      sign-up-button-text: 'Sign Up (2pm)'
+    - name: '<s>Lewis Library (3pm)</s> FULL'
+      date: '2025-03-12'
+      time: '3pm'
+      location:
+      sign-up-url: 
+      sign-up-button-text: 
+    - name: '<s>Digital Imaging Studio, Firestone (3pm)</s> FULL'
+      date: '2025-03-12'
+      time: '3pm'
+      location: 
+      sign-up-url: 
+      sign-up-button-text: 
+    - name: '<s>Digital Imaging Studio, Firestone (4pm)</s> FULL'
+      date: '2025-03-12'
+      time: '4pm'
+      location:
+      sign-up-url:
+      sign-up-button-text:
+    - name: '<s>Firestone Library (3pm)</s> FULL'
+      date: '2025-03-12'
+      time: '3pm'
+      location:
+      sign-up-url:
+      sign-up-button-text:
+    - name: '<s>Firestone Library (4pm)</s> FULL'
+      date: '2025-03-12'
+      time: '4pm'
+      location:
+      sign-up-url:
+      sign-up-button-text:
+
+game-night:
+  show: true
+  date: '2025-03-12'
+  time: '6:30pm'
+  location: 'Frist Campus Center, A-Floor seating area'
+  description: 'Join fellow Code4Libers at a BYO-Game and Snacks/Non-alcoholic drink Game Night!
+'
+  event-url: ''
+  event-url-button-text: 'Sign Up'
+  sign-up-url: 'https://docs.google.com/spreadsheets/d/1rflp2DsG7KeqlZzVRMbcvV5rNFcjMgU4NaDf9eUKsa4/edit'
+  sign-up-button-text: 'Sign Up for Game Night'
+
+###############
+# Volunteer
+###############
+
+volunteer-committee:
+  show: false
+  url: 'https://wiki.code4lib.org/Code4Lib_2025_Conference_Committees'
+  end-date: '2024-10-31'
+
+volunteer-dutyoff:
+  show: false
+  url: ''
+  end-date: ''
+
+# for volunteers during conference like MCs, mic-minders, etc.
+volunteer-onsite:
+  show: false
+  url: ''
+  end-date: ''
+
+################
+# Scholarships
+################
+
+criteria:
+  # if you have this year's eligibility requirements, show criteria section on general-info/scholarships
+  show: true
+
+angel-fund:
+  show: true
+  # whether to show the "donation thermometer"
+  # NOTE: chart <iframe> needs to be added to angel-fund.html
+  thermometer: false
+  url:
+
+diversity-scholarship-applications:
+  show: false
+  url: '/general-info/scholarships#how-to-apply'
+  url-text: 'How to Apply'
+  end-day: 'Friday'
+  end-date: 'January 24th, 2025'
+  end-time: '11:59 PM PST'
+  notification-date: 'February 10th, 2025'
+  apply-url: 'https://docs.google.com/forms/d/e/1FAIpQLSeATjEPzfD2fXuDDLP-fdq9QQIgnCNx95My_mDimDL-8LDzRA/viewform'
+  committee-wiki-url: 'https://wiki.code4lib.org/2025_Scholarship_Documents'
+  max-scholarship-award: '1500'
+  max-international-award: '3000'
+
+# show sponsors for diversity scholarships on general-info/scholarships
+diversity-scholarship-sponsors:
+  seeking: true
+  show: true
+
+################
+# Other
+################
+
+live-captioning:
+  show: false
+  # name of captioning company, URL is above under closed-captioning.url
+  service: 
+
+quiet-room:
+  show: true
+  # Room number(s)
+  location: 'Friend Center 004'
+  notes: A classroom on the lower level, with carpet and dimmable lights.
+
+public-transportation:
+  show: true
+
+speaker-info-form:
+  show: true
+  form-url: https://forms.gle/vJCi5rvUPgxrZQA67

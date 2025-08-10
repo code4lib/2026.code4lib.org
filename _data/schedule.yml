@@ -1,0 +1,263 @@
+# Reception
+- timeImg: 6.30.png
+  title: Reception at Frick Taylor Commons
+  day2: true
+  time: 18:30-20:30
+  menu: day2-menus
+  submenu: Reception
+
+# Announcements
+- timeImg: 9.00.png
+  title: Announcements
+  day1: true
+  day2: true
+  day3: true
+  time: 09:00-09:15
+
+- timeImg: 1.30.png
+  title: Announcements
+  day1: true
+  day2: true
+  time: 13:30-13:45
+
+- timeImg: 5.00.png
+  title: Announcements
+  day1: true
+  time: 17:00-17:15
+
+- timeImg: 1.00.png
+  title: Announcements
+  day3: true
+  time: 13:00-13:15
+
+- timeImg: 3.00.png
+  title: Announcements
+  day2: true
+  time: 15:00-15:15
+
+# Breaks
+- timeImg: 10.00.png
+  title: Morning Break
+  day1: true
+  day2: true
+  time: 10:00-10:15
+
+- timeImg: 3.35.png
+  title: Afternoon Break
+  day1: true
+  time: 15:35-15:50
+
+# NOTE: first-timers page uses the link properties of the first events with
+# titles like "Breakout Sessions" and "Lightning Talks"
+# Breakouts
+- timeImg: 4.00.png
+  title: Breakout Sessions 1
+  day2: true
+  time: 16:00-17:00
+  sessions:
+  - title: ArchivesSpace Discussion w/Program Team Devs (<b>Friend Center 108</b>)
+  - title: How to Index Subject Headings (<b>Friend Center 109</b>)
+  - title: How to Defend Yourself Against a Dagger-Armed Brigand in Quattrocento Italy (Reprise) (<b>Courtyard</b>)
+  - title: Digitization Workflows (<b>Friend Center 110</b>)
+  - title: Local and Open Source Discovery Systems (<b>Friend Center 111</b>)
+  - title: Defense Against the Dark Bots (<b>Friends 112</b>)
+  - title: So You’re Thinking of Hosting C4L26 or Beyond? (<b>Auditorium</b>)
+
+- timeImg: 11.00.png
+  title: Breakout Sessions 2
+  day3: true
+  time: 11:00-11:45
+  sessions:
+  - title: "The good tools for Ally WCAG testing (<b>Friend Center 108</b>)"
+  - title: "Documentation (best and non-best practices) and Communication (<b>Friend Center 109</b>)"
+  - title: "Working with Small Teams (<b>Friend Center 110</b>)"
+  - title: "Does anyone want to talk more about subject headings? (<b>Outside-street side</b>)"
+  - title: "Carpentries: What is it? (<b>Friend Center 112</b>)"
+  - title: "AI Driven IDE for Dev & Git commits (<b>Friend Center 101 Auditorium</b>)"
+  - title: "Archiving Weird Collections (<b>Friend Center 101 Auditorium</b>)"
+
+# lightning
+- timeImg: 1.45.png
+  title: Lightning Talks 1
+  day1: true
+  time: 13:45-14:30
+  sessions:
+  - presenter: Maria Matienzo
+    title: The Buddy System
+  - presenter: Liyang Qu
+    title: Evaluating an AI-Based Recommendation Engine
+  - presenter: Jonathan Rochkind
+    title: Bot Protection of Selected Paths with Cloudflare Turnstile
+  - presenter: Matt Niehoff
+    title: Permanent Scaffolding
+    link: http://z.umn.edu/mjn-code4lib
+  - presenter: Jason Griffey
+    title: Standards Need You!
+    link: https://niso.org
+  - presenter: Daniel Sanford
+    title: Bots Strip-mined our Site
+  - presenter: Matt Sherman
+    title: 90s Mac Diskettes
+  - presenter: Eric Morgan
+    title: How to Make a Book
+  - presenter: Kate Deibel
+    title: Modeling Disabled Employee Self-Advocacy
+
+- timeImg: 10.15.png
+  title: Lightning Talks 2
+  day2: true
+  time: 10:15-11:15
+  sessions:
+  - presenter: Heather Greer Klein
+    title: OSS vs. The Rot Economy
+  - presenter: Maccabee Levine
+    title: Why Can't We Be [Discovery] Friends? EDS 🤝 ProQuest
+  - presenter: Damith Perera
+    title: Folio API Integration Project Redbud
+  - presenter: Jennifer Stubbs
+    title: CV of Failure
+  - presenter: Stephen Goeman
+    title: Unexpected Character
+  - presenter: Matthew Swinehart
+    title: Finding the Fun
+  - presenter: Eric Morgan
+    title: Indexes and Study Carrels
+  - presenter: Ninh Tran
+    title: Enhance Accessibility for Digital Collections
+  - presenter: Natasha Allen
+    title: "Flyover Country: DIY Music in the Great Lakes"
+  - presenter: Ryan Hedrick
+    title: Data Science Courses in ALA-Accredited LIS Programs
+  - presenter: Ray Schwartz
+    title: Project Gutenberg MARC Records
+  - presenter: Mike Paulmeno
+    title: Redesigning a Library Website with Astro
+
+- timeImg: 10.00.png
+  title: Lightning Talks 3
+  day3: true
+  time: 10:00-10:45
+  sessions:
+  - presenter: Justin Wadland
+    title: "Software Carpentry Builds Community"
+  - presenter: Carla Galarza
+    title: "The Shelf"
+  - presenter: Kate Deibel
+    title: "Reader Advisory: Diffusion of Innovations"
+  - presenter: Kim Leaman
+    title: "Behind the Scenes: Come Visit The Digital Studio!"
+  - presenter: Barak Zahavy
+    title: "Time-lapse with GoPro Labs"
+  - presenter: Christy Bailey-Tomecek
+    title: "Embracing the Jank - DIY Music Enthusiasts"
+  - presenter: Ann Marie Mesco
+    title: "Code4Lib Committees (why volunteering is important)"
+  - presenter: Alex Guo
+    title: "My experiences in Big Tech"
+
+# Poster Session
+- timeImg: 3.15.png
+  title: Poster Session and Afternoon Break
+  day2: true
+  time: 15:15 - 16:00
+
+# Registration & Breakfasts
+- timeImg: 8.00.png
+  title: Registration and Breakfast
+  day1: true
+  time: 08:00-09:00
+  menu: day1-menus
+  submenu: Breakfast
+
+- timeImg: 8.00.png
+  title: Registration and Breakfast
+  day2: true
+  time: 08:00-09:00
+  menu: day2-menus
+  submenu: Breakfast
+
+- timeImg: 8.00.png
+  title: Registration and Breakfast
+  day3: true
+  time: 08:00-09:00
+  menu: day3-menus
+  submenu: Breakfast
+
+# Lunches
+- timeImg: 12.00.png
+  title: Lunch at Prospect House
+  day1: true
+  time: 12:00-13:30
+  menu: day1-menus
+  submenu: Lunch
+
+- timeImg: 12.00.png
+  title: Lunch at Prospect House
+  day2: true
+  time: 12:00-13:30
+  menu: day2-menus
+  submenu: Lunch
+
+# Break w/Snacks
+- timeImg: 10.45.png
+  title: Morning Break
+  day3: true
+  time: 10:45-11:00
+  menu: day3-menus
+  submenu: Break
+
+# keynotes
+- timeImg: 9.15.png
+  title: Opening Keynote
+  day1: true
+  groupId: key-open
+  time: 09:15-10:00
+
+- timeImg: 9.15.png
+  title: Closing Keynote
+  day3: true
+  groupId: key-close
+  time: 09:15-10:00
+
+# groups
+- timeImg: 10.15.png
+  title: Group 1&#58; 105 minutes (7 talks)
+  day1: true
+  groupId: 1
+  time: 10:15-12:00
+
+- timeImg: 2.30.png
+  title: Group 2&#58; 75 minutes (5 talks)
+  day1: true
+  groupId: 2
+  time: 14:30-15:35
+
+- timeImg: 3.50.png
+  title: Group 3&#58; 80 minutes (5 talks)
+  day1: true
+  groupId: 3
+  time: 15:50-17:00
+
+- timeImg: 9.15.png
+  title: Group 4&#58; 45 minutes (3 talks)
+  day2: true
+  groupId: 4
+  time: 09:15-10:00
+
+- timeImg: 11.15.png
+  title: Group 5&#58; 45 minutes (3 talks)
+  day2: true
+  groupId: 5
+  time: 11:15-12:00
+
+- timeImg: 1.45.png
+  title: Group 6&#58; 75 minutes (5 talks)
+  day2: true
+  groupId: 6
+  time: 13:45-15:00
+
+- timeImg: 11.45.png
+  title: Group 7&#58; 75 minutes (6 talks)
+  day3: true
+  groupId: 7
+  time: 11:45-13:00
