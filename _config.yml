@@ -1,7 +1,7 @@
-url: http://2025.code4lib.org
+url: http://2026.code4lib.org
 permalink: /:categories/:title
 exclude: [vendor]
-repository: code4lib/2025.codelib.org
+repository: code4lib/2026.code4lib.org
 future: true
 timezone: America/New_York
 sass:

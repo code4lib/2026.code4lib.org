@@ -7,6 +7,8 @@ gem 'tzinfo-data'
 gem 'webrick'
 
 gem 'commonmarker', '>= 0.23.7'
+# added solely to silence the startup message about this gem
+gem 'faraday-retry'
 gem 'nokogiri', '>= 1.16.5'
 gem 'rack', '>= 2.2.8.1'
 gem 'rails-html-sanitizer', '>= 1.4.4'

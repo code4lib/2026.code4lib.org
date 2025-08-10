@@ -338,6 +338,7 @@
   image_src: /assets/img/keynotes/siobahn-grady.jpg
   image_alt:
   year: 2023
+
 - id: "libby-hemphill"
   name: Libby Hemphill
   last: Hemphill
@@ -365,6 +366,7 @@
   keynote: true
   image_src: "/assets/img/keynotes/libby-hemphill-sq.jpg"
   year: 2024
+
 - id: "dr-patricia-garcia"
   name: Dr. Patricia Garcia
   last: Garcia
@@ -384,3 +386,38 @@
   keynote: true
   image_src: "/assets/img/keynotes/patricia-garcia-sq.jpg"
   year: 2024
+
+- id: nikko-stevens
+  name: Nikko Stevens
+  last: Stevens
+  pronouns: they/them
+  institution: Arizona State University
+  bio: "Dr. Nikko Stevens is a critical technology researcher, software engineer, and community
+    organizer. As an academic, Stevens studies the ways that data infrastructures--data models,
+    databases, data structures--can reinforce existing social inequality, and, crucially, how we can
+    use data infrastructures to guide us towards the worlds we wish to build. As a software
+    engineer, led the architecture of web properties for billion-dollar corporations like Coca-Cola,
+    Sony, and Instagram, and their work won numerous awards, including at SXSW. As a community
+    organizer, Stevens's work in the Drupal community earned them the Aaron Winborn Award and
+    recognitions by Red Hat and The Linux Foundation. They are currently a postdoctoral researcher
+    at MIT where they are writing *Abolitionist Engineering,* a book about data infrastructure,
+    software engineering, and the contemporary prison abolition movement."
+  image_src: /assets/img/keynotes/nikko-stevens.jpg
+  year: 2025
+
+- id: ruth-tillman
+  name: Ruth Kitchin Tillman
+  last: Tillman
+  pronouns: she/her
+  institution: Penn State University Libraries
+  year: 2025
+  image_src: /assets/img/keynotes/ruth-tillman.jpg
+  bio: "Ruth Kitchin Tillman is the Cataloging Systems and Linked Data Strategist at Penn State
+    University Libraries. Her current research focuses on library systems and the people who use and
+    maintain them. She has also written and presented on metadata encoding standards, library
+    discovery, linked data, institutional repositories, and labor issues in libraries. She
+    previously worked with institutional repositories as the Digital Collections Librarian at the
+    University of Notre Dame and as the Metadata Librarian in the library at NASA Goddard. Ruth
+    holds an MLS from the University of Maryland. She maintains the EADiva resource which documents
+    EAD2002 and EAD3 for a non-technical audience. She is a former editor of the Code4Lib Journal
+    and maintained the journal's website from 2015-2021."

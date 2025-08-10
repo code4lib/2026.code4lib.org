@@ -1,20 +1,9 @@
 ---
 layout: presentation
 speakers-text: Dr. Nikko Stevens
-speakers:
-- nikko-stevens
-day: 1
-group: key-close
-spot: 1
-length: 45
-type: key-open
-location: friend
-room: 101
-startTime: 2025-03-12T09:15
-categories: keynotes
+speaker: nikko-stevens
+categories: past-keynote
 title: Dr. Nikko Stevens Keynote
-slides:
-youtube_key:
 ---
 
 Dr. Nikko Stevens is a critical technology researcher, software engineer, and community

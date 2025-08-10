@@ -2,9 +2,9 @@
 # "Global" Vars
 ###################
 
-year: 2025
-hashtag: 'c4l25'
-location: 'Princeton, New Jersey'
+year: 2026
+hashtag: 'c4l26'
+location: 'Pittsburgh, Pennsylvania'
 timezone: 'Eastern'
 search: false
 online-only-conference: false
@@ -16,6 +16,7 @@ catchline:
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
+# TODO swap to Pittsburgh 2020 values as placeholders
 hero-image-filename: 'princeton.jpg'
 hero-image-source: 'https://unsplash.com/photos/JYqLCa-rv7o'
 hero-image-filename-webp: 'princeton.webp'
@@ -35,11 +36,11 @@ image-attributions:
 # These booleans affect the main menu links in the ways described below, as well
 # as displays in a few other places.
 # if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
-have-talks: true
-have-workshops: true
+have-talks: false
+have-workshops: false
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: true
-have-schedule-details: true
+have-schedule: false
+have-schedule-details: false
 have-menus: false
 
 # day 0 = dummy day so JS indexing can line up with human-readable semantics of which day of the conference something is happening
@@ -47,47 +48,47 @@ have-menus: false
 # schedule is taken from schedule.yml, so be careful to make sure that they agree.
 days:
   - weekday: Sunday
-    date: March 9th
+    date: March 2nd
     # date in a form that JS Date() constructor understands
-    date-data: 2025-03-09:59
+    date-data: 2026-03-02T23:59
   - weekday: Monday
-    date: March 10th
-    # date in a form that JS Date() constructor understands
-    date-data: 2025-03-10T23:59
+    date: March 3rd
+    date-data: 2026-03-03T23:59
     time: 9AM to 5:15PM
   - weekday: Tuesday
-    date: March 11th
-    date-data: 2025-03-11T23:59
+    date: March 4th
+    date-data: 2026-03-04T23:59
     time: 9AM to 5:15PM
   - weekday: Wednesday
-    date: March 12th
-    date-data: 2025-03-12T23:59
+    date: March 5th
+    date-data: 2026-03-05T23:59
     time: 9AM to 1:15PM
   - weekday: Thursday
-    date: March 13th
-    date-data: 2025-03-13T23:59
+    date: March 6th
+    date-data: 2026-03-06T23:59
     time: 9AM to 4:30PM
-schedule-note: The main conference will be on Monday, March 10 through Wednesday, March 12, followed by post-conference workshops on Thursday, March 13. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
+schedule-note: The main conference will be on Monday, March 3 through Wednesday, March 5, followed by post-conference workshops on Thursday, March 6. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
 
 ####################
 # Venue Information
 ####################
 
 # Short Form for location
-city-state: 'Princeton, NJ'
-city: 'Princeton'
-state: 'NJ'
+city-state: 'Pittsburgh, PA'
+city: 'Pittsburgh'
+state: 'PA'
 
 venue:
-  name: 'Princeton University'
+  name: 'Carnegie Mellon University'
+  # TODO values below
   street: Friend Center
   postal-code: 08540
   image: friend-center.jpg
   image_alt: 'An exterior view of the Friend Center, a glass and stone building. A path leads through the courtyard to the main entrance.'
   image_title: 'Friend Center'
-  note: 'Conference sessions will be held in the Friend Center on Princeton campus.'
+  note: ""
   hotel:
-    show: true
+    show: false
     name: The Graduate
     cost: $269/night (king) or $299/night (two doubles)
     cost-cutoff-date: 2025-02-11
@@ -176,15 +177,15 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - post:   for after the conference is over
 #
 ####################
-homepage-display: post
+homepage-display: pre
 
 livestream:
-  show: true
+  show: false
   button-label: 'Livestream'
   url: 'https://www.youtube.com/c/Code4Lib'
 
 slides:
-  show: true
+  show: false
   url: 'https://osf.io/meetings/C4L25'
   contact: ''
   email: ''
@@ -193,7 +194,7 @@ closed-captioning:
 #  url: https://www.streamtext.net/player?event=code4lib
 
 workshops:
-  show: true
+  show: false
   location: lewis
 
 # Peri display descriptions and titles
@@ -241,12 +242,13 @@ peri:
 # If false, hides sponsors link in navigation and footer
 show-sponsors: true
 # Toggles whether prospectus button displays on homepage and sponsor pages
-sponsor-buttons: false
+sponsor-buttons: true
 # if true, the nav/footer links go to /prospectus/ instead of /sponsors/
 # for use early on when we are looking for, but do not have many, sponsors
-sponsors-links-to-prospectus: false
+sponsors-links-to-prospectus: true
 # URL to document
 prospectus-document:
+# TODO 2026 prospectus
 sponsor-btn-link: https://www.concentra-cms.com/c4l25sponsorreg.html
 show-sponsorship-details: true
 
@@ -336,10 +338,10 @@ shirt-voting:
 #social-activities-url: '/general-info/social/'
 
 diy-social:
-  show: true
+  show: false
 
 newcomer-dinner:
-  show: true
+  show: false
   description: 'The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner as a gentle introduction to the code4lib conference.'
   signup-url: 'https://docs.google.com/document/d/1Btl1pnELNnQCfj00CZue_m_qW13zkF-dYz4OX_JubNE/edit'
   signup-button-text: 'Code4Lib 2025 Newcomer Dinner Information and Sign Up'
@@ -348,7 +350,7 @@ newcomer-dinner:
   link: '/general-info/social/#newcomer-dinner'
 
 morning-run:
-  show: true
+  show: false
   location: 'Start at the  <a href="https://maps.app.goo.gl/dSjMwdQFE7vwLVAB6">Alexander Rd. Parking area</a>.'
   description: "Jog4lib! Walk, jog or run on the scenic Delaware and Raritan Canal towpath. Out and back flat course. All paces. Go half as far as you want to, then turn around."
   contact: '@gluejar'
@@ -356,7 +358,7 @@ morning-run:
   time: '7:00AM'
 
 reception:
-  show: true
+  show: false
   venue: 'Frick Taylor Commons'
   street: 'Frick Chemistry Laboratory'
   city-state: 'Princeton, NJ'
@@ -373,7 +375,7 @@ reception:
   special-notes: ''
 
 tours:
-  show: true
+  show: false
   date: '2025-03-12'
   time: '2PM to 5PM'
   tours:
@@ -387,14 +389,14 @@ tours:
       date: '2025-03-12'
       time: '3pm'
       location:
-      sign-up-url: 
-      sign-up-button-text: 
+      sign-up-url:
+      sign-up-button-text:
     - name: '<s>Digital Imaging Studio, Firestone (3pm)</s> FULL'
       date: '2025-03-12'
       time: '3pm'
-      location: 
-      sign-up-url: 
-      sign-up-button-text: 
+      location:
+      sign-up-url:
+      sign-up-button-text:
     - name: '<s>Digital Imaging Studio, Firestone (4pm)</s> FULL'
       date: '2025-03-12'
       time: '4pm'
@@ -415,12 +417,11 @@ tours:
       sign-up-button-text:
 
 game-night:
-  show: true
+  show: false
   date: '2025-03-12'
   time: '6:30pm'
   location: 'Frist Campus Center, A-Floor seating area'
-  description: 'Join fellow Code4Libers at a BYO-Game and Snacks/Non-alcoholic drink Game Night!
-'
+  description: 'Join fellow Code4Libers at a BYO-Game and Snacks/Non-alcoholic drink Game Night!'
   event-url: ''
   event-url-button-text: 'Sign Up'
   sign-up-url: 'https://docs.google.com/spreadsheets/d/1rflp2DsG7KeqlZzVRMbcvV5rNFcjMgU4NaDf9eUKsa4/edit'
@@ -431,9 +432,9 @@ game-night:
 ###############
 
 volunteer-committee:
-  show: false
-  url: 'https://wiki.code4lib.org/Code4Lib_2025_Conference_Committees'
-  end-date: '2024-10-31'
+  show: true
+  url: 'https://wiki.code4lib.org/Code4Lib_2026_Conference_Committees'
+  end-date: '2025-10-31'
 
 volunteer-dutyoff:
   show: false
@@ -452,10 +453,10 @@ volunteer-onsite:
 
 criteria:
   # if you have this year's eligibility requirements, show criteria section on general-info/scholarships
-  show: true
+  show: false
 
 angel-fund:
-  show: true
+  show: false
   # whether to show the "donation thermometer"
   # NOTE: chart <iframe> needs to be added to angel-fund.html
   thermometer: false
@@ -486,17 +487,17 @@ diversity-scholarship-sponsors:
 live-captioning:
   show: false
   # name of captioning company, URL is above under closed-captioning.url
-  service: 
+  service:
 
 quiet-room:
-  show: true
+  show: false
   # Room number(s)
   location: 'Friend Center 004'
   notes: A classroom on the lower level, with carpet and dimmable lights.
 
 public-transportation:
-  show: true
+  show: false
 
 speaker-info-form:
-  show: true
+  show: false
   form-url: https://forms.gle/vJCi5rvUPgxrZQA67

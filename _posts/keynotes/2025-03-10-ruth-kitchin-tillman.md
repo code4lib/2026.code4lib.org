@@ -1,20 +1,9 @@
 ---
 layout: presentation
 speakers-text: Ruth Kitchin Tillman
-speakers:
-- ruth-tillman
-day: 3
-group: key-open
-spot: 1
-length: 45
-type: key-open
-location: friend
-room: 101
-startTime: 2025-03-10T09:15
-categories: keynotes
+speaker: ruth-tillman
+categories: past-keynote
 title: Ruth Kitchin Tillman Keynote
-slides:
-youtube_key:
 ---
 
 Ruth Kitchin Tillman is the Cataloging Systems and Linked Data Strategist at Penn State University
