@@ -251,6 +251,9 @@ prospectus-document:
 # TODO 2026 prospectus
 sponsor-btn-link: https://www.concentra-cms.com/c4l25sponsorreg.html
 show-sponsorship-details: true
+# displays assets/img/sponsors/chart-general.png and chart-dai.png
+# at bottom of prospectus, see 2025 for example
+show-sponsorship-charts: false
 
 ##########
 # !!!NOTE!!! All 'end-date' vars should be in the following format: YYYY-MM-DD
