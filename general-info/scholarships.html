@@ -4,8 +4,8 @@ title: Scholarships
 nav: general-info
 active: Scholarships
 subnav:
-# - name: 'Additional Funding'
-#   url: '#additional-funding'
+- name: 'Additional Funding'
+  url: '#additional-funding'
 - name: Recipients
   url: '#recipients'
 - name: 'Eligibility, Criteria, & Requirements'
@@ -99,9 +99,6 @@ subnav:
                             {% endif %}
                         {% endfor %}
                     </dl>
-                {% else %}
-                {% comment %} remove from secondary nav (jQuery not yet on page) {% endcomment %}
-                <script>document.querySelector('.secondarynav a[href="#recipients"]').parentElement.remove()</script>
                 {% endif %}
         </div>
     </div>
@@ -147,8 +144,7 @@ subnav:
 <div class="container-fluid">
    <div class="row">
        <div class="col-12">
-           <a name="criteria"></a>
-           <h2>Eligibility, Criteria, And Requirements</h2>
+           <h2 id="criteria">Eligibility, Criteria, And Requirements</h2>
            {% if site.data.conf.criteria.show %}
             <h3>Eligibility Criteria</h3>
            <p>
@@ -179,8 +175,7 @@ subnav:
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <a name="how-to-apply"></a>
-            <h2>How to Apply</h2>
+            <h2 id="how-to-apply">How to Apply</h2>
             {% if site.data.conf.diversity-scholarship-applications.show %}
                 <p>
                    Submit your application materials via the Code4Lib online form: <a href="{{ site.data.conf.diversity-scholarship-applications.apply-url }}">{{ site.data.conf.diversity-scholarship-applications.apply-url }}</a>
@@ -208,7 +203,9 @@ subnav:
    </div>
 </div>
 
-{% include_relative angel-fund.html %}
+{% if site.data.conf.angel-fund.show %}
+    {% include_relative angel-fund.html %}
+{% endif %}
 
             <h2>Testimonials by Previous Awardees</h2>
                 <p>
@@ -217,3 +214,13 @@ subnav:
                     "With the support of the Code4Lib Diversity Scholarship, I attended the Code4Lib 2022 Conference. This is the first in-person conference I have attended since the Pandemic. It is indeed exciting to regain the opportunity to meet colleagues in library technology related areas physically from other institutions in the US and other countries. I enjoyed the presentations and discussions and sensed the passion of the Code4Lib community. Through this conference, I also got the chance to know the City of Buffalo and its surrounding attractions. It is a wonderful experience to be part of the Code4Lib 2022." <b>-Grace Liu</b>
                 </p>
 </section>
+
+<script>
+// for each entry in the secondary nav, remove it if no matching section exists
+document.querySelectorAll('.secondarynav ul a').forEach(element => {
+    const sectionId = element.getAttribute('href')
+    if (sectionId && !document.querySelector(sectionId)) {
+        element.parentElement.remove()
+    }
+})
+</script>
