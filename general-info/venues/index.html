@@ -33,17 +33,8 @@ subnav:
 #  url: '#self'
 ---
 
-<div class="container-fluid">
-    <div class="row">
-      <h1>Venues</h1>
+<h1>Venues</h1>
 
-      {% for item in page.subnav %}
-          <div class="row">
-            <div class="col-12">
-              {% include_relative {{item.include}} %}
-            </div>
-          </div>
-      {% endfor %}
-
-    </div>
-</div>
+{% for item in page.subnav %}
+  {% include_relative {{item.include}} %}
+{% endfor %}

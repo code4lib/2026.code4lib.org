@@ -6,9 +6,9 @@
             <div class="col-12 col-md-3 col-lg-2">
                 <nav>
                     {% if page.nav == 'general-info' %}
-                    <ul class="nav nav-pills nav-stacked secondarynav flex-md-column">
+                        <ul class="nav nav-pills nav-stacked secondarynav flex-md-column">
                     {% else %}
-                    <ul class="nav nav-pills nav-stacked secondarynav">
+                        <ul class="nav nav-pills nav-stacked secondarynav">
                     {% endif %}
                     {% for nav in site.data.navs[page.nav] %}
                         {% if page.active == nav.name %}
@@ -41,3 +41,13 @@
 </section>
 
 {% include footer.html %}
+
+<script>
+// for each entry in the secondary nav, remove it if no matching section exists
+document.querySelectorAll('.secondarynav ul a').forEach(element => {
+    const sectionId = element.getAttribute('href')
+    if (sectionId && !document.querySelector(sectionId)) {
+        element.parentElement.remove()
+    }
+})
+</script>

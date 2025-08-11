@@ -77,70 +77,38 @@ schedule-note: The main conference will be on Monday, March 3 through Wednesday,
 city-state: 'Pittsburgh, PA'
 city: 'Pittsburgh'
 state: 'PA'
+# TODO CMU land acknowledgement, couldn't find one, maybe link to this?
+# https://guides.library.cmu.edu/indigenous-studies
+land-acknowledgement:
 
 venue:
   name: 'Carnegie Mellon University'
   # TODO values below
-  street: Friend Center
-  postal-code: 08540
-  image: friend-center.jpg
-  image_alt: 'An exterior view of the Friend Center, a glass and stone building. A path leads through the courtyard to the main entrance.'
-  image_title: 'Friend Center'
-  note: ""
+  street:
+  postal-code:
+  image:
+  image_alt:
+  image_title:
+  note:
   hotel:
     show: false
-    name: The Graduate
-    cost: $269/night (king) or $299/night (two doubles)
-    cost-cutoff-date: 2025-02-11
-    reserved-room-block: true
-    link: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
-    multiple-hotels: true
+    name:
+    cost:
+    cost-cutoff-date:
+    reserved-room-block: false
+    link:
+    multiple-hotels: false
     multiple-hotels-map:
-    note: "Contact information for hotels in the Princeton area:"
+    note:
     hotel-options:
-      - name: The Graduate
-        street: 10 Chambers Street
-        city-state: Princeton, NJ
-        postal-code: 08540
-        phone: 609-380-1457
-        website: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
-        warning: Please see your confirmation email to access the Code4Lib rate referenced above.
-      - name: Nassau Inn
-        street: 10 Palmer Square
-        city-state: Princeton, NJ
-        postal-code: 08542
-        phone: 609-921-7500
-        website: https://nassauinn.com/
-      - name: Peacock Inn
-        street: 20 Bayard Lane
-        city-state: Princeton, NJ
-        postal-code: 08540
-        phone: 609-924-1707
-        website: https://www.peacockinn.com/
-      - name: Hyatt Regency Princeton
-        street: 102 Carnegie Center
-        city-state: Princeton, NJ
-        postal-code: 08540
-        phone: 609-987-1234
-        website: https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-regency-princeton/princ
-      - name: Chauncey Conference Center
-        street: One Chauncey Road
-        city-state: Princeton, NJ
-        postal-code: 08541
-        phone: 609-921-3600
-        website: https://www.acc-chaunceyconferencecenter.com/accommodations
-      - name: Residence Inn Princeton at Carnegie Center
-        street: 3563 US Highway 1
-        city-state: Princeton, NJ
-        postal-code: 08540
-        phone: 609-799-0550
-        website: https://www.marriott.com/en-us/hotels/ttnww-residence-inn-princeton-at-carnegie-center/overview
-      - name: Hyatt Place Princeton
-        street: 3565 US Highway 1
-        city-state: Princeton, NJ
-        postal-code: 08540
-        phone: 609-720-0200
-        website: https://www.hyatt.com/en-US/hotel/new-jersey/hyatt-place-princeton/ewrzp
+      # Example values:
+      # - name: The Graduate
+      #   street: 10 Chambers Street
+      #   city-state: Princeton, NJ
+      #   postal-code: 08540
+      #   phone: 609-380-1457
+      #   website: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
+      #   warning: Please see your confirmation email.
 
 
 ################

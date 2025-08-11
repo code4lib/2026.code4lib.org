@@ -27,7 +27,7 @@ active: Attend Code4Lib
                         {% endif %}
                     {% else %}
                         <p>Code4Lib will be held from {{site.data.conf.days[1].date}} to {{site.data.conf.days.last.date}} this year.
-                            {% if site.data.conf.venue.hotel.reserved-room-block %}
+                            {% if site.data.conf.venue.hotel.show and site.data.conf.venue.hotel.reserved-room-block %}
                             We have reserved a block at the {{site.data.conf.venue.hotel.name}}; see more details on the <a href="venues/">Venues</a> page.
                             {% endif %}
                             {% comment %}
@@ -176,9 +176,10 @@ active: Attend Code4Lib
         </div>
         {% endif %}
 
+        {% comment %}
         <h3>Health Guidance</h3>
         <p>Attendance will be subject to <a href="https://ehs.princeton.edu/VisitorPolicy">Princeton's visitor policy</a>: Visitors to the University are expected to follow CDC and NJ Department of Health guidance for individuals who test positive for COVID-19 or were in close contact with someone who tested positive in the past 10 days, including isolation and mask requirements.</p>
-
+        {% endcomment %}
 
     </div>
 </section>

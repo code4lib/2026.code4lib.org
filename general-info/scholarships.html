@@ -214,13 +214,3 @@ subnav:
                     "With the support of the Code4Lib Diversity Scholarship, I attended the Code4Lib 2022 Conference. This is the first in-person conference I have attended since the Pandemic. It is indeed exciting to regain the opportunity to meet colleagues in library technology related areas physically from other institutions in the US and other countries. I enjoyed the presentations and discussions and sensed the passion of the Code4Lib community. Through this conference, I also got the chance to know the City of Buffalo and its surrounding attractions. It is a wonderful experience to be part of the Code4Lib 2022." <b>-Grace Liu</b>
                 </p>
 </section>
-
-<script>
-// for each entry in the secondary nav, remove it if no matching section exists
-document.querySelectorAll('.secondarynav ul a').forEach(element => {
-    const sectionId = element.getAttribute('href')
-    if (sectionId && !document.querySelector(sectionId)) {
-        element.parentElement.remove()
-    }
-})
-</script>
