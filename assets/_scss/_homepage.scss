@@ -9,7 +9,7 @@
 }
 
 #conferenceInfo {
-  background-color: $princeton-orange;
+  background-color: $primary;
 
   h1 {
     background-color: fade-out($primary-light, .35);
@@ -54,12 +54,12 @@
    ========================================================================== */
 
 #heroImageAttribution {
-  background-color: $primary;
-  color: $cultured-white;
+  background-color: $accent;
+  color: $primary-dark;
   font-size: .9em;
 
   a {
-    color: $cultured-white;
+    color: $primary-dark;
   }
 }
 

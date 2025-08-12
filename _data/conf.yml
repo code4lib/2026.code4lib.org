@@ -16,19 +16,18 @@ catchline:
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
-# TODO swap to Pittsburgh 2020 values as placeholders
-hero-image-filename: 'princeton.jpg'
-hero-image-source: 'https://unsplash.com/photos/JYqLCa-rv7o'
-hero-image-filename-webp: 'princeton.webp'
-hero-image-alt: "Princeton University campus"
+hero-image-filename: 'hero-image.jpg'
+hero-image-source: 'https://www.flickr.com/photos/brookward/33615371835/'
+hero-image-filename-webp: 'hero-image.webp'
+hero-image-alt: "Daytime photo of Pittsburgh downtown area with gray clouds framed by yellow bridges"
 
 image-attributions:
  - attribution:
-   creator: 'Tim Alex (@thelondoner)'
-   image-title: 'Nassau Hall, Princeton University'
-   image-url: 'https://unsplash.com/photos/JYqLCa-rv7o'
-   license-name: 'Unsplash License'
-   license-url: 'https://unsplash.com/license'
+   creator: 'Brook Ward (@brookward)'
+   image-title: 'Pittsburgh'
+   image-url: 'https://www.flickr.com/photos/brookward/33615371835/'
+   license-name: 'CC-BY-NC 2.0'
+   license-url: 'https://creativecommons.org/licenses/by-nc/2.0/'
 
 ########################
 # Program & Schedule
