@@ -1,4 +1,4 @@
-# NOTE: we've not traditionally used the github, twitter, slack, or bio at all
+# NOTE: github and slack aren't used anywhere?
 - id: aaaron-collier
   name: Aaron Collier
   last: Collier
@@ -7,7 +7,6 @@
   position-title: Software Engineer
   bio: |
     Aaron Collier joined the Infrastructure Team at Stanford Libraries as a developer in mid-2017 from the California State University Office of the Chancellor, where he served as Repository Manager for several years. His true passion is judging beer.
-  twitter: aaronisbrewing
   slack: acollier
   github: aaaron-collier
   image_src: /assets/img/nopics/nopic5.jpg
