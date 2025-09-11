@@ -13,3 +13,5 @@ gem 'nokogiri', '>= 1.16.5'
 gem 'rack', '>= 2.2.8.1'
 gem 'rails-html-sanitizer', '>= 1.4.4'
 gem 'rexml', '>= 3.3.6'
+
+gem "wdm", "~> 0.2.0"
