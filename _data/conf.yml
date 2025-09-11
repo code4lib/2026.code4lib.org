@@ -49,24 +49,24 @@ days:
   - weekday: Sunday
     date: March 2nd
     # date in a form that JS Date() constructor understands
-    date-data: 2026-03-02T23:59
+    #date-data: 2026-03-02T23:59
   - weekday: Monday
     date: March 3rd
-    date-data: 2026-03-03T23:59
+    #date-data: 2026-03-03T23:59
     time: 9AM to 5:15PM
   - weekday: Tuesday
     date: March 4th
-    date-data: 2026-03-04T23:59
+    #date-data: 2026-03-04T23:59
     time: 9AM to 5:15PM
   - weekday: Wednesday
     date: March 5th
-    date-data: 2026-03-05T23:59
+    #date-data: 2026-03-05T23:59
     time: 9AM to 1:15PM
   - weekday: Thursday
     date: March 6th
-    date-data: 2026-03-06T23:59
+    #date-data: 2026-03-06T23:59
     time: 9AM to 4:30PM
-schedule-note: The main conference will be on Monday, March 3 through Wednesday, March 5, followed by post-conference workshops on Thursday, March 6. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
+schedule-note: The local planning committee is working to confirm spaces and dates, and plans to host the conference during the week of March 2, 2026.
 
 ####################
 # Venue Information
