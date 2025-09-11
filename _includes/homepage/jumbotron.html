@@ -20,7 +20,7 @@
                     {{site.data.conf.location}}
                     {% if site.data.conf.online-only-conference %}
                         <small>{{site.data.conf.days[1].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}} &#8226; Online</small>
-                    {% else %}
+                    {% elsif site.data.conf.days[1].date-data %}
                         <small>{{site.data.conf.days[1].date-data | date: "%B %-d"}} - {{site.data.conf.days.last.date-data | date: "%-d"}}, {{site.data.conf.year}}</small>
                     {% endif %}
                 </h1>
