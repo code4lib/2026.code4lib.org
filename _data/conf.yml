@@ -401,6 +401,15 @@ game-night:
 # Volunteer
 ###############
 
+# only shows on the preconference home page template
+# includes incentives text
+volunteer-call:
+  show: true
+  needed_committees:
+    - Budget & Sponsorship
+    - Scholarship
+    - Workshops
+
 volunteer-committee:
   show: true
   url: 'https://wiki.code4lib.org/Code4Lib_2026_Conference_Committees'
