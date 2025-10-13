@@ -62,10 +62,12 @@ days:
     date: March 4th
     date-data: 2026-03-04T23:59
     time: 9AM to 1:15PM
+    posters: true
   - weekday: Thursday
     date: March 5th
     date-data: 2026-03-05T23:59
     time: 9AM to 4:30PM
+    workshops: true
 schedule-note: The main conference will be on Monday, March 2 through Wednesday, March 4, followed by post-conference workshops on Thursday, March 5. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
 
 ####################
