@@ -16,7 +16,7 @@ def parameterize(string, separator: "-")
 end
 
 speakers_yml = "_data/speakers.yml"
-speakers = File.file?(speakers_yml) ?  speakers = YAML.load_file(speakers_yml) : {}
+speakers = File.file?(speakers_yml) ?  speakers = YAML.load_file(speakers_yml) : []
 
 CSV.foreach(ARGV[0], headers: true).each do |row|
   name = row["name"]
@@ -25,10 +25,12 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
   puts id + ": " + name
 
   data = speakers.select { |x| x["id"] == id }.first || {}
-  speakers[id] = data if data.empty?
-  ["pronouns", "position-title", "institution", "bio", "slack"].each do |k|
+  data["id"] = id if data.empty?
+  data["keynote"] = false
+  ["name", "pronouns", "position-title", "institution", "bio", "slack"].each do |k|
     data[k] = data[k] || row[k]
   end
+  speakers.push(data)
 
   if row['pic']
     ext = row["pic"].gsub(/.*\./, "") || "jpg"
