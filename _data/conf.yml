@@ -246,7 +246,7 @@ workshop-proposals:
 talk-proposals:
   show: true
   submission-form: 'https://forms.gle/mqYCABhthmT7hfM3A'
-  end-date: '2024-10-27'
+  end-date: '2025-10-27'
 
 panel-proposals:
   show: false
