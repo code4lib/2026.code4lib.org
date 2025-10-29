@@ -259,9 +259,9 @@ poster-proposals:
   end-date: ''
 
 shirt-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://forms.gle/5pUUsE8PheyD6W478'
+  end-date: '2025-11-17'
 
 host-proposals:
   show: false
