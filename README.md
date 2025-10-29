@@ -1,13 +1,13 @@
-# 2025.code4lib.org
+# 2026.code4lib.org
 
 ## Intro
-This site is developed by the [Code4Lib 2025 Conference Committee Website Working Group](https://wiki.code4lib.org/Code4Lib_2025_Conference_Committees#Website_Working_Group) based on a design by the [2016 working group](https://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). A great deal of conference and organizational info can be found on the [Code4Lib Wiki](https://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](https://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
+This site is developed by the [Code4Lib 2026 Conference Committee Website Working Group](https://wiki.code4lib.org/Code4Lib_2026_Conference_Committees#Website_Working_Group) based on a design by the [2016 working group](https://wiki.code4lib.org/2016_Conference_Committees#Website_Working_Group). A great deal of conference and organizational info can be found on the [Code4Lib Wiki](https://wiki.code4lib.org/Main_Page) and the [Code4Lib Site](https://code4lib.org), but this site should serve as a gateway to the various sources of Code4Lib information while providing visitors with a user-friendly way to find conference-specific info.
 
 This site is designed with future users in mind, so the group chose platforms that would be accessible to a wide range of users: [Jekyll](https://jekyllrb.com) and [GitHub Pages](https://pages.github.com).
 
 ## Resources
 
-More details are available in the [GitHub wiki](https://github.com/code4lib/2025.code4lib.org/wiki).
+More details are available in the [GitHub wiki](https://github.com/code4lib/2026.code4lib.org/wiki).
 
 ## About Jekyll
 
@@ -17,11 +17,11 @@ More details are available in the [GitHub wiki](https://github.com/code4lib/2025
 
 Steps for contributing have been documented in the [wiki on the 2016 site's GitHub page](https://github.com/code4lib/2016.code4lib.org/wiki) and will be updated as needed.
 
-See a list of [open issues](https://github.com/code4lib/2025.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and is used in the commit message.
+See a list of [open issues](https://github.com/code4lib/2026.code4lib.org/issues). The following example uses "issue#3" as a subject. That's the branch name and is used in the commit message.
 
 ### Setup
 
-1. ```git clone``` the [repo](https://github.com/pulibrary/2025.code4lib.org) from GitHub
+1. ```git clone``` the [repo](https://github.com/pulibrary/2026.code4lib.org) from GitHub
 2. cd to repo root and ```git pull```
 3. ```bundle install```
 4. Continue with step 3 below
@@ -47,7 +47,7 @@ See a list of [open issues](https://github.com/code4lib/2025.code4lib.org/issues
   * ```git push --set-upstream origin issue#3```
 9. Switch back to the main branch
   * ```git checkout main```
-10. Go to https://github.com/code4lib/2025.code4lib.org
+10. Go to https://github.com/code4lib/2026.code4lib.org
 11. Make a pull request base:main and compare:issue-3
 12. Wait for someone to test your changes and merge the pull request
 13. Do the dance of joy 🎉
