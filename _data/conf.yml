@@ -239,9 +239,9 @@ keynote-proposals:
   end-date: '2025-10-24'
 
 workshop-proposals:
-  show: false
-  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSchZV9hUVHG7rzp0LEqSdzNrRlvrc3JYqcNODBFIFNuZu5raA/viewform?usp=sf_link'
-  end-date: '2024-11-27'
+  show: true
+  submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSf2utynFu4uNcTyhAL4JxoBt18zjS1DBcAVZ7PUgfR4VXenbg/viewform'
+  end-date: '2025-11-18'
 
 talk-proposals:
   show: true
