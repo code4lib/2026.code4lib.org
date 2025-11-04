@@ -283,9 +283,9 @@ workshop-voting:
   end-date: ''
 
 talk-voting:
-  show: false
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSeytK60BejrKTDjNtFt1je3yCCYBW2y22GF6qiaTkCFdUWctg/viewform'
-  end-date: '2024-11-07'
+  show: true
+  url: 'https://forms.gle/a5sCWrgomnLb7bTx8'
+  end-date: '2025-11-21'
 
 panel-voting:
   show: false
