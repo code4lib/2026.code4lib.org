@@ -17,15 +17,15 @@ catchline:
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
 hero-image-filename: 'hero-image.jpg'
-hero-image-source: 'https://www.flickr.com/photos/brookward/33615371835/'
+hero-image-source: ''
 hero-image-filename-webp: 'hero-image.webp'
-hero-image-alt: "Daytime photo of Pittsburgh downtown area with gray clouds framed by yellow bridges"
+hero-image-alt: "Photo of the Mellon Institute Library at Carnegie Mellon University, with yellow leaves."
 
 image-attributions:
  - attribution:
-   creator: 'Brook Ward (@brookward)'
-   image-title: 'Pittsburgh'
-   image-url: 'https://www.flickr.com/photos/brookward/33615371835/'
+   creator: ''
+   image-title: 'Mellon Institute Library'
+   image-url: ''
    license-name: 'CC-BY-NC 2.0'
    license-url: 'https://creativecommons.org/licenses/by-nc/2.0/'
 
@@ -68,7 +68,7 @@ days:
     date-data: 2026-03-05T23:59
     time: 9AM to 4:30PM
     workshops: true
-schedule-note: The main conference will be on Monday, March 2 through Wednesday, March 4, followed by post-conference workshops on Thursday, March 5. Decisions about this year's conference schedule were based on venue availability. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
+schedule-note: The main conference will be on Monday, March 2 through Wednesday, March 4, followed by post-conference workshops on Thursday, March 5. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
 
 ####################
 # Venue Information
@@ -85,12 +85,12 @@ land-acknowledgement:
 venue:
   name: 'Carnegie Mellon University'
   # TODO values below
-  street:
-  postal-code:
-  image:
-  image_alt:
-  image_title:
-  note:
+  street: "Highmark Center for Health, Wellness and Athletics"
+  postal-code: 15213
+  image: highmark-center.jpg
+  image_alt: "Exterior view of the Highmark Center, a brick and glass building. The building is at an intersection, and there is a set of steps leading to the main entrance."
+  image_title: "Highmark Center"
+  note: "Conference sessions will be held in the Highmark Center on CMU campus."
   hotel:
     show: false
     name:
