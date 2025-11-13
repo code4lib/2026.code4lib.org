@@ -39,11 +39,11 @@ $gray-lighter:           $gray-200 !default; // #eee
 
 //End of gray setting
 
-$primary:                 #27251f;
+$primary:                 #ef3a47;
 $primary-dark:            darken($primary, 10%) !default;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  #fdb827;
+$accent:                  #fdb515;
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
 $accent-darker:           darken($accent, 20%);
@@ -130,7 +130,7 @@ $timeline-content-shadow: $gray-light;
 // Testimonials
 $testimonial-bg:          $accent;
 $testimonial-border:      $gray-base;
-$testimonial-color:       $primary-dark;
+$testimonial-color:       $black;
 
 // Presentation Info Box
 $talk-box-bg:             $gray-lighter;
@@ -154,7 +154,7 @@ $night-event:             $primary-dark;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               $gray-lighter !default;
+$body-bg:               $cultured-white !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-base !default;
 
