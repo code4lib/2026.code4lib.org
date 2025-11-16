@@ -273,8 +273,8 @@ host-proposals:
 ###########
 
 keynote-voting:
-  show: true
-  url: 'https://docs.google.com/forms/d/e/1FAIpQLSdgRLrcJ0RtwRh0cAO6fgaymoDeejLCUMvvPuf-a2tHD1KQog/viewform'
+  show: false
+  url: ''
   end-date: '2025-11-14'
 
 workshop-voting:
