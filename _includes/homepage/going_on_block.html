@@ -26,7 +26,7 @@
     <div class="col-12 col-sm-6 col-md-5">
     {% if include.end-date.size %}
         Now through {{ include.end-date | date: '%B %-d'}}{% include date_ordinals.html date=include.end-date %}
-    {% else if include.start-date.size %}
+    {% elsif include.start-date.size %}
         Starting on {{ include.start-date | date: '%B %-d'}}{% include date_ordinals.html date=include.start-date %}
     {% endif %}
     </div>

@@ -241,7 +241,7 @@ keynote-proposals:
 workshop-proposals:
   show: true
   submission-form: 'https://docs.google.com/forms/d/e/1FAIpQLSf2utynFu4uNcTyhAL4JxoBt18zjS1DBcAVZ7PUgfR4VXenbg/viewform'
-  end-date: '2025-11-18'
+  end-date: '2025-11-21'
 
 talk-proposals:
   show: false
@@ -259,7 +259,7 @@ poster-proposals:
   end-date: ''
 
 shirt-proposals:
-  show: true
+  show: false
   submission-form: 'https://forms.gle/5pUUsE8PheyD6W478'
   end-date: '2025-11-17'
 
@@ -415,7 +415,6 @@ volunteer-call:
 volunteer-committee:
   show: true
   url: 'https://wiki.code4lib.org/Code4Lib_2026_Conference_Committees'
-  end-date: '2025-12-31'
 
 volunteer-dutyoff:
   show: false
