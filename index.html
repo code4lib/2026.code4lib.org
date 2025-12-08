@@ -4,6 +4,16 @@ layout: default
 
 {% include homepage/jumbotron.html %}
 
+{% if site.data.conf.venue.note %}
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+            <h2>{{site.data.conf.venue.note}}</h2>
+          </div>
+       </div>
+  </div>
+{% endif %}
+
 <section>
     <div class="container">
         {% unless site.data.conf.homepage-display == 'peri' %}

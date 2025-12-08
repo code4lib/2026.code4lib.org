@@ -83,14 +83,14 @@ state: 'PA'
 land-acknowledgement:
 
 venue:
-  name: 'Carnegie Mellon University'
+  name:
   # TODO values below
-  street: "Highmark Center for Health, Wellness and Athletics"
-  postal-code: 15213
-  image: highmark-center.jpg
-  image_alt: "Exterior view of the Highmark Center, a brick and glass building. The building is at an intersection, and there is a set of steps leading to the main entrance."
-  image_title: "Highmark Center"
-  note: "Conference sessions will be held in the Highmark Center on CMU campus."
+  street: ""
+  postal-code: 
+  image: 
+  image_alt:
+  image_title:
+  note: "The conference will not be hosted by Carnegie Mellon University. Updates on hosting plans will be posted shortly."
   hotel:
     show: false
     name:
