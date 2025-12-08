@@ -283,7 +283,7 @@ workshop-voting:
   end-date: ''
 
 talk-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/a5sCWrgomnLb7bTx8'
   end-date: '2025-11-21'
 
@@ -298,7 +298,7 @@ poster-voting:
   end-date: ''
 
 shirt-voting:
-  show: true
+  show: false
   url: 'https://forms.gle/2wx6oGkTES89tKF58'
   end-date: '2025-11-28'
 
