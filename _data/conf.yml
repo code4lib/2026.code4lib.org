@@ -4,7 +4,7 @@
 
 year: 2026
 hashtag: 'c4l26'
-location: 'Pittsburgh, Pennsylvania'
+location: 'Philadelphia, Pennsylvania'
 timezone: 'Eastern'
 search: false
 online-only-conference: false
@@ -16,18 +16,17 @@ catchline:
 # Hero
 ###########################
 # Place hero image in /assets/img/theme-images/. Includes optional webp format.
-hero-image-filename: 'hero-image.jpg'
-hero-image-source: 'Courtesy of Heidi Wiren Kebe'
-hero-image-filename-webp: 'hero-image.webp'
-hero-image-alt: "Photo of the Mellon Institute Library at Carnegie Mellon University, with yellow leaves."
+hero-image-filename: 'phillyscape.jpg'
+hero-image-source: 'Photo courtesy of Shaun Ellis'
+hero-image-alt: "Photo of the Philadelphia skyline."
 
 image-attributions:
  - attribution:
    creator: ''
-   image-title: 'Mellon Institute Library'
+   image-title: ''
    image-url: ''
-   license-name: 'CC-BY-NC 2.0'
-   license-url: 'https://creativecommons.org/licenses/by-nc/2.0/'
+   license-name: ''
+   license-url: ''
 
 ########################
 # Program & Schedule
@@ -75,8 +74,8 @@ schedule-note: The main conference will be on Monday, March 2 through Wednesday,
 ####################
 
 # Short Form for location
-city-state: 'Pittsburgh, PA'
-city: 'Pittsburgh'
+city-state: 'Philadelphia, PA'
+city: 'Philadelphia'
 state: 'PA'
 # TODO CMU land acknowledgement, couldn't find one, maybe link to this?
 # https://guides.library.cmu.edu/indigenous-studies
@@ -90,7 +89,7 @@ venue:
   image: 
   image_alt:
   image_title:
-  note: "The conference will not be hosted by Carnegie Mellon University. Updates on hosting plans will be posted shortly."
+  note:
   hotel:
     show: false
     name:
