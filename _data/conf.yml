@@ -85,8 +85,8 @@ venue:
   name:
   # TODO values below
   street: ""
-  postal-code: 
-  image: 
+  postal-code:
+  image:
   image_alt:
   image_title:
   note:
@@ -446,9 +446,9 @@ diversity-scholarship-applications:
   url: '/general-info/scholarships#how-to-apply'
   url-text: 'How to Apply'
   end-day: 'Friday'
-  end-date: 'January 24th, 2025'
+  end-date: 'January 9th, 2026'
   end-time: '11:59 PM PST'
-  notification-date: 'February 10th, 2025'
+  notification-date: 'January 26, 2026'
   apply-url: 'https://docs.google.com/forms/d/14zXCal3eTLgxrfTFRy19rcIUHTs8Q_WYaQLFDne8GP8'
   committee-wiki-url: 'https://wiki.code4lib.org/2026_Scholarship_Documents'
   max-scholarship-award: '1500'
