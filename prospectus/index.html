@@ -100,7 +100,7 @@ published: true
             </div>
         </div>
 
-        <!-- 1st row: platinum & gold -->
+        {% comment %} 1st row: platinum & gold {% endcomment %}
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6">
                 <div class="thumbnail">
@@ -145,7 +145,7 @@ published: true
             </div>
         </div>
 
-        <!-- 2nd row: silver, bronze -->
+        {% comment %} 2nd row: silver, bronze {% endcomment %}
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6">
                 <div class="thumbnail">
@@ -183,7 +183,7 @@ published: true
             </div>
         </div>
 
-        <!-- 3nd row: contributor, supporter -->
+        {% comment %} 3nd row: contributor, supporter {% endcomment %}
         <div class="row">
             <div class="col-12 col-sm-6 col-md-6">
                 <div class="thumbnail">
@@ -215,7 +215,6 @@ published: true
             </div>
         </div>
 
-        <!-- targeted -->
         <div class="row" id="targetedSponsorship">
             <a name="Targeted-Sponsorship"></a>
             <div class="col-12">
@@ -287,14 +286,14 @@ published: true
                     <a name="Food"></a>
                     <h4>Food & Beverage Sponsors</h4>
                     <p>
-                        <strong><span class="text-danger">4 available</span> at $1,500</strong>
+                        <strong><span class="text-danger">4 available</span> at $1,000</strong>
                     </p>
                     <p>
                         Each year, almost 20% of our attendees identify that they have dietary needs that we need to be aware of and accommodate. This includes vegan or vegetarian diets, allergies and/or sensitivities to gluten, dairy, nuts, and so much more. The Code4Lib community is committed to providing meals to all of our conference attendees so everyone is included in the dining events. There is a cost to ensuring that everyone’s needs are met. This sponsorship will be used to provide meals and ensure accurate labeling that accommodates each of our attendee’s needs. Sponsor benefits will include:
                     </p>
                     <ul>
                         <li>Signage at all meals acknowledging Sponsorship</li>
-                        <li>Small logo at the Bronze Level on the conference website as Food & Beverage Sponsor</li>
+                        <li>Small logo at the Contributor Level on the conference website as Food & Beverage Sponsor</li>
                         <li>Small logo on the Conference Slideshow presentation, displayed throughout the conference</li>
                         <li>Logo on the forthcoming Menu website page</li>
                         <li>Name on the conference T-shirt</li>
@@ -306,7 +305,7 @@ published: true
                 <div class="thumbnail">
                     <a name="Diversity"></a>
                     <h4>Diversity Scholarships</h4>
-                    <p><strong><span class="text-danger">6 available</span> at $2,000</strong></p>
+                    <p><strong><span class="text-danger">6 available</span> at $1,750</strong></p>
                     <p>
                         These scholarships provide travel costs and conference fees for qualified applicants from groups typically underrepresented at the conference, including international attendees, transgender people, and underrepresented ethnic and racial groups. Applicants must be interested in actively contributing to the mission and goals of the Code4Lib Conference. Sponsor benefits will include:
                     </p>
@@ -320,12 +319,11 @@ published: true
             </div>
         </div>
 
-        <!-- Exhibitor Tables -->
         <div class="row" id="exhibitorTables">
             <a name="Exhibitor-Tables"></a>
             <div class="col-12">
                 <h3>Exhibitor Tables</h3>
-                <p><strong><span class="text-danger">6 available</span></p>
+                {% comment %}<p><strong><span class="text-danger">6 available</span></p>{% endcomment %}
             </div>
 
             <div class="col-12">
@@ -345,7 +343,7 @@ published: true
 {% endif %}
 
 {% if site.data.conf.sponsor-contact-email != nil %}
-<!-- this floats in a tab along the side of the page -->
+{% comment %} this floats in a tab along the side of the page {% endcomment %}
 <div id="contact">
     <p class="contact-tab">CONTACT</p>
     <div class="thumbnail" id="contact_inner">
