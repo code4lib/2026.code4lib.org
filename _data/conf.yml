@@ -213,7 +213,7 @@ show-sponsors: true
 sponsor-buttons: true
 # if true, the nav/footer links go to /prospectus/ instead of /sponsors/
 # for use early on when we are looking for, but do not have many, sponsors
-sponsors-links-to-prospectus: true
+sponsors-links-to-prospectus: false
 # URL to document
 prospectus-document:
 sponsor-btn-link: https://www.concentra-cms.com/c4l26sponsorreg.html#/

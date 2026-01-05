@@ -1,0 +1,44 @@
+# Example
+# - name: ebsco
+  # img: assets/img/sponsors/ebsco.svg
+  # link: http://www.google.com
+  # level: platinum
+  # diversity: true
+  # transcription: false
+  # annotation: extra note here
+
+# if img is omitted, the name will be displayed instead.
+
+# The annotation key can be used to specify a qualifier next
+# to the sponsor's name/logo (e.g., "Closed Captioning")
+
+# diversity key indicates sponsors that should show up
+# on the diversity scholarships section of the site
+
+# Available Levels
+# - adamantium
+# - platinum
+# - diamond
+# - gold
+# - silver
+# - bronze
+# - contributor
+# - supporter
+# - exhibitor
+
+- name: UCLA Library
+  img: /assets/img/sponsors/ucla-library-bronze.png
+  link: https://www.library.ucla.edu
+  level: bronze
+
+- name: University of Michigan Library
+  img: /assets/img/sponsors/umich-library-streaming.png
+  link: https://www.lib.umich.edu
+  level: bronze
+  annotation: Streaming Sponsor
+
+# TBD not paid yet
+# - name: Index Data
+#   img: /assets/img/sponsors/index-data-bronze.png
+#   link: https://indexdata.com
+#   level: bronze
