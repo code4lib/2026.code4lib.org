@@ -60,6 +60,24 @@ subnav:
               The conference Local Planning Committee has put together <a href="{{ site.data.conf.venue.hotel.multiple-hotels-map }}">a Google Map</a> with pins to help you find lodging in the area around the {{ site.data.conf.venue.name }} building, site of the main conference.
           </p>
       {% endif %}
+  {% else %}
+    {% if site.data.conf.venue.hotel.hotel-options[0].name %}
+    <p>{{ site.data.conf.venue.hotel.note }}</p>
+      {%- comment -%} Show info for first hotel, if present {%- endcomment -%}
+      {% for hotel in site.data.conf.venue.hotel.hotel-options %}
+        <section class="col-md-8">
+          <p>
+            <strong class="font-bold">{{hotel.name}}</strong><br/>
+            {{hotel.street}}<br/>
+            {{hotel.city-state}} {{hotel.postal-coe}}<br/>
+            <a href="tel:{{hotel.phone}}">{{hotel.phone}}</a><br/>
+            <a href="{{hotel.website}}">{{hotel.website}}</a><br/>
+            {% if hotel.notes %}{{hotel.notes}}<br/>{% endif %}
+            {% if hotel.warning %}<b>{{hotel.warning}}</b>{% endif %}
+          </p>
+        </section>
+      {% endfor %}
+    {% endif %}
   {% endif %}
 
   <h2 id="transportation">Transportation</h2>
@@ -72,7 +90,7 @@ subnav:
   <p>Trains depart every 30 mins from the airport towards Center City. However, this
   line does not go directly to the hotel, so you will need to transfer (including
   additional fare) to the Market-Frankford Line (MFL) at the Market &amp; 11th
-  (Jefferson) Station. Take th MFL eastbound towards Frankford to 2nd Street
+  (Jefferson) Station. Take the MFL eastbound towards Frankford to 2nd Street
   Station. The hotel is a two block walk from 2nd St Station.</p>
 
   <h4>Taxis</h4>
