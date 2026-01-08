@@ -39,11 +39,11 @@ $gray-lighter:           $gray-200 !default; // #eee
 
 //End of gray setting
 
-$primary:                 #ef3a47;
+$primary:                 #0f4d90; // ben franklin blue
 $primary-dark:            darken($primary, 10%) !default;
 $primary-light:           lighten($primary, 10%) !default;
 
-$accent:                  #fdb515;
+$accent:                  #f3c613; // bell-yellow
 $accent-dark:             darken($accent, 10%) !default;
 $accent-light:            lighten($accent, 10%);
 $accent-darker:           darken($accent, 20%);
