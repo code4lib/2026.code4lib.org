@@ -82,33 +82,32 @@ state: 'PA'
 land-acknowledgement:
 
 venue:
-  name:
+  name: Marriott Old City
   # TODO values below
-  street: ""
-  postal-code:
-  image:
-  image_alt:
-  image_title:
+  street: "One Dock Street"
+  postal-code: 19106
+  image: marriott-old-city.jpg
+  image_alt: "Photograph of the Marriott Old City hotel, with a circular driveway and sidewalk leading to a set of doors under an awning"
+  image_title: Marriott Old City
   note:
   hotel:
-    show: false
-    name:
-    cost:
+    show: true
+    name: Marriott Old City
+    cost: $199/night plus tax (16.37%)
     cost-cutoff-date:
-    reserved-room-block: false
+    reserved-room-block: true
     link:
     multiple-hotels: false
     multiple-hotels-map:
     note:
     hotel-options:
-      # Example values:
-      # - name: The Graduate
-      #   street: 10 Chambers Street
-      #   city-state: Princeton, NJ
-      #   postal-code: 08540
-      #   phone: 609-380-1457
-      #   website: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
-      #   warning: Please see your confirmation email.
+      - name: Marriott Old City
+        street: One Dock Street
+        city-state: Philadelphia, PA
+        postal-code: 19106
+        phone: 609-380-1457
+        website: https://www.hilton.com/en/hotels/pctgpgu-graduate-princeton/
+        warning: Please see your confirmation email.
 
 
 ################

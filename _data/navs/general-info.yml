@@ -16,7 +16,7 @@
 #  url: /general-info/first-timers
 - name: Social Activities
   url: /general-info/social
-- name: Land Acknowledgment
-  url: /general-info/land
+#- name: Land Acknowledgment
+#  url: /general-info/land
 - name: About Code4Lib
   url: /general-info/about-c4l
