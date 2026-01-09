@@ -23,7 +23,7 @@ conference:
 
 workshop-only:
   # "show" only toggles the display of info in the registration bullets on the general-info/attend page
-  show: false
+  show: true
   # "show-button" only affects button on /general-info/attend (useful in main conf is sold out)
   show-button: false
   undecided: false
@@ -33,7 +33,7 @@ workshop-only:
   half-day-cost: '$75'
   full-day-cost: '$150'
   start-date: 2026-01-14
-  end-date:
+  end-date: 2026-02-09
 
 t-shirt-only:
   show: true
