@@ -6,18 +6,18 @@
 
 conference:
   # "show" means display information on the home page and /general-info/attend
-  show: false
-  url: https://concentracms.regfox.com/code4lib-2025
-  start-date: '2024-12-16'
+  show: true
+  url: https://concentracms.regfox.com/code4lib-2026
+  start-date: '2026-01-14'
   start-time: 'noon EST / 9 a.m. PST'
-  end-date: '2025-02-11'
-  cancellation-date: '2025-02-11'
+  end-date: '2026-02-09'
+  cancellation-date: '2025-02-16'
   # "open" means people can register
   open: false
-  cost: '<b>SOLD OUT</b>'
-  late-cost: '<b>SOLD OUT</b>'
-  workshop-half-day-cost: '$40'
-  workshop-full-day-cost: '$80'
+  cost: '$425'
+  late-cost: '$500'
+  workshop-half-day-cost: '$50'
+  workshop-full-day-cost: '$100'
   limited-capacity: true
   waitlist: false
 
@@ -30,14 +30,14 @@ workshop-only:
   undecided-text: "Depending on availability, Workshop-ONLY registration may open at the beginning of May."
   url:
   # workshop-only registration cost may differ from workshop registration with general registration
-  half-day-cost: '$50'
-  full-day-cost: '$100'
-  start-date:
+  half-day-cost: '$75'
+  full-day-cost: '$150'
+  start-date: 2026-01-14
   end-date:
 
 t-shirt-only:
-  show: false
-  start-date: '2024-12-16'
+  show: true
+  start-date: '2026-01-14'
   cost: '$29'
   # should be one or the other: have to purchase by last-date or cost changes after late-date
   last-date: '2025-02-11'
