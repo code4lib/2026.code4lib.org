@@ -42,3 +42,13 @@
 #   img: /assets/img/sponsors/index-data-bronze.png
 #   link: https://indexdata.com
 #   level: bronze
+
+- name: ArchivesSpace
+  img: /assets/img/sponsors/archivesspace.png
+  link: https://archivesspace.org
+  level: contributor
+
+- name: Community Member
+  img: /assets/img/sponsors/community-member.png
+  link: null
+  level: supporter
