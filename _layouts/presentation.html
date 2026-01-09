@@ -35,7 +35,7 @@
 
             {% if page.learning-outcomes or page.attendee-requirements %}
                 <hr/>
-                {% if page.learning-outcomes %}
+                {% if page.learning-outcomes != "" %}
                     <p><span class="font-weight-bold">Learning Objectives:</span> {{ page.learning-outcomes }}</p>
                 {% endif %}
 
