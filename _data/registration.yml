@@ -11,7 +11,7 @@ conference:
   start-date: '2026-01-14'
   start-time: 'noon EST / 9 a.m. PST'
   end-date: '2026-02-09'
-  cancellation-date: '2025-02-16'
+  cancellation-date: '2025-02-10'
   # "open" means people can register
   open: false
   cost: '$425'
@@ -40,7 +40,7 @@ t-shirt-only:
   start-date: '2026-01-14'
   cost: '$29'
   # should be one or the other: have to purchase by last-date or cost changes after late-date
-  last-date: '2025-02-11'
+  last-date: '2025-02-10'
   # late-date: ''
   # late-cost: ''
 
