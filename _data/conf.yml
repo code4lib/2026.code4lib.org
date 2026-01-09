@@ -93,7 +93,8 @@ venue:
   hotel:
     show: true
     name: Marriott Old City
-    cost: $199/night plus tax (16.37%)
+    cost: $199
+    tax-rate: "16.37%"
     cost-cutoff-date:
     reserved-room-block: true
     link:
