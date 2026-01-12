@@ -44,9 +44,15 @@
   keynote: false
   institution: NC State University Libraries
   position-title: Lead Librarian for UX Strategy
-  bio: Andreas Orphanides is the Lead Librarian for UX Strategy at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery. His professional interests include systems analysis, human factors, and information design. Outside of work, he has too many cats.
-  image_src: /assets/img/speakers/andreas-orphanides.jpg
-  image_alt: "Torso shot of a curly-haired, male-presenting person, in profile, wearing a red  jacket, thick gloves, glasses, and black facemask, and wielding a longsword in a high guard. In the background is a statue of a bull and, further back, skyscrapers."
+  bio: Andreas Orphanides is the Lead Librarian for UX Strategy at the NC State University
+    Libraries. His work focuses on developing high-quality, thoughtfully designed
+    technology solutions to support teaching, learning, and information discovery.
+    His professional interests include systems analysis, human factors, and information
+    design. Outside of work, he has too many cats.
+  image_src: "/assets/img/speakers/andreas-orphanides.jpg"
+  image_alt: Torso shot of a curly-haired, male-presenting person, in profile, wearing
+    a red  jacket, thick gloves, glasses, and black facemask, and wielding a longsword
+    in a high guard. In the background is a statue of a bull and, further back, skyscrapers.
 - id: thimios-dimopulos
   keynote: false
   name: Thimios Dimopulos
@@ -93,13 +99,16 @@
   slack:
 - id: eric-lease-morgan
   name: Eric Lease Morgan
-  last: Morgan 
+  last: Morgan
   pronouns:
   institution: University of Notre Dame
   position-title: Librarian
-  bio: Eric Lease Morgan is a librarian working in the Navari Family Center for Digital Scholarship, Hesburgh Libraries, University of Notre Dame where he provides text mining and natural language processing services to the University community. He does data science with words.
-  image_src: /assets/img/speakers/eric-lease-morgan.jpg
-  image_alt: "Eric is a librarian who works at the University of Notre Dame."
+  bio: Eric Lease Morgan is a librarian working in the Navari Family Center for Digital
+    Scholarship, Hesburgh Libraries, University of Notre Dame where he provides text
+    mining and natural language processing services to the University community. He
+    does data science with words.
+  image_src: "/assets/img/speakers/eric-lease-morgan.jpg"
+  image_alt: Eric is a librarian who works at the University of Notre Dame.
   keynote: false
 - id: adam-cox
   keynote: false
@@ -114,6 +123,390 @@
   keynote: false
   name: Jeremy Nelson
   last: Nelson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: kaylee-alexander
+  keynote: false
+  name: Kaylee Alexander
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: dr-nima-asadi
+  keynote: false
+  name: Dr. Nima Asadi
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: linda-ballinger
+  keynote: false
+  name: Linda Ballinger
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: sabrina-bocanegra
+  keynote: false
+  name: Sabrina Bocanegra
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: cameron-boucher
+  keynote: false
+  name: Cameron Boucher
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: michelle-bowers
+  keynote: false
+  name: Michelle Bowers
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: maureen-cresci-callahan
+  keynote: false
+  name: Maureen Cresci Callahan
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: blake-carver
+  keynote: false
+  name: Blake Carver
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: peter-cerda
+  keynote: false
+  name: Peter Cerda
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: whitney-christopher
+  keynote: false
+  name: Whitney Christopher
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: jay-l-colbert
+  keynote: false
+  name: Jay L. Colbert
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: robin-davis
+  keynote: false
+  name: Robin Davis
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: aiden-de-boer
+  keynote: false
+  name: Aiden de Boer
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: kate-deibel
+  keynote: false
+  name: Kate Deibel
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: birkin-james-diana
+  keynote: false
+  name: Birkin James Diana
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: seth-erickson
+  keynote: false
+  name: Seth Erickson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: natasha-fisher
+  keynote: false
+  name: Natasha Fisher
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: tyrone-fontaine
+  keynote: false
+  name: Tyrone Fontaine
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: corey-halpin
+  keynote: false
+  name: Corey Halpin
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: margaret-heller
+  keynote: false
+  name: Margaret Heller
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: aurelia-hudak
+  keynote: false
+  name: Aurelia Hudak
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: lee-hunter
+  keynote: false
+  name: Lee Hunter
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: clarke-iakovakis
+  keynote: false
+  name: Clarke Iakovakis
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: christine-kim
+  keynote: false
+  name: Christine Kim
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: ilya-kreymer
+  keynote: false
+  name: Ilya Kreymer
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: jessica-lange
+  keynote: false
+  name: Jessica Lange
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: maccabee-levine
+  keynote: false
+  name: Maccabee Levine
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: alice-mcgrath
+  keynote: false
+  name: Alice McGrath
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: matt-miller
+  keynote: false
+  name: Matt Miller
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: chad-nelson
+  keynote: false
+  name: Chad Nelson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: david-ragnar-nelson
+  keynote: false
+  name: David Ragnar Nelson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: lawrence-olliffe
+  keynote: false
+  name: Lawrence Olliffe
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: aaron-pahl
+  keynote: false
+  name: Aaron Pahl
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: eric-phetteplace
+  keynote: false
+  name: Eric Phetteplace
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: wilhelmina-randtke
+  keynote: false
+  name: Wilhelmina Randtke
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: bethann-rea
+  keynote: false
+  name: Bethann Rea
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: kyle-reiley
+  keynote: false
+  name: Kyle Reiley
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: summer-shetenhelm
+  keynote: false
+  name: Summer Shetenhelm
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: eric-silberberg
+  keynote: false
+  name: Eric Silberberg
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: nailisa-tanner
+  keynote: false
+  name: Nailisa Tanner
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: ruth-kitchin-tillman
+  keynote: false
+  name: Ruth Kitchin Tillman
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: adrian-turner
+  keynote: false
+  name: Adrian Turner
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: melanie-walsh
+  keynote: false
+  name: Melanie Walsh
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: gregory-wiedeman
+  keynote: false
+  name: Gregory Wiedeman
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: mike-williams
+  keynote: false
+  name: Mike Williams
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: rachel-wittmann
+  keynote: false
+  name: Rachel Wittmann
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: rachel-woodbrook
+  keynote: false
+  name: Rachel Woodbrook
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: meredith-wynn
+  keynote: false
+  name: Meredith Wynn
   pronouns:
   position-title:
   institution:
