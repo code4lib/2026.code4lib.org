@@ -1,0 +1,155 @@
+# registration
+- timeImg: 8.30.png
+  title: Registration
+  day1: true
+  time: 08:30-09:30
+- timeImg: 8.00.png
+  title: Registration
+  day2: true
+  time: 08:00-09:00
+- timeImg: 8.30.png
+  title: Registration
+  day3: true
+  time: 08:30-09:00
+
+# announcements
+- timeImg: 9.30.png
+  title: Announcements
+  time: 09:30-09:45
+  day1: true
+- timeImg: 1.00.png
+  title: Announcements
+  time: 13:00-13:15
+  day1: true
+- timeImg: 5.00.png
+  title: Announcements
+  time: 17:00-17:15
+  day1: true
+- timeImg: 9.00.png
+  title: Announcements
+  time: 09:00-09:15
+  day2: true
+  day3: true
+- timeImg: 1.15.png
+  title: Announcements
+  time: 13:15-13:30
+  day2: true
+- timeImg: 5.20.png
+  title: Announcements
+  time: 17:20-17:35
+  day2: true
+- timeImg: 12.35.png
+  title: Announcements
+  time: 12:35-12:45
+  day3: true
+
+# breaks
+- timeImg: 10.30.png
+  title: Break
+  time: 10:30-10:45
+  day1: true
+- timeImg: 2.45.png
+  title: Break
+  time: 14:45-15:00
+  day1: true
+- timeImg: 10.50.png
+  title: Break
+  time: 10:50-11:10
+  day2: true
+- timeImg: 3.45.png
+  title: Break
+  time: 15:45-16:00
+  day2: true
+- timeImg: 10.45.png
+  title: Break
+  time: 10:45-11:05
+  day3: true
+
+# breakout sessions
+- timeImg: 2.30.png
+  title: Breakouts
+  time: 14:30-15:45
+  day2: true
+- timeImg: 11.05.png
+  title: Breakouts
+  time: 11:05-11:50
+  day3: true
+
+# lightning talks
+- timeImg: 3.00.png
+  title: Lightning Talks 1
+  time: 15:00-16:00
+  day1: true
+- timeImg: 11.10.png
+  title: Lightning Talks 2
+  time: 11:10-12:00
+  day2: true
+- timeImg: 10.00.png
+  title: Lightning Talks 3
+  time: 10:00-10:45
+  day3: true
+
+# poster session
+- timeImg: 4.00.png
+  title: Poster Session
+  time: 16:00-16:30
+  day2: true
+
+# lunch
+- timeImg: 12.00.png
+  title: Lunch
+  time: 12:00-13:00
+  day1: true
+- timeImg: 12.00.png
+  title: Lunch
+  time: 12:00-13:15
+  day2: true
+
+# keynotes
+- timeImg: 9.45.png
+  title: Opening Keynote
+  day1: true
+  groupId: key-open
+  time: 09:45-10:30
+- timeImg: 9.15.png
+  title: Closing Keynote
+  day3: true
+  groupId: key-close
+  time: 09:15-10:00
+
+# groups of talks
+- timeImg: 10.45.png
+  time: 10:45-12:00
+  title: Group 1 Talks
+  groupId: 1
+  day1: true
+- timeImg: 1.15.png
+  time: 13:15-14:45
+  title: Group 2 Talks
+  groupId: 2
+  day1: true
+- timeImg: 4.00.png
+  time: 16:00-17:00
+  title: Group 3 Talks
+  groupId: 3
+  day1: true
+- timeImg: 9.15.png
+  time: 09:15-10:50
+  title: Group 4 Talks
+  groupId: 4
+  day2: true
+- timeImg: 1.30.png
+  time: 13:30-14:30
+  title: Group 5 Talks
+  groupId: 5
+  day2: true
+- timeImg: 4.30.png
+  time: 16:30-17:20
+  title: Group 6 Talks
+  groupId: 6
+  day2: true
+- timeImg: 11.50.png
+  time: 11:50-12:35
+  title: Group 7 Talks
+  groupId: 7
+  day3: true
