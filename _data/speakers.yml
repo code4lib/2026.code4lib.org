@@ -1,16 +1,121 @@
+---
 - id: brandon-nightingale
   name: Brandon Nightingale
   last: Nightingale
   pronouns: he/him
   institution: Howard University
-  bio: "Brandon Nightingale is the Senior Project Manager of the Black Press Archives Digitization Project at the Moorland-Spingarn Research Center at Howard University and a PhD student in the Department of History. He holds a BA in History from the University of Central Florida, an MA in Public History from UCF, and an MS in Information Science from Florida State University. At MSRC, he leads a multi-year effort to digitize, preserve, and expand access to one of the largest and most significant collections of Black newspapers in the world. His work focuses on Black print culture, archival preservation, digital access, and the role of technology in shaping historical memory. His dissertation examines the institutional history of the Black Press Archives, its connections to Pan-African thought, and its impact on public understanding of Black life."
-  image_src: /assets/img/keynotes/brandon-nightingale.jpg
+  bio: Brandon Nightingale is the Senior Project Manager of the Black Press Archives
+    Digitization Project at the Moorland-Spingarn Research Center at Howard University
+    and a PhD student in the Department of History. He holds a BA in History from
+    the University of Central Florida, an MA in Public History from UCF, and an MS
+    in Information Science from Florida State University. At MSRC, he leads a multi-year
+    effort to digitize, preserve, and expand access to one of the largest and most
+    significant collections of Black newspapers in the world. His work focuses on
+    Black print culture, archival preservation, digital access, and the role of technology
+    in shaping historical memory. His dissertation examines the institutional history
+    of the Black Press Archives, its connections to Pan-African thought, and its impact
+    on public understanding of Black life.
+  image_src: "/assets/img/keynotes/brandon-nightingale.jpg"
   keynote: true
 - id: nate-matias
   name: Dr. J. Nathan Matias
   last: Matias
   pronouns: he/him
   institution: Cornell University
-  bio: Dr. J. Nathan Matias (<a href="https://social.coop/@natematias">@natematias@social.coop</a>, <a href="https://bsky.app/profile/natematias.bsky.social">@natematias.bsky.social</a>) is a computer scientist and social scientist who organizes citizen behavioral science for a safer, fairer, more understanding Internet. A Guatemalan-American, Nathan is founder of the <a href="https://citizensandtech.org/">Citizens and Technology Lab</a> and an assistant professor in the Cornell University Department of Communication. Matias has worked with online communities around the world to test effective ways for people to come together to create, maintain, and protect public goods online. He also studies the science of freedom of expression and diversity in knowledge-making endeavors. His work in design has received awards from FastCompany, and his research and advocacy has received awards from the Association for Computing Machinery and the Mozilla Foundation. Matias has published scholarship in journals including Nature, Science, and PNAS. His journalism has been published in The Atlantic, The Guardian, Adventure Cyclist Magazine, and many others.
-  image_src: /assets/img/keynotes/nate-matias.jpg
+  bio: Dr. J. Nathan Matias (<a href="https://social.coop/@natematias">@natematias@social.coop</a>,
+    <a href="https://bsky.app/profile/natematias.bsky.social">@natematias.bsky.social</a>)
+    is a computer scientist and social scientist who organizes citizen behavioral
+    science for a safer, fairer, more understanding Internet. A Guatemalan-American,
+    Nathan is founder of the <a href="https://citizensandtech.org/">Citizens and Technology
+    Lab</a> and an assistant professor in the Cornell University Department of Communication.
+    Matias has worked with online communities around the world to test effective ways
+    for people to come together to create, maintain, and protect public goods online.
+    He also studies the science of freedom of expression and diversity in knowledge-making
+    endeavors. His work in design has received awards from FastCompany, and his research
+    and advocacy has received awards from the Association for Computing Machinery
+    and the Mozilla Foundation. Matias has published scholarship in journals including
+    Nature, Science, and PNAS. His journalism has been published in The Atlantic,
+    The Guardian, Adventure Cyclist Magazine, and many others.
+  image_src: "/assets/img/keynotes/nate-matias.jpg"
   keynote: true
+- id: andreas-orphanides
+  name: Andreas Orphanides
+  last: Orphanides
+  keynote: false
+  institution: NC State University Libraries
+  position-title: Lead Librarian for UX Strategy
+  bio: Andreas Orphanides is the Lead Librarian for UX Strategy at the NC State University Libraries. His work focuses on developing high-quality, thoughtfully designed technology solutions to support teaching, learning, and information discovery. His professional interests include systems analysis, human factors, and information design. Outside of work, he has too many cats.
+  image_src: /assets/img/speakers/andreas-orphanides.jpg
+  image_alt: "Torso shot of a curly-haired, male-presenting person, in profile, wearing a red  jacket, thick gloves, glasses, and black facemask, and wielding a longsword in a high guard. In the background is a statue of a bull and, further back, skyscrapers."
+- id: thimios-dimopulos
+  keynote: false
+  name: Thimios Dimopulos
+  last: Dimopulos
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: mark-eaton
+  keynote: false
+  name: Mark Eaton
+  last: Eaton
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: kim-nguyen
+  keynote: false
+  name: Kim Nguyen
+  last: Nguyen
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: jesper-solheim-johansen
+  keynote: false
+  name: Jesper Solheim Johansen
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: julia-corrin
+  keynote: false
+  name: Julia Corrin
+  last: Corrin
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: eric-lease-morgan
+  name: Eric Lease Morgan
+  last: Morgan 
+  pronouns:
+  institution: University of Notre Dame
+  position-title: Librarian
+  bio: Eric Lease Morgan is a librarian working in the Navari Family Center for Digital Scholarship, Hesburgh Libraries, University of Notre Dame where he provides text mining and natural language processing services to the University community. He does data science with words.
+  image_src: /assets/img/speakers/eric-lease-morgan.jpg
+  image_alt: "Eric is a librarian who works at the University of Notre Dame."
+  keynote: false
+- id: adam-cox
+  keynote: false
+  name: Adam Cox
+  last: Cox
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: jeremy-nelson
+  keynote: false
+  name: Jeremy Nelson
+  last: Nelson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:

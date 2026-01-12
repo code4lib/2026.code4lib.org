@@ -35,7 +35,7 @@ image-attributions:
 # as displays in a few other places.
 # if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
 have-talks: false
-have-workshops: false
+have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
 have-schedule: false
 have-schedule-details: false
@@ -162,8 +162,8 @@ closed-captioning:
 #  url: https://www.streamtext.net/player?event=code4lib
 
 workshops:
-  show: false
-  location: lewis
+  show: true
+  location: 
 
 # Peri display descriptions and titles
 peri:

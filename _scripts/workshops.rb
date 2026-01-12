@@ -25,7 +25,7 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
   outcomes = row["outcomes"]
   requirements = row["requirements"]
   max = row["max"]
-  time = row["time"]
+  time = row["time"].downcase
   speaker1 = row["speaker1"]
   speaker2 = row["speaker2"] || ""
   speaker3 = speaker2.empty? ? speaker1 : "#{speaker1}, #{speaker2}"
