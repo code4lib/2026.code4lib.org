@@ -512,3 +512,35 @@
   institution:
   bio:
   slack:
+- id: edward-corrado
+  last: Corrado
+  name: Edward Corrado
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: kirsta-stapelfeldt
+  last: Stapelfeldt
+  name: Kirsta Stapelfeldt
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: mark-swenson
+  last: Swenson
+  name: Mark Swenson
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+- id: péter-király
+  last: Király
+  name: Péter Király
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
