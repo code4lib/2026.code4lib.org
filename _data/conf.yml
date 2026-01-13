@@ -34,11 +34,11 @@ image-attributions:
 # These booleans affect the main menu links in the ways described below, as well
 # as displays in a few other places.
 # if true Speakers link -> /speakers/, if false -> /speakers/past-keynotes
-have-talks: false
+have-talks: true
 have-workshops: true
 # if true Schedule link -> /schedule/, if false -> /schedule/timeline
-have-schedule: false
-have-schedule-details: false
+have-schedule: true
+have-schedule-details: true
 have-menus: false
 
 # day 0 = dummy day so JS indexing can line up with human-readable semantics of which day of the conference something is happening
@@ -52,15 +52,15 @@ days:
   - weekday: Monday
     date: March 2nd
     date-data: 2026-03-02T23:59
-    time: 9AM to 5:15PM
+    time: 9:30AM to 5:15PM
   - weekday: Tuesday
     date: March 3rd
     date-data: 2026-03-03T23:59
-    time: 9AM to 5:15PM
+    time: 9AM to 5:35PM
   - weekday: Wednesday
     date: March 4th
     date-data: 2026-03-04T23:59
-    time: 9AM to 1:15PM
+    time: 9AM to 12:45PM
     posters: true
   - weekday: Thursday
     date: March 5th
