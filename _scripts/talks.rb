@@ -15,11 +15,24 @@ require "active_support/all"
       parameterized_string
     end
 
+    def stub_speaker(name)
+      return unless name
+      id = parameterize(name)
+      return if @speakers.select { |x| x["id"] == id }.first
+
+      last = name.gsub(/.* /, "")
+      @speakers << { id: id, name: name, last: last }.stringify_keys
+    end
+
+# open speakers so we can add to it
+speakers_yml = "_data/speakers.yml"
+@speakers = File.file?(speakers_yml) ? YAML.load_file(speakers_yml) : []
+
 CSV.foreach(ARGV[0], headers: true).each do |row|
   title = row["title"]
-  speaker1 = row["name1"]
-  speaker2 = row["name2"]
-  speaker3 = row["name3"]
+  speaker1 = row["name1"]&.strip
+  speaker2 = row["name2"]&.strip
+  speaker3 = row["name3"]&.strip
   description = row["description"]
   time = row["time"]
   length = row["length"]
@@ -55,4 +68,10 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
     f.puts "---"
     f.puts description
   end
+
+  # stub speakers
+  [speaker1, speaker2, speaker3].each { |s| stub_speaker(s) }
 end
+
+# write updated speakers
+File.open(speakers_yml, "w") { |file| file.write(@speakers.to_yaml) }
