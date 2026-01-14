@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 
 require "csv"
+require "time"
 require "active_support/all"
 
     def parameterize(string, separator: "-")
@@ -42,6 +43,9 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
   group = row["group"]
   spot = row["spot"]
 
+  # fixup time
+  time = Time.parse(time).strftime("%H:%M")
+
   fn = "_posts/#{day}-#{parameterize(title)}.md"
   puts fn
   File.open(fn, "w") do |f|
@@ -55,7 +59,7 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
     f.puts "day: #{dayno}"
     f.puts "group: #{group}"
     f.puts "spot: #{spot}"
-    f.puts "location: frist" # XXX is this used?
+    #f.puts "location: frist" # XXX is this used?
     f.puts "speakers:"
     f.puts "- #{parameterize(speaker1)}"
     f.puts "- #{parameterize(speaker2)}" if speaker2
