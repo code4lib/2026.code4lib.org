@@ -13,7 +13,7 @@ conference:
   end-date: '2026-02-09'
   cancellation-date: '2025-02-10'
   # "open" means people can register
-  open: false
+  open: true
   cost: '$425'
   late-cost: '$500'
   workshop-half-day-cost: '$50'
