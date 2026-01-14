@@ -1,5 +1,8 @@
 {% include header.html %}
-{% include search_results.html %}
+<header role="banner">
+  <a href="#main" class="sr-only sr-only-focusable">Skip site navigation</a>
+  {% include nav.html %}
+</header>
 
 {% if page.type == 'workshop' %}
     {% assign page_date = page.date %}
@@ -17,7 +20,7 @@
 {% endif %}
 
 <script src="{{ "/assets/js/placeholder.js" | relative_url }}"></script>
-<div class="container presentation" id="main">
+<main class="container presentation" id="main">
     <div class="row">
         <div class="col-12 col-sm-8 col-md-9">
 
@@ -204,6 +207,6 @@
             {% endif %}
         </div>
     </div>
-</div>
+</main>
 
 {% include footer.html %}

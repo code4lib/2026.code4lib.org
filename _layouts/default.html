@@ -1,6 +1,9 @@
 {% include header.html %}
-{% include search_results.html %}
-<div id="main" class="content">
-{{ content }}
-</div>
+<header role="banner">
+  <a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
+  {% include nav.html %}
+</header>
+<main id="main" class="content">
+  {{ content }}
+</main>
 {% include footer.html %}
