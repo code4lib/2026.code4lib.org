@@ -14,8 +14,8 @@ endTime: 12:00pm
 location: 
 room: 
 speakers:
-- jesper-solheim-johansen
-speaker-text: Jesper Solheim Johansen
+- frode-opdahl
+speaker-text: Frode Opdahl
 title: "Using the OpenAlex API to Explore Metadata for 250M+ Research Publications"
 ---
 As many libraries look for open alternatives to subscription-based databases, OpenAlex has As many libraries look for open alternatives to subscription-based databases, OpenAlex has emerged as a major resource. It offers a comprehensive web interface for searching, but unlike many proprietary tools, it also provides fully open access to its underlying data. This dataset contains metadata for hundreds of millions of works, authors, and institutions.
