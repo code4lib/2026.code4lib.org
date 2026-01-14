@@ -62,6 +62,27 @@
   institution:
   bio:
   slack:
+  image_src: "/assets/img/speakers/Thimios-Dimopulos.jpg"
+- id: brian-zelip
+  keynote: false
+  name: Brian Zelip
+  last: Zelip
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+  image_src: "/assets/img/speakers/Brian-Zelip.jpg"
+- id: zeff-morgan
+  keynote: false
+  name: Zeff Morgan
+  last: Morgan
+  pronouns:
+  position-title:
+  institution:
+  bio:
+  slack:
+  image_src: "/assets/img/speakers/Zeff-Morgan.jpg"
 - id: mark-eaton
   keynote: false
   name: Mark Eaton
@@ -80,12 +101,12 @@
   institution:
   bio:
   slack:
-- id: jesper-solheim-johansen
+- id: frode-opdahl
   keynote: false
-  name: Jesper Solheim Johansen
+  name: Frode Opdahl
   pronouns:
-  position-title:
-  institution:
+  position-title: CEO
+  institution: Keenious
   bio:
   slack:
 - id: julia-corrin

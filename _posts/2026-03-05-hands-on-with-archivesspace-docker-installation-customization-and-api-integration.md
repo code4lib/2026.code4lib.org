@@ -15,7 +15,9 @@ location:
 room: 
 speakers:
 - thimios-dimopulos
-speaker-text: Thimios Dimopulos
+- brian-zelip
+- zeff-morgan
+speaker-text: Thimios Dimopulos, Brian Zelip, and Zeff Morgan
 title: "Hands-On with ArchivesSpace: Docker Installation, Customization, and API Integration"
 ---
 This hands-on workshop provides a comprehensive introduction to deploying and managing ArchivesSpace using Docker. Participants will gain practical experience with installation, configuration, plugin management, database administration, search engine maintenance and basic API usage.
