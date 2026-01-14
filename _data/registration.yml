@@ -32,7 +32,7 @@ workshop-only:
   # workshop-only registration cost may differ from workshop registration with general registration
   half-day-cost: '$75'
   full-day-cost: '$150'
-  start-date: 2026-01-14
+  start-date: 2026-01-26
   end-date: 2026-02-09
 
 t-shirt-only:
