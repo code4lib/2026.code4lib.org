@@ -252,9 +252,9 @@ panel-proposals:
   end-date: ''
 
 poster-proposals:
-  show: false
-  submission-form: ''
-  end-date: ''
+  show: true
+  submission-form: 'https://forms.gle/9MVoUQdzitYmjDxz7'
+  end-date: '2026-02-02'
 
 shirt-proposals:
   show: false
