@@ -53,3 +53,13 @@
   link: null
   level: supporter
   annotation: Code4Lib Community Member
+
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit-libraries.png
+  link: https://libraries.mit.edu
+  level: silver
+
+- name: Falvey Library, Villanova University
+  img: /assets/img/sponsors/falvey-library-villanova.png
+  link: https://library.villanova.edu/
+  level: supporter
