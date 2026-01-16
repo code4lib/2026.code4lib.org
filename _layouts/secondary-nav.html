@@ -1,10 +1,15 @@
 {% include header.html %}
+<header role="banner">
+  <a href="#subnav" class="sr-only sr-only-focusable">Skip site navigation</a>
+  {% include nav.html %}
+</header>
 
-<section>
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-3 col-lg-2">
-                <nav>
+                <nav id="subnav" aria-labelledby="subnav-heading">
+                    <h2 class="sr-only" id="subnav-heading">{{ page.title }} Sub-Pages</h2>
+										<a href="#main" class="sr-only sr-only-focusable">Skip to main content</a>
                     {% if page.nav == 'general-info' %}
                         <ul class="nav nav-pills nav-stacked secondarynav flex-md-column">
                     {% else %}
@@ -33,12 +38,12 @@
                     </ul>
                 </nav>
             </div>
-            <div id="main" class="col-12 col-md-9 col-lg-10">
+            <main id="main" class="col-12 col-md-9 col-lg-10">
                 {{ content }}
-            </div>
+            </main>
         </div>
     </div>
-</section>
+
 
 {% include footer.html %}
 

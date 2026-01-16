@@ -1,7 +1,10 @@
 {% include header.html %}
-{% include search_results.html %}
+<header role="banner">
+  <a href="#main" class="sr-only sr-only-focusable">Skip site navigation</a>
+  {% include nav.html %}
+</header>
 
-<div class="container" id="main">
+<main class="container" id="main">
     <div class="row">
         <div class="col-12">
             <h1>{% assign day = page.day | slice: -1 %}
@@ -24,6 +27,6 @@
             {% endif %}
         </div>
     </div>
-</div>
+</main>
 
 {% include footer.html %}
