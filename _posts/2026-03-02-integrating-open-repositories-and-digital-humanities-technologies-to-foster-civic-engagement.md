@@ -2,12 +2,12 @@
 layout: presentation
 type: talk
 categories: talks
-time: 2:30 pm
-startTime: 2026-03-02T14:30
+time: 12:10 pm
+startTime: 2026-03-04T12:10
 length: 15
-day: 1
-group: 2
-spot: 6
+day: 3
+group: 7
+spot: 2
 location: frist
 speakers:
 - david-ragnar-nelson
