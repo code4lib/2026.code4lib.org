@@ -2,12 +2,12 @@
 layout: presentation
 type: talk
 categories: talks
-time: 12:10 pm
-startTime: 2026-03-04T12:10
+time: 2:30 pm
+startTime: 2026-03-02T14:30
 length: 15
-day: 3
-group: 7
-spot: 2
+day: 1
+group: 2
+spot: 6
 location: frist
 speakers:
 - melanie-walsh
