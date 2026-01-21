@@ -101,6 +101,7 @@
   institution:
   bio:
   slack:
+  image_src: "/assets/img/speakers/kim-nguyen.jpg"
 - id: frode-opdahl
   keynote: false
   name: Frode Opdahl
