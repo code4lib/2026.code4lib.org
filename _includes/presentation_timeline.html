@@ -55,12 +55,12 @@
                         {% endif %}
                     </div>
                     <div class="col-sm-5 col-12 text-right">
-                        <h2 class="cd-timeline-content-title">
+                        <p class="cd-timeline-content-title cd-timeline-content-time"><strong>
                             {% capture eventTime %}{{ event.time | replace: '-', ' ' }}{% endcapture %}
                             {% capture beginTime %}{{ eventTime | truncatewords: 1, '' }}{% endcapture %}
                             {% capture endTime %}{{ eventTime | replace: beginTime, '' }}{% endcapture %}
                             {{ beginTime | date: "%l:%M%p" | strip }} to {{ endTime | date: "%l:%M%p" | strip }}
-                        </h2>
+                        </strong></p>
                         <div class="timezone">{{ site.data.conf.timezone }} Time</div>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
                                 {% if event.groupId == 'key-open' %}
                                 {% elsif event.groupId == 'key-close' %}
                                 {% else %}
-                                    
+
                                 <h3 class="h4 talk-title">{% if talk.status == "canceled" %}<s>{% endif %}<a href="{{ talk.url }}">{{ talk.title }}</a>{% if talk.status == "canceled" %}</s>{% endif %}</h3>
                                 {% endif %}
                             </div>
