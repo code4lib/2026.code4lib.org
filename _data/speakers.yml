@@ -256,11 +256,13 @@
   slack:
 - id: kate-deibel
   keynote: false
-  name: Kate Deibel
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  name: Katherine "Kate" Deibel
+  pronouns: she/her
+  position-title: Systems Librarian
+  institution: PCOM
+  bio: Dr. Kate Deibel (aka metageeky) is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about comics, chili peppers, her cat, platypuses, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian in Philadelphia. 
+  image_src: "/assets/img/speakers/katherine-kate-deibel.png"
+  image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
   slack:
 - id: birkin-james-diana
   keynote: false
