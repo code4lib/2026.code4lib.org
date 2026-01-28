@@ -404,14 +404,14 @@ game-night:
 # only shows on the preconference home page template
 # includes incentives text
 volunteer-call:
-  show: true
+  show: false
   needed_committees:
     - Budget & Sponsorship
     - Scholarship
     - Workshops
 
 volunteer-committee:
-  show: true
+  show: false
   url: 'https://wiki.code4lib.org/Code4Lib_2026_Conference_Committees'
 
 volunteer-dutyoff:
@@ -421,9 +421,9 @@ volunteer-dutyoff:
 
 # for volunteers during conference like MCs, mic-minders, etc.
 volunteer-onsite:
-  show: false
-  url: ''
-  end-date: ''
+  show: true
+  url: https://wiki.code4lib.org/Code4Lib_2026_Conference_Volunteers
+  end-date:
 
 ################
 # Scholarships
