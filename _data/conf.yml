@@ -421,9 +421,9 @@ volunteer-dutyoff:
 
 # for volunteers during conference like MCs, mic-minders, etc.
 volunteer-onsite:
-  show: false
-  url: ''
-  end-date: ''
+  show: true
+  url: https://wiki.code4lib.org/Code4Lib_2026_Conference_Volunteers
+  end-date:
 
 ################
 # Scholarships
