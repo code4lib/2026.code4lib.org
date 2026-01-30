@@ -260,7 +260,7 @@
   pronouns: she/her
   position-title: Systems Librarian
   institution: PCOM
-  bio: Dr. Kate Deibel (aka metageeky) is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about comics, chili peppers, her cat, platypuses, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian in Philadelphia. 
+  bio: Dr. Kate Deibel (aka metageeky) is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about comics, chili peppers, her cat, platypuses, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian in Philadelphia.
   image_src: "/assets/img/speakers/katherine-kate-deibel.png"
   image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
   slack:
@@ -419,11 +419,13 @@
 - id: eric-phetteplace
   keynote: false
   name: Eric Phetteplace
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
+  pronouns: he/him
+  position-title: Systems Librarian
+  institution: California College of the Arts
+  bio: Eric Phetteplace is a Systems Librarian with over a decade of experience developing, maintaining, and supporting web applications. His responsibilities include not only traditional library systems (<abbr title='Integrated Library System'>ILS</abbr>, discovery layer, electronic resources, instititutional repository), but teaching and learning technologies as well (<abbr title="Learning Management System">LMS</abbr>, video platform, digital whiteboard). Outside of work, he enjoys reading literary fiction and cuddling with his copious pets.
+  slack: phette23
+  image_src: /assets/img/speakers/eric-phetteplace.jpg
+  image_alt: A white man with a short reddish beard and scant tuft of hair stares at the camera wearing a white collared shirt against a dark blue background.
 - id: wilhelmina-randtke
   keynote: false
   name: Wilhelmina Randtke
