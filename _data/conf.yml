@@ -477,5 +477,5 @@ public-transportation:
   show: false
 
 speaker-info-form:
-  show: false
-  form-url: https://forms.gle/vJCi5rvUPgxrZQA67
+  show: true
+  form-url: "https://forms.gle/Emqq9J3vYX4siMg98"
