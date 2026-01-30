@@ -447,11 +447,13 @@
 - id: kyle-reiley
   keynote: false
   name: Kyle Reiley
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
+  pronouns: he/they
+  position-title: Lead Software Developer/Analyst
+  institution: The University of Texas at Austin Libraries
+  bio: Based in San Francisco, Kyle Reiley works remotely for the University of Texas at Austin Libraries and outside of work spends a lot of his time playing volleyball. He is a lead software developer and analyst and works across the stack, untangling complex legacy systems, and turning them into modular, maintainable platforms. He believes systems should be easy to expand and improve, and that software design should focus foremost on the user experience of the product.
+  slack: Kyle Reiley
+  image_src: "/assets/img/speakers/kyle-reiley.jpg"
+  image_alt: "A close-up selfie of Kyle Reiley outdoors on a boat, with the Golden Gate Bridge visible behind him. He has short brown hair that is slightly wind-tousled, thick dark eyebrows, and a prominent brown mustache. His expression is relaxed and faintly smiling, with a calm, content look. He is wearing a dusty pink short-sleeve T-shirt and a gold chain necklace that rests against his collarbone. Behind him, the water is choppy and deep blue-green, with white foam trailing behind the moving boat. In the distance, the red-orange towers and suspension cables of the Golden Gate Bridge stretch across the frame, partially framed by rolling brown and green hills. The sky is bright blue with scattered wispy white clouds, suggesting a clear, breezy day. The overall scene conveys motion from the boat, cool coastal air, and a scenic view of San Francisco Bay."
 - id: summer-shetenhelm
   keynote: false
   name: Summer Shetenhelm
