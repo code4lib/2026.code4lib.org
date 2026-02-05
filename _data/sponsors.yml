@@ -26,6 +26,12 @@
 # - supporter
 # - exhibitor
 
+# - gold
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight-logo-vectorized.svg
+  link: https://projectblacklight.org
+  level: gold
+
 # - silver
 - name: MIT Libraries
   img: /assets/img/sponsors/mit-libraries.png
@@ -67,3 +73,9 @@
   img: /assets/img/sponsors/falvey-library-villanova.png
   link: https://library.villanova.edu/
   level: supporter
+
+# - exhibitor
+- name: Discovery Garden Inc
+  img: /assets/img/sponsors/discovery-garden.svg
+  link: https://www.discoverygarden.com/
+  level: exhibitor
