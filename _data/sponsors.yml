@@ -26,6 +26,19 @@
 # - supporter
 # - exhibitor
 
+# - gold
+- name: Blacklight
+  img: /assets/img/sponsors/blacklight-logo-vectorized.svg
+  link: https://projectblacklight.org
+  level: gold
+
+# - silver
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit-libraries.png
+  link: https://libraries.mit.edu
+  level: silver
+
+# - bronze
 - name: UCLA Library
   img: /assets/img/sponsors/ucla-library-bronze.png
   link: https://www.library.ucla.edu
@@ -43,23 +56,26 @@
 #   link: https://indexdata.com
 #   level: bronze
 
+# - contributor
 - name: ArchivesSpace
   img: /assets/img/sponsors/archivesspace.png
   link: https://archivesspace.org
   level: contributor
 
+# - supporter
 - name: Community Member
   img: /assets/img/sponsors/community-member.png
   link: null
   level: supporter
   annotation: Code4Lib Community Member
 
-- name: MIT Libraries
-  img: /assets/img/sponsors/mit-libraries.png
-  link: https://libraries.mit.edu
-  level: silver
-
 - name: Falvey Library, Villanova University
   img: /assets/img/sponsors/falvey-library-villanova.png
   link: https://library.villanova.edu/
   level: supporter
+
+# - exhibitor
+- name: Discovery Garden Inc
+  img: /assets/img/sponsors/discovery-garden.svg
+  link: https://www.discoverygarden.com/
+  level: exhibitor
