@@ -26,6 +26,13 @@
 # - supporter
 # - exhibitor
 
+# - silver
+- name: MIT Libraries
+  img: /assets/img/sponsors/mit-libraries.png
+  link: https://libraries.mit.edu
+  level: silver
+
+# - bronze
 - name: UCLA Library
   img: /assets/img/sponsors/ucla-library-bronze.png
   link: https://www.library.ucla.edu
@@ -43,21 +50,18 @@
 #   link: https://indexdata.com
 #   level: bronze
 
+# - contributor
 - name: ArchivesSpace
   img: /assets/img/sponsors/archivesspace.png
   link: https://archivesspace.org
   level: contributor
 
+# - supporter
 - name: Community Member
   img: /assets/img/sponsors/community-member.png
   link: null
   level: supporter
   annotation: Code4Lib Community Member
-
-- name: MIT Libraries
-  img: /assets/img/sponsors/mit-libraries.png
-  link: https://libraries.mit.edu
-  level: silver
 
 - name: Falvey Library, Villanova University
   img: /assets/img/sponsors/falvey-library-villanova.png
