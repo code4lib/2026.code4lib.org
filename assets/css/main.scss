@@ -6,7 +6,7 @@
 @import 'variables';
 @import 'mixins';
 @import 'links';
-@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import 'bootstrap/scss/bootstrap.scss';
 // actual styles, order _may_ be important
 @import 'global';
 @import 'homepage';
