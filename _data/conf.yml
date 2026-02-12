@@ -153,8 +153,11 @@ livestream:
   url: 'https://www.youtube.com/c/Code4Lib'
 
 slides:
+  # show = display link below on home page
   show: false
-  url: 'https://osf.io/meetings/C4L25'
+  label: 'Code4Lib Zenodo Community'
+  url: 'https://zenodo.org/communities/code4lib/'
+  # These are not used on the site anywhere
   contact: ''
   email: ''
 
