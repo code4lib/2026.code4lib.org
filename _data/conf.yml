@@ -308,14 +308,14 @@ shirt-voting:
 #social-activities-url: '/general-info/social/'
 
 diy-social:
-  show: false
+  show: true
 
 newcomer-dinner:
-  show: false
+  show: true
   description: 'The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner as a gentle introduction to the code4lib conference.'
-  signup-url: 'https://docs.google.com/document/d/1Btl1pnELNnQCfj00CZue_m_qW13zkF-dYz4OX_JubNE/edit'
-  signup-button-text: 'Code4Lib 2025 Newcomer Dinner Information and Sign Up'
-  date: '2025-03-10'
+  signup-url: 'https://docs.google.com/document/d/11Ay8FLbKXEbYNiiu64t3IUgIlAMbPbWwe_5TV1XegL4/edit?usp=sharing'
+  signup-button-text: 'Code4Lib 2026 Newcomer Dinner Information and Sign Up'
+  date: '2026-03-02'
   time: '6pm or later'
   link: '/general-info/social/#newcomer-dinner'
 
@@ -387,14 +387,14 @@ tours:
       sign-up-button-text:
 
 game-night:
-  show: false
-  date: '2025-03-12'
+  show: true
+  date: '2026-03-03'
   time: '6:30pm'
-  location: 'Frist Campus Center, A-Floor seating area'
-  description: 'Join fellow Code4Libers at a BYO-Game and Snacks/Non-alcoholic drink Game Night!'
+  location: 'Marriott Old City Lobby'
+  description: 'Join fellow Code4Libers at a BYO-Game and Snacks/Non-alcoholic drink Game Night! Hotel bar and food service is available.'
   event-url: ''
   event-url-button-text: 'Sign Up'
-  sign-up-url: 'https://docs.google.com/spreadsheets/d/1rflp2DsG7KeqlZzVRMbcvV5rNFcjMgU4NaDf9eUKsa4/edit'
+  sign-up-url: 'https://docs.google.com/spreadsheets/d/1nS7WWFRbjGrdfga3MRCr_Dy8xW6AyW0dyAsK5egHuPM/edit?gid=0#gid=0'
   sign-up-button-text: 'Sign Up for Game Night'
 
 ###############
