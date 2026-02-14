@@ -38,6 +38,12 @@
   link: https://libraries.mit.edu
   level: silver
 
+- name: Developers for Diversity
+  img: /assets/img/sponsors/devs4diversity.png
+  link: https://github.com/pulibrary
+  level: silver
+  annotation: Scholarship
+
 # - bronze
 - name: UCLA Library
   img: /assets/img/sponsors/ucla-library-bronze.png
@@ -50,11 +56,16 @@
   level: bronze
   annotation: Streaming Sponsor
 
-# TBD not paid yet
-# - name: Index Data
-#   img: /assets/img/sponsors/index-data-bronze.png
-#   link: https://indexdata.com
-#   level: bronze
+- name: Index Data
+  img: /assets/img/sponsors/index-data-bronze.png
+  link: https://indexdata.com
+  level: bronze
+
+- name: 4Science
+  img: /assets/img/sponsors/4science.png
+  link: https://4science.com
+  level: bronze
+  annotation: Exhibitor
 
 # - contributor
 - name: ArchivesSpace
