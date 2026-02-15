@@ -67,7 +67,7 @@ days:
     date-data: 2026-03-05T23:59
     time: 9AM to 4:30PM
     workshops: true
-schedule-note: The main conference will be on Monday, March 2 through Wednesday, March 4, followed by post-conference workshops on Thursday, March 5. Keep an eye on <a href="/schedule/">the schedule</a> for details as the program is finalized.
+schedule-note:
 
 ####################
 # Venue Information
