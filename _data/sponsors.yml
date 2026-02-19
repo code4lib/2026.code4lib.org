@@ -67,11 +67,32 @@
   level: bronze
   annotation: Exhibitor
 
+- name: Rockefeller Archive Center
+  img: /assets/img/sponsors/rockefeller-archive-center.png
+  link: https://rockarch.org/
+  level: bronze
+
+- name: Notch8
+  img: /assets/img/sponsors/notch8.png
+  link: https://www.notch8.com/services
+  level: bronze
+
+- name: CLIR
+  img: /assets/img/sponsors/clir.png
+  link: https://www.clir.org/
+  level: bronze
+
 # - contributor
 - name: ArchivesSpace
   img: /assets/img/sponsors/archivesspace.png
   link: https://archivesspace.org
   level: contributor
+
+- name: Hosting Solutions and Library Consulting
+  img: /assets/img/sponsors/hslc.png
+  link: https://hslc.org/
+  level: contributor
+  annotation: Exhibitor, Food & Beverage Sponsor
 
 # - supporter
 - name: Community Member
@@ -84,6 +105,12 @@
   img: /assets/img/sponsors/falvey-library-villanova.png
   link: https://library.villanova.edu/
   level: supporter
+
+- name: Keenious
+  img: /assets/img/sponsors/keenious.png
+  link: https://www.keenious.com/landing
+  level: supporter
+  annotation: Exhibitor
 
 # - exhibitor
 - name: Discovery Garden Inc
