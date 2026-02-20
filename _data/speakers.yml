@@ -390,9 +390,11 @@
   keynote: false
   name: David Ragnar Nelson
   pronouns:
-  position-title:
-  institution:
-  bio:
+  position-title: Digital Scholarship Programmer
+  institution: American Philosophical Society
+  bio: David Ragnar Nelson serves as Digital Scholarship Programmer in the Center for Digital Scholarship at the American Philosophical Society. His work focuses on integrating digital humanities methods into the library's research agendas and collaborating with external researchers on digital scholarship. A self-taught developer, he holds a PhD in Germanic Languages and Literatures. On the technical side, he mainly works on network analysis and visualization, machine learning methods for extracting text and metadata from archival materials (largely Automatic Text Recognition and Automatic Speech Recognition), and web applications using static sites (Jekyll/Hugo) and Django.
+  image_src: /assets/img/speakers/david-ragnar-nelson.jpg
+  image_alt: A selfie of a white man with light brown hair and a sunkissed complexion standing before a columned hall, looking somewhat aloof.
   slack:
 - id: lawrence-olliffe
   keynote: false
