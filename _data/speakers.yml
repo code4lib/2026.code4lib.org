@@ -336,14 +336,6 @@
   institution:
   bio:
   slack:
-- id: christine-kim
-  keynote: false
-  name: Christine Kim
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
 - id: ilya-kreymer
   keynote: false
   name: Ilya Kreymer
@@ -481,14 +473,6 @@
 - id: ruth-kitchin-tillman
   keynote: false
   name: Ruth Kitchin Tillman
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
-- id: adrian-turner
-  keynote: false
-  name: Adrian Turner
   pronouns:
   position-title:
   institution:
