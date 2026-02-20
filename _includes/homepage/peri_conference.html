@@ -24,7 +24,9 @@
     <div class="col-md-3 event-day" data-date="{{ site.data.conf.days[3].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[3].date | date: "%b %d"}}</h2>
         {% include homepage/event_card.html icon='am' link=site.data.conf.peri.day3.am.link title=site.data.conf.peri.day3.am.title description=site.data.conf.peri.day3.am.desc menu=site.data.conf.peri.day3.am.menu %}
-        {% include homepage/event_card.html icon='pm' link=site.data.conf.peri.day3.pm.link title=site.data.conf.peri.day3.pm.title description=site.data.conf.peri.day3.pm.desc menu=site.data.conf.peri.day3.pm.menu %}
+        {% if site.data.conf.peri.day3.pm %}
+          {% include homepage/event_card.html icon='pm' link=site.data.conf.peri.day3.pm.link title=site.data.conf.peri.day3.pm.title description=site.data.conf.peri.day3.pm.desc menu=site.data.conf.peri.day3.pm.menu %}
+        {% endif %}
     </div>
     <div class="col-md-3 event-day" data-date="{{ site.data.conf.days[4].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[4].date | date: "%b %d"}}</h2>
