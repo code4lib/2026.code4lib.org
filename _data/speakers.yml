@@ -110,6 +110,7 @@
   institution: Keenious
   bio:
   slack:
+  last: Opdahl
 - id: julia-corrin
   keynote: false
   name: Julia Corrin
@@ -150,14 +151,6 @@
   institution:
   bio:
   slack:
-- id: kaylee-alexander
-  keynote: false
-  name: Kaylee Alexander
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
 - id: dr-nima-asadi
   keynote: false
   name: Dr. Nima Asadi
@@ -166,14 +159,23 @@
   institution:
   bio:
   slack:
+  last: Asadi
 - id: linda-ballinger
   keynote: false
   name: Linda Ballinger
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Metadata Strategist
+  institution: Penn State University Libraries
+  bio: Linda Ballinger (probably better recognized as @metacat) coordinates metadata
+    creation and management for the Penn State University Libraries' digital collections.
+    She brings an emphasis on inclusive and reparative description to cataloging the
+    Libraries' digital collections. With 30ish years of experience in cataloging print,
+    audiovisual, and digitized resources, she has focused her work on finding practical,
+    user-centered approaches to metadata creation and management, and adapting metadata
+    to local needs.
   slack:
+  image_alt:
+  last: Ballinger
 - id: sabrina-bocanegra
   keynote: false
   name: Sabrina Bocanegra
@@ -182,41 +184,83 @@
   institution:
   bio:
   slack:
+  last: Bocanegra
 - id: cameron-boucher
   keynote: false
   name: Cameron Boucher
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/they
+  position-title: Educational and Scholarly Technology Assistant
+  institution: Bryn Mawr College
+  bio: I am a digital scholarship developer and educational technologist with an interest
+    in critical web design and minimal computing. I'm currently pursuing an MSLIS
+    at the University of Illinois Urbana-Champaign while working in Library and Information
+    Technology Services at Bryn Mawr College. I have a A.B. in Russian and History
+    from Bryn Mawr College and a background in communications and film studies. In
+    my free time, I like to teach myself new crafts, play video games, and crochet
+    sweaters for my dog.
   slack:
+  image_alt: A young person with long, icy blonde hair and pale skin. She wears a
+    black, high-necked shirt, moody eye makeup, and a mysterious expression.
+  image_src: "/assets/img/speakers/cameron-boucher.png"
+  last: Boucher
 - id: michelle-bowers
   keynote: false
   name: Michelle Bowers
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Electronic Resources Librarian
+  institution: SUNY Upstate Medical University
+  bio: Michelle Bowers is the Electronic Resources Librarian at SUNY Upstate Medical
+    University. Her work is a mix of setting up and maintaining resources, troubleshooting
+    access and authentication issues, and managing the library's web presence. Outside
+    of work she can usually be found relaxing with her family, reading a Terry Pratchett
+    book, and/or being held hostage by her clingy orange cat.
   slack:
+  image_alt: A white woman with straight-ish blond hair and glasses, in front of a
+    pale blue wall
+  image_src: "/assets/img/speakers/michelle-bowers.jpg"
+  last: Bowers
 - id: maureen-cresci-callahan
   keynote: false
   name: Maureen Cresci Callahan
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her they/them
+  position-title: Director of Archives and Special Collections
+  institution: University of Connecticut
+  bio: 'Maureen Cresci Callahan is the director of archives and special collections
+    at the University of Connecticut. She previously worked as the curator of the
+    Sophia Smith Collection of Women’s History at Smith College and in archival technologies
+    and technical services at Yale University, New York University, and Princeton
+    University. She was co-chair of the Technical Subcommittee on Describing Archives:
+    A Content Standard during the process of revising the principles of archival description
+    from 2014 to 2019 and a member of the leadership group of the National Best Practices
+    for Archival Accessioning Working Group from 2021 to 2024. She holds degrees from
+    the University of Michigan, Ann Arbor, and Bryn Mawr College.'
   slack:
+  image_alt: Maureen Cresci Callahan, a white woman with blond hair and glasses wearing
+    an orange dress and black blazer. Greenery is in the background. She has a calm
+    expression.
+  image_src: "/assets/img/speakers/maureen-cresci-callahan.jpg"
+  last: Callahan
 - id: blake-carver
   keynote: false
   name: Blake Carver
   pronouns:
-  position-title:
-  institution:
-  bio:
+  position-title: Sys admin
+  institution: Lyrasis
+  bio: "Blake Carver is Senior Systems Administrator at LYRASIS Hosting Services,
+    where he manages the servers and infrastructure that\r\nsupport the hosted ArchivesSpace,
+    CollectionSpace and other systems.  Blake holds an MLS from SUNY Buffalo, and
+    has worked as an\r\nacademic librarian, as a programmer at a dot.com startup,
+    and as a records manager. He's also known as the guy behind LISNews,\r\nLISWire,
+    and LISHost. Blake was one of the first librarian bloggers (he created LISNews
+    in 1999) and has presented widely at professional conferences, talking about open
+    source systems, Drupal,\r\nWordPress, and IT security & privacy for libraries."
   slack:
+  image_alt:
+  last: Carver
 - id: peter-cerda
   keynote: false
   name: Peter Cerda
+  last: Cerda
   pronouns:
   position-title:
   institution:
@@ -225,44 +269,81 @@
 - id: whitney-christopher
   keynote: false
   name: Whitney Christopher
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her/hers
+  position-title: Automation Librarian
+  institution: Cornell University
+  bio: 'Whitney Christopher is an Assistant Librarian at Cornell University. Her areas
+    of interest include data privacy and black digital humanities. '
   slack:
+  image_alt:
+  last: Christopher
 - id: jay-l-colbert
   keynote: false
   name: Jay L. Colbert
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: Special Projects Cataloger
+  institution: Boston Public Library
+  bio: Jay L. Colbert is the Special Projects Cataloger at the Boston Public Library.
+    His background spans from metadata and discovery to instruction and music librarianship.
+    Currently, his work focuses on non-AI technological solutions for automation and
+    batch cataloging, while protecting the labor of cataloging staff.
   slack:
+  image_alt:
+  last: Colbert
 - id: robin-davis
   keynote: false
   name: Robin Davis
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Associate Head, User Experience
+  institution: NC State University Libraries
+  bio: Robin Camille Davis is the Associate Head of User Experience at NC State University
+    Libraries, where she conducts user research, coordinates content strategy, and
+    advocates for accessible practices. She earned her MA in Computational Linguistics
+    from the Graduate Center at CUNY and her MLIS from the University of Illinois
+    Urbana-Champaign, where she was a Data Curation for the Humanities Fellow.
   slack:
+  image_alt: Brown-haired woman who is half Asian, half white and who has a welcoming
+    smile
+  image_src: "/assets/img/speakers/robin-davis.jpg"
+  last: Davis
 - id: aiden-de-boer
   keynote: false
   name: Aiden de Boer
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: He/Him/His
+  position-title: Student Programmer
+  institution: J. Willard Marriott Library, University of Utah
+  bio: Aiden de Boer is a Data Science and Quantitative Analysis of Markets and Organizations
+    (QAMO) student at the University of Utah, expected to graduate in 2027. In his
+    role as the Student Programmer for the Marriott Reparative Metadata Assessment
+    Tool (MaRMAT) at the J. Willard Marriott Library, he spearheads the technical
+    implementation and maintenance of this open-source application. Utilizing Python-based
+    workflows, he develops tools within MaRMAT to help libraries identify and remediate
+    harmful terminology. Beyond his work with MaRMAT, his academic and professional
+    focus lies at the intersection of data-driven decision-making and ethical software
+    development.
   slack:
+  image_alt: " A young man with dark, wavy hair and a mustache smiling in a professional
+    headshot. He is wearing a light blue button-down shirt and a dark navy blue patterned
+    tie against a neutral, light gray background."
+  image_src: "/assets/img/speakers/aiden-de-boer.jpg"
+  last: Boer
 - id: kate-deibel
   keynote: false
   name: Katherine "Kate" Deibel
+  last: Deibel
   pronouns: she/her
   position-title: Systems Librarian
   institution: PCOM
-  bio: Dr. Kate Deibel (aka metageeky) is a longstanding advocate for accessibility and usability in library technologies. She has a PhD in Computer Science from the University of Washington but would much rather talk about comics, chili peppers, her cat, platypuses, technology adoption, and changing the world. She briefly left libraries for industry but is happily back working as PCOM Library's systems librarian in Philadelphia.
+  bio: Dr. Kate Deibel (aka metageeky) is a longstanding advocate for accessibility
+    and usability in library technologies. She has a PhD in Computer Science from
+    the University of Washington but would much rather talk about comics, chili peppers,
+    her cat, platypuses, technology adoption, and changing the world. She briefly
+    left libraries for industry but is happily back working as PCOM Library's systems
+    librarian in Philadelphia.
   image_src: "/assets/img/speakers/katherine-kate-deibel.png"
-  image_alt: "Cartoon avatar of a quite pale white bespectacled brunette geek girl whose open downturned mouth is adamantly advocating an important point or three. A bookcase is behind her."
+  image_alt: Cartoon avatar of a quite pale white bespectacled brunette geek girl
+    whose open downturned mouth is adamantly advocating an important point or three.
+    A bookcase is behind her.
   slack:
 - id: birkin-james-diana
   keynote: false
@@ -272,6 +353,7 @@
   institution:
   bio:
   slack:
+  last: Diana
 - id: seth-erickson
   keynote: false
   name: Seth Erickson
@@ -280,6 +362,7 @@
   institution:
   bio:
   slack:
+  last: Erickson
 - id: natasha-fisher
   keynote: false
   name: Natasha Fisher
@@ -288,6 +371,7 @@
   institution:
   bio:
   slack:
+  last: Fisher
 - id: tyrone-fontaine
   keynote: false
   name: Tyrone Fontaine
@@ -296,22 +380,56 @@
   institution:
   bio:
   slack:
+  last: Fontaine
 - id: corey-halpin
   keynote: false
   name: Corey Halpin
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: Software Engineer
+  institution: University of Wisconsin - Madison
+  bio: Corey Halpin is a software engineer at the Internet Scout Research Group in
+    the Department of Computer Sciences at the University of Wisconsin - Madison.
+    Scout's flagship application, Metavus, is an open source (GPL), turn-key package
+    for creating and managing digital libraries and archives. Prior to joining Scout,
+    Corey earned a PhD in Forestry using simulation models to understand the patterns
+    of biomass development in the forests of northern Wisconsin. He enjoys writing
+    in a nice notebook with a good pen, reading excessive amounts of science fiction,
+    pursuing minimalism in his computing environment, and generally embodying xkcd
+    1806.
   slack:
+  image_alt: A dark haired and slightly scruffy white man looking at the camera while
+    attempting to "look human" as instructed by the photographer. It is unclear if
+    he succeeded.
+  image_src: "/assets/img/speakers/corey-halpin.jpg"
+  last: Halpin
 - id: margaret-heller
   keynote: false
   name: Margaret Heller
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Head of Digital Services
+  institution: DePaul University
+  bio: "Margaret is Head of Digital Services at DePaul University Library, in which
+    position she leads a team of librarians and professional staff who administer
+    and maintain library digital and physical technologies. Her role works to align
+    digital services and technology with the needs of library users and staff through
+    leadership, project management, and assessment and planning. Margaret received
+    her MLIS from the University of Illinois at Urbana-Champaign in 2008, and her
+    BA in Classical Languages from the College of Wooster.\r\n\r\nMargaret spent 2013-2023
+    as Digital Services Librarian at Loyola University Chicago. Prior to that she
+    worked as Web Services Librarian at Dominican University. She has taught undergraduate
+    courses at Dominican University and in the MA in Digital Humanities program at
+    Loyola University Chicago.\r\n\r\nMargaret is the author of the 2019 book Community
+    Technology Projects: Making them Work (ALA Editions) as well as numerous library
+    technology related articles and blog posts. She reviews regularly for Library
+    Journal. Margaret served as President of Core, a division of the American Library
+    Association from 2022-2023, and prior to that served on the LITA board. She is
+    active in Ex Libris Group North America and other professional associations."
   slack:
+  image_alt: The image shows a white woman with blue curly hair and red lipstick,
+    wearing a blue sweater over a black dress. However, my current look is dark straight
+    hair with bangs!
+  image_src: "/assets/img/speakers/margaret-heller.jpg"
+  last: Heller
 - id: aurelia-hudak
   keynote: false
   name: Aurelia Hudak
@@ -320,6 +438,7 @@
   institution:
   bio:
   slack:
+  last: Hudak
 - id: lee-hunter
   keynote: false
   name: Lee Hunter
@@ -328,14 +447,29 @@
   institution:
   bio:
   slack:
+  last: Hunter
 - id: clarke-iakovakis
   keynote: false
   name: Clarke Iakovakis
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: Scholarly Services Librarian
+  institution: Oklahoma State University
+  bio: "I am an Associate Professor, the Scholarly Services Librarian, and head of
+    the Scholarly Services & Research Engagement unit in the Oklahoma State University
+    Libraries. I have a Master of Science in Information Studies from the University
+    of Texas, and a Bachelor of Arts in History from Texas State University. I have
+    worked in public and academic libraries since 2008 in a variety of capacities.
+    I serve as the library liaison to History, Political Science, American Indian
+    Studies, and Africana Studies. I am interested in Research Information Management
+    Systems, scholarly publishing, open/public access to scholarship, copyright, research
+    data curation & access, programming pedagogy, library instruction, bibliometric
+    analysis, and many other related topics. I routinely provide workshops on a number
+    of technical tools, including data wrangling &amp; visualization in R, LaTeX and
+    Markdown, Git & GitHub, OpenRefine, REST APIs, SQL, tidy data, regex, and others.\r\n\r\n"
   slack:
+  image_alt: Smiling white male wearing glasses and a light striped button-down shirt.
+  image_src: "/assets/img/speakers/clarke-iakovakis.jpg"
+  last: Iakovakis
 - id: ilya-kreymer
   keynote: false
   name: Ilya Kreymer
@@ -344,32 +478,52 @@
   institution:
   bio:
   slack:
+  last: Kreymer
 - id: jessica-lange
   keynote: false
   name: Jessica Lange
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her/elle
+  position-title: Interim Associate Dean, Library Technology
+  institution: McGill University Libraries
+  bio: 'Jessica Lange is the Interim Associate Dean for Library Technology at McGill
+    University Libraries. She has also previously worked as a coordinator for Scholarly
+    Communications, with research interests in scholarly publishing and library technology
+    planning. '
   slack:
+  image_alt:
+  last: Lange
 - id: maccabee-levine
   keynote: false
   name: Maccabee Levine
   pronouns: he/him
   position-title: Senior Library Application Developer
   institution: Lehigh University
-  bio: Maccabee Levine is a senior developer at Lehigh University Libraries, focusing on open source bibliographic systems. He's a frequent contributor to VuFind and serves on project governance groups for FOLIO, VuFind and ReShare. Maccabee has presented recently at WOLFcon, Charleston, FOLIO Mid-Atlantic, Code4Lib, and the VuFind Summit. His mother still reminds him about an OSS award for a Voyager enhancement he won back in 2010, so now you get to know about it too.
+  bio: Maccabee Levine is a senior developer at Lehigh University Libraries, focusing
+    on open source bibliographic systems. He's a frequent contributor to VuFind and
+    serves on project governance groups for FOLIO, VuFind and ReShare. Maccabee has
+    presented recently at WOLFcon, Charleston, FOLIO Mid-Atlantic, Code4Lib, and the
+    VuFind Summit. His mother still reminds him about an OSS award for a Voyager enhancement
+    he won back in 2010, so now you get to know about it too.
   image_src: "/assets/img/speakers/Maccabee_Levine.jpg"
-  image_alt: "Headshot of a white man standing in front of library stacks. He has short curly hair and a short beard, both of which still probably need a trim."
+  image_alt: Headshot of a white man standing in front of library stacks. He has short
+    curly hair and a short beard, both of which still probably need a trim.
   slack:
+  last: Levine
 - id: alice-mcgrath
   keynote: false
   name: Alice McGrath
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Senior Digital Scholarship Specialist
+  institution: Bryn Mawr College
+  bio: Alice McGrath is a technologist and digital humanist who supports digital research
+    and pedagogy at Bryn Mawr College. She holds a Ph.D. in English Literature from
+    the University of Pennsylvania. Her interests include digital collections, humanities
+    data, eighteenth-century women's writing, minimal computing, weird narrative forms,
+    and the charming friendship between her cat and dog.
   slack:
+  image_alt: A white woman with curly blond hair smiling against a backdrop of books.
+  image_src: "/assets/img/speakers/alice-mcgrath.jpeg"
+  last: McGrath
 - id: matt-miller
   keynote: false
   name: Matt Miller
@@ -378,32 +532,56 @@
   institution:
   bio:
   slack:
+  last: Miller
 - id: chad-nelson
   keynote: false
   name: Chad Nelson
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: Software Enginerring Manager
+  institution: California Digital Library
+  bio: 'Software Engineer. Photographer. Computational Artist. Mediocre Bassist. Flaneur.
+    Angeleno. Rapscallion. '
   slack:
+  image_alt: Headshot of middle aged white man with a beard and glasses being gently
+    engulfed by flowers and bushes.
+  image_src: "/assets/img/speakers/chad-nelson.jpg"
+  last: Nelson
 - id: david-ragnar-nelson
   keynote: false
   name: David Ragnar Nelson
   pronouns:
   position-title: Digital Scholarship Programmer
   institution: American Philosophical Society
-  bio: David Ragnar Nelson serves as Digital Scholarship Programmer in the Center for Digital Scholarship at the American Philosophical Society. His work focuses on integrating digital humanities methods into the library's research agendas and collaborating with external researchers on digital scholarship. A self-taught developer, he holds a PhD in Germanic Languages and Literatures. On the technical side, he mainly works on network analysis and visualization, machine learning methods for extracting text and metadata from archival materials (largely Automatic Text Recognition and Automatic Speech Recognition), and web applications using static sites (Jekyll/Hugo) and Django.
-  image_src: /assets/img/speakers/david-ragnar-nelson.jpg
-  image_alt: A selfie of a white man with light brown hair and a sunkissed complexion standing before a columned hall, looking somewhat aloof.
+  bio: David Ragnar Nelson serves as Digital Scholarship Programmer in the Center
+    for Digital Scholarship at the American Philosophical Society. His work focuses
+    on integrating digital humanities methods into the library's research agendas
+    and collaborating with external researchers on digital scholarship. A self-taught
+    developer, he holds a PhD in Germanic Languages and Literatures. On the technical
+    side, he mainly works on network analysis and visualization, machine learning
+    methods for extracting text and metadata from archival materials (largely Automatic
+    Text Recognition and Automatic Speech Recognition), and web applications using
+    static sites (Jekyll/Hugo) and Django.
+  image_src: "/assets/img/speakers/david-ragnar-nelson.jpg"
+  image_alt: A selfie of a white man with light brown hair and a sunkissed complexion
+    standing before a columned hall, looking somewhat aloof.
   slack:
+  last: Nelson
 - id: lawrence-olliffe
   keynote: false
   name: Lawrence Olliffe
   pronouns:
-  position-title:
-  institution:
-  bio:
+  position-title: Business Applications Analyst
+  institution: Getty Research Institute
+  bio: Lawrence is from the Getty Research Institute, of the J. Paul Getty Trust.  His
+    focuses range from hands-on support to metadata standards, with a sprinkling of
+    extensive institutional knowledge as a resource.  Locally, he handles the Getty's
+    contributions to the Internet Archive, and more broadly, he contributes to IA's
+    processing of book metadata.
   slack:
+  image_alt: A full-length, greyscale portrait of the speaker, posed in the library
+    stacks.
+  image_src: "/assets/img/speakers/lawrence-olliffe.jpg"
+  last: Olliffe
 - id: aaron-pahl
   keynote: false
   name: Aaron Pahl
@@ -412,24 +590,44 @@
   institution:
   bio:
   slack:
+  last: Pahl
 - id: eric-phetteplace
   keynote: false
   name: Eric Phetteplace
   pronouns: he/him
   position-title: Systems Librarian
   institution: California College of the Arts
-  bio: Eric Phetteplace is a Systems Librarian with over a decade of experience developing, maintaining, and supporting web applications. His responsibilities include not only traditional library systems (<abbr title='Integrated Library System'>ILS</abbr>, discovery layer, electronic resources, instititutional repository), but teaching and learning technologies as well (<abbr title="Learning Management System">LMS</abbr>, video platform, digital whiteboard). Outside of work, he enjoys reading literary fiction and cuddling with his copious pets.
+  bio: Eric Phetteplace is a Systems Librarian with over a decade of experience developing,
+    maintaining, and supporting web applications. His responsibilities include not
+    only traditional library systems (<abbr title='Integrated Library System'>ILS</abbr>,
+    discovery layer, electronic resources, instititutional repository), but teaching
+    and learning technologies as well (<abbr title="Learning Management System">LMS</abbr>,
+    video platform, digital whiteboard). Outside of work, he enjoys reading literary
+    fiction and cuddling with his copious pets.
   slack: phette23
-  image_src: /assets/img/speakers/eric-phetteplace.jpg
-  image_alt: A white man with a short reddish beard and scant tuft of hair stares at the camera wearing a white collared shirt against a dark blue background.
+  image_src: "/assets/img/speakers/eric-phetteplace.jpg"
+  image_alt: A white man with a short reddish beard and scant tuft of hair stares
+    at the camera wearing a white collared shirt against a dark blue background.
+  last: Phetteplace
 - id: wilhelmina-randtke
   keynote: false
   name: Wilhelmina Randtke
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: they/them
+  position-title: Head of Libraries Technologies and Systems
+  institution: Georgia Southern University Libraries
+  bio: Wilhelmina Randtke has a background in law and technology. Her past roles include
+    legal research, technology oversight, and product manager for cloud based publishing
+    software. She is currently Head of Libraries Technologies and Systems at the Georgia
+    Southern University Libraries overseeing in-building technology and online presences.
+    Georgia Southern University Libraries is the largest student printing lab on campus,
+    providing approximately 1,500,000 prints to students each year. The libraries
+    provide in-building desktop computers with specialized software for academic projects,
+    a fleet of approximately 190 checkout laptops for students, and 3D printing and
+    scanning services.
   slack:
+  image_alt: Close up of a white person in a suit coat against a cinderblock wall.
+  image_src: "/assets/img/speakers/wilhelmina-randtke.jpg"
+  last: Randtke
 - id: bethann-rea
   keynote: false
   name: Bethann Rea
@@ -438,16 +636,33 @@
   institution:
   bio:
   slack:
+  last: Rea
 - id: kyle-reiley
   keynote: false
   name: Kyle Reiley
+  last: Reiley
   pronouns: he/they
   position-title: Lead Software Developer/Analyst
   institution: The University of Texas at Austin Libraries
-  bio: Based in San Francisco, Kyle Reiley works remotely for the University of Texas at Austin Libraries and outside of work spends a lot of his time playing volleyball. He is a lead software developer and analyst and works across the stack, untangling complex legacy systems, and turning them into modular, maintainable platforms. He believes systems should be easy to expand and improve, and that software design should focus foremost on the user experience of the product.
+  bio: Based in San Francisco, Kyle Reiley works remotely for the University of Texas
+    at Austin Libraries and outside of work spends a lot of his time playing volleyball.
+    He is a lead software developer and analyst and works across the stack, untangling
+    complex legacy systems, and turning them into modular, maintainable platforms.
+    He believes systems should be easy to expand and improve, and that software design
+    should focus foremost on the user experience of the product.
   slack: Kyle Reiley
   image_src: "/assets/img/speakers/kyle-reiley.jpg"
-  image_alt: "A close-up selfie of Kyle Reiley outdoors on a boat, with the Golden Gate Bridge visible behind him. He has short brown hair that is slightly wind-tousled, thick dark eyebrows, and a prominent brown mustache. His expression is relaxed and faintly smiling, with a calm, content look. He is wearing a dusty pink short-sleeve T-shirt and a gold chain necklace that rests against his collarbone. Behind him, the water is choppy and deep blue-green, with white foam trailing behind the moving boat. In the distance, the red-orange towers and suspension cables of the Golden Gate Bridge stretch across the frame, partially framed by rolling brown and green hills. The sky is bright blue with scattered wispy white clouds, suggesting a clear, breezy day. The overall scene conveys motion from the boat, cool coastal air, and a scenic view of San Francisco Bay."
+  image_alt: A close-up selfie of Kyle Reiley outdoors on a boat, with the Golden
+    Gate Bridge visible behind him. He has short brown hair that is slightly wind-tousled,
+    thick dark eyebrows, and a prominent brown mustache. His expression is relaxed
+    and faintly smiling, with a calm, content look. He is wearing a dusty pink short-sleeve
+    T-shirt and a gold chain necklace that rests against his collarbone. Behind him,
+    the water is choppy and deep blue-green, with white foam trailing behind the moving
+    boat. In the distance, the red-orange towers and suspension cables of the Golden
+    Gate Bridge stretch across the frame, partially framed by rolling brown and green
+    hills. The sky is bright blue with scattered wispy white clouds, suggesting a
+    clear, breezy day. The overall scene conveys motion from the boat, cool coastal
+    air, and a scenic view of San Francisco Bay.
 - id: summer-shetenhelm
   keynote: false
   name: Summer Shetenhelm
@@ -456,14 +671,29 @@
   institution:
   bio:
   slack:
+  last: Shetenhelm
 - id: eric-silberberg
   keynote: false
   name: Eric Silberberg
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: Librarian
+  institution: Queens College, City University of New York
+  bio: "\r\nAs the Instructional Design and Education Librarian, I lead the Queens
+    College Library in the planning, implementation, and evaluation of our library
+    instruction program. Additionally, as the subject librarian for education, I support
+    students and faculty in the Queens College School of Education through collection
+    development, research support, and external partnerships designed to advance scholarship
+    for the public good.\r\n\r\nMy current research explores open access publishing
+    in educational research and library services for teacher training programs in
+    Mexico and the United States. Committed to promoting equitable access to information,
+    I also serve on the LACLI executive team. My previous academic work at the Benemérita
+    Universidad Autónoma de Puebla focused on regional music and the educational profiles
+    of US-born young people in Puebla, Mexico. I started my career as a Special Education
+    teacher in Brooklyn, NY."
   slack:
+  image_alt: Smiling man with short hair and beard in a blue shirt.
+  image_src: "/assets/img/speakers/eric-silberberg.jpeg"
+  last: Silberberg
 - id: nailisa-tanner
   keynote: false
   name: Nailisa Tanner
@@ -472,17 +702,11 @@
   institution:
   bio:
   slack:
-- id: ruth-kitchin-tillman
-  keynote: false
-  name: Ruth Kitchin Tillman
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
+  last: Tanner
 - id: melanie-walsh
   keynote: false
   name: Melanie Walsh
+  last: Walsh
   pronouns:
   position-title:
   institution:
@@ -491,6 +715,7 @@
 - id: gregory-wiedeman
   keynote: false
   name: Gregory Wiedeman
+  last: Wiedeman
   pronouns:
   position-title:
   institution:
@@ -499,14 +724,7 @@
 - id: mike-williams
   keynote: false
   name: Mike Williams
-  pronouns:
-  position-title:
-  institution:
-  bio:
-  slack:
-- id: rachel-wittmann
-  keynote: false
-  name: Rachel Wittmann
+  last: Williams
   pronouns:
   position-title:
   institution:
@@ -520,6 +738,7 @@
   institution:
   bio:
   slack:
+  last: Woodbrook
 - id: meredith-wynn
   keynote: false
   name: Meredith Wynn
@@ -528,6 +747,7 @@
   institution:
   bio:
   slack:
+  last: Wynn
 - id: edward-corrado
   last: Corrado
   name: Edward Corrado
@@ -560,3 +780,67 @@
   institution:
   bio:
   slack:
+- id: ruth-kitchin-tillman
+  keynote: false
+  name: Ruth Tillman
+  pronouns: she/her
+  position-title: Cataloging Systems & Linked Data Strategist
+  institution: Penn State
+  bio: just trying to make things work
+  slack:
+  image_alt:
+  last: Tillman
+- id: rachel-wittmann
+  keynote: false
+  name: Rachel Jane Wittmann
+  pronouns: She/Her/Hers
+  position-title: Interim Head of Digital Library Services, Metadata Strategies Librarian
+  institution: J. Willard Marriott Library, University of Utah
+  bio: 'Rachel Jane Wittmann is the Metadata Strategies Librarian at the University
+    of Utah J. Willard Marriott Library. In her role at the University of Utah, she
+    oversees the metadata creation and remediation for the Marriott Digital Library
+    and the digital exhibits program. Rachel is a co-creator of the Marriott Reparative
+    Metadata Tool (MaRMAT) https://www.marmatproject.org/. MaRMAT is an open-source
+    application designed to assess metadata for potentially harmful terms and phrases,
+    changed and problematic Library of Congress Subject Headings, and identify sensitive
+    content by using various pre-curated or custom lexicons. In the last decade, Rachel
+    has been involved in multiple Digital Library Federation Assessment Interest Groups,
+    including the Metadata Assessment Interest Group and most recently the Cultural
+    Assessment Interest Group, co-chairing the publication of the Inclusive Metadata
+    Toolkit in 2024. Rachel received her MLIS from Pratt Institute’s School of Information
+    in New York City. '
+  slack:
+  image_alt: 'Pale white woman with long light brown hair and blue eyes, smiling with
+    mouth closed. Plain gray background. '
+  image_src: "/assets/img/speakers/rachel-jane-wittmann.jpg"
+  last: Wittmann
+- id: kaylee-alexander
+  keynote: false
+  name: Kaylee P. Alexander
+  pronouns: she/her
+  position-title: Research Data Librarian
+  institution: J. Willard Marriott Library, University of Utah
+  bio: Kaylee P. Alexander is a Research Data Librarian at the University of Utah’s
+    J. Willard Marriott Library, where she was previously the ACLS Emerging Voices
+    Postdoctoral Fellow for Digital Matters. She holds a Ph.D. in Art History and
+    Visual Culture from Duke University and specializes in nineteenth-century visual
+    culture, monuments, and funerary material culture. Her research is embedded in
+    transdisciplinary practices at the intersection of visual studies, material culture,
+    and data science. She is the author of A Data-Driven Analysis of Cemeteries and
+    Social Reform in Paris, 1804–1924 (Routledge, 2024)
+  slack:
+  image_alt: A white woman with shoulder-length brown hair and glasses faces the camera
+    in a professional headshot. She wears a floral button-up shirt against a soft
+    light gray studio background.
+  image_src: "/assets/img/speakers/kaylee-p-alexander.jpg"
+  last: Alexander
+- id: ruth-tillman
+  keynote: false
+  name: Ruth Tillman
+  pronouns: she/her
+  position-title: Cataloging Systems & Linked Data Strategist
+  institution: Penn State
+  bio: just trying to make things work
+  slack:
+  image_alt:
+  last: Tillman
