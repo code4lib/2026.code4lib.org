@@ -11,8 +11,8 @@ max-attendees:
 time: am
 startTime: 9:00am
 endTime: 12:00pm
-location: 
-room: 
+location: marriott
+room: e2
 speakers:
 - frode-opdahl
 speaker-text: Frode Opdahl

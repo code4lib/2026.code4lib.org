@@ -9,8 +9,8 @@ max-attendees:
 time: am
 startTime: 9:00am
 endTime: 12:00pm
-location: 
-room: 
+location: marriott
+room: e1
 speakers:
 - kim-nguyen
 speaker-text: Kim Nguyen

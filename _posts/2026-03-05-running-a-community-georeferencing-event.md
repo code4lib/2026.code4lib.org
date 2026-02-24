@@ -11,8 +11,8 @@ max-attendees:
 time: pm
 startTime: 1:30pm
 endTime: 4:30pm
-location: 
-room: 
+location: marriott
+room: e1
 speakers:
 - adam-cox
 speaker-text: Adam Cox

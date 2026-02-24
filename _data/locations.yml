@@ -1,0 +1,11 @@
+- id: marriott
+  name: Marriott Old City
+  rooms:
+    - id: a1
+      name: Ballroom A1
+    - id: a2
+      name: Ballroom A2
+    - id: e1
+      name: Ballroom E1
+    - id: e2
+      name: Ballroom E2
