@@ -9,8 +9,8 @@ max-attendees:
 time: pm
 startTime: 1:30pm
 endTime: 4:30pm
-location: 
-room: 
+location: marriott
+room: e2
 speakers:
 - jeremy-nelson
 speaker-text: Jeremy Nelson

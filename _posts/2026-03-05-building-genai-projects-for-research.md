@@ -9,8 +9,8 @@ max-attendees:
 time: pm
 startTime: 1:30pm
 endTime: 4:30pm
-location: 
-room: 
+room: a1
+location: marriott
 speakers:
 - julia-corrin
 speaker-text: Julia Corrin

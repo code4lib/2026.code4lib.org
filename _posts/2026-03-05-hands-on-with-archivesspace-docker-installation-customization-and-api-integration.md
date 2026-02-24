@@ -11,8 +11,8 @@ max-attendees:
 time: am
 startTime: 9:00am
 endTime: 12:00pm
-location: 
-room: 
+location: marriott
+room: a2
 speakers:
 - thimios-dimopulos
 - brian-zelip
