@@ -1,0 +1,41 @@
+allen:
+    name: Natasha Allen
+    last: Allen
+    pronouns: she/her
+    img: /assets/img/conduct/natasha-allen.jpg
+    img_alt: "A woman with a friendly smile. She has light skin, hazel eyes, and pink highlights in her dark hair. She is wearing a dark colored outfit and has facial piercings on her nose."
+    slack_handle: natasha
+    onsite: true
+    online: false
+
+nelson:
+    name: Chad Nelson
+    last: Nelson
+    pronouns: he/him
+    img: /assets/img/speakers/chad-nelson.jpg
+    img_alt: "Headshot of middle aged white man with a beard and glasses being gently
+    engulfed by flowers and bushes."
+    slack_handle: bibliotechy
+    onsite: true
+    online: true
+
+phetteplace:
+    name: Eric Phetteplace
+    last: Phetteplace
+    pronouns: he/him
+    img: /assets/img/speakers/eric-phetteplace.jpg
+    img_alt: "A white man with a short reddish beard and scant tuft of hair stares
+    at the camera wearing a white collared shirt against a dark blue background."
+    slack_handle: phette23
+    onsite: true
+    online: false
+
+yelton:
+    name: Andromeda Yelton
+    last: Yelton
+    pronouns: she/her
+    img: /assets/img/conduct/andromeda-yelton.jpg
+    img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
+    slack_handle: thatandromeda
+    onsite: true
+    online: true
