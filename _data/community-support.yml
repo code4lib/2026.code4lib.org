@@ -8,6 +8,36 @@ allen:
     onsite: true
     online: false
 
+derven:
+    name: Caleb Derven
+    last: Derven
+    pronouns: he/him/his
+    img: /assets/img/conduct/caleb-derven.jpg
+    img_alt: "Caleb Derven (he/him) is the Head of Digital Scholarship & Library Systems at the University of Limerick."
+    slack_handle: Caleb Derven
+    onsite: true
+    online: true
+
+fox:
+    name: Bobbi Fox
+    last: Fox
+    pronouns: she/her/hers
+    img: /assets/img/conduct/bobbi-fox.jpg
+    img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
+    slack_handle: bobbifox
+    onsite: true
+    online: true
+
+mesco:
+    name: Ann Marie Mesco
+    last: Mesco
+    pronouns: she/her
+    img: /assets/img/conduct/ann-marie-mesco.jpg
+    img_alt: "Woman with blonde hair, blue eyes, wearing glasses and a black sweater"
+    slack_handle: Ann Marie
+    onsite: true
+    online: false
+
 nelson:
     name: Chad Nelson
     last: Nelson
