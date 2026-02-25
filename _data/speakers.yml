@@ -138,10 +138,15 @@
   name: Adam Cox
   last: Cox
   pronouns:
-  position-title:
+  position-title: Geospatial software developer
   institution:
-  bio:
+  bio: Adam has worked in the geospatial field since getting hooked in 2011 via 
+  archaeology and digital humanities, and primarily with open source software since 2016.
+  He completed a dual MLIS and MS Geography in 2022 at LSU, during which he designed and
+  built a crowdsourcing platform for georeferencing historical maps. He lives in New Orleans.
   slack:
+  image_src: "/assets/img/speakers/adam-cox.jpg"
+  image_alt: Headshot of white man with a short beard and not much hair.
 - id: jeremy-nelson
   keynote: false
   name: Jeremy Nelson
