@@ -326,21 +326,23 @@ morning-run:
   time: '7:00AM'
 
 reception:
-  show: false
-  venue: 'Frick Taylor Commons'
-  street: 'Frick Chemistry Laboratory'
-  city-state: 'Princeton, NJ'
-  postal-code: '08544'
-  phone:
-  image: frick-taylor-commons.jpg
-  image_alt: 'View of the Taylor Commons atrium inside the Frick Chemistry Lab.'
+  show: true
+  venue: 'Buffalo Billiards'
+  street: '118 Chestnut Street'
+  city-state: 'Philadelphia, PA'
+  postal-code: '19106'
+  phone: '215.574.7665'
+  image: buffalo-billiards-down-back-vip.jpg
+  image_alt: 'View of the downstairs VIP room inside Buffalo Billiards of Philadelphia'
   image_title: 'Frick Taylor Commons'
   contact:
   floorplans:
-  date: '2025-03-11'
-  times: '6:30pm-8:30pm'
-  shuttle: 'All <a href="https://transportation.princeton.edu/getting-around/tigertransit/weekdays">TigerTransit</a> routes stop near the Frick Chemistry Lab. The closest stop is the Goheen Walk stop on Washington Road. From the shuttle stop, cross to the east side of Washington Road and proceed south (downhill) and the Frick Chemistry Lab will be on your left.'
-  special-notes: ''
+  date: '2026-03-3'
+  times: '6:00pm-8:00pm'
+  shuttle: 'Buffalo Billiards is 0.2 miles — about a 5 minute walk — from the hotel'
+  special-notes: 'We will be in a VIP room reserved for us downstairs. There are 2 shuffleboards and 1 pool table. <strong>All food and drinks are on your own.</strong>
+There is a limited menu that doesn’t look to be restriction-friendly, so plan accordingly.
+Happy hour drink specials until 8pm; see <a href="https://www.buffalobilliardsphilly.com/">their website</a> for more information.'
 
 tours:
   show: false
