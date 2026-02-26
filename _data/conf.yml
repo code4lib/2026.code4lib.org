@@ -187,9 +187,9 @@ peri:
       link: '/schedule/day-2'
       #menu: 'day2-menus.html'
     pm:
-      title: 'Game Night'
-      desc: 'Board or Card Games'
-      link: '/general-info/social/#game-night'
+      title: 'Reception'
+      link: '/general-info/venues/#reception'
+      desc: 'And <a href="/general-info/social/#game-night">Game Night</a>'
   day3:
     am:
       title: 'Conference, Day 3'
