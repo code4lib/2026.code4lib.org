@@ -389,7 +389,7 @@ tours:
 game-night:
   show: true
   date: '2026-03-03'
-  time: '7:00pm'
+  time: '7PM'
   location: 'Marriott Old City Lobby'
   description: 'Join fellow Code4Libers at Game Night! Hotel bar and food service is available.'
   event-url: ''
