@@ -1,0 +1,98 @@
+# The schedule for Community Support Volunteers, only affects
+# /conduct/#schedule
+# The volunteer(s) fields key off of objects in community-support.yml
+# Everything else is a string; "period" can be text or a time but we
+# usually use a label for the onsite schedule & time for online.
+onsite:
+  - day: Monday
+    period: 9am - 11am
+    volunteers:
+      - yelton
+      - clapp
+  - day: Monday
+    period: 11am - 1pm
+    volunteers:
+      - fox
+      - derven
+  - day: Monday
+    period: 1pm - 3pm
+    volunteers:
+      - phetteplace
+      - allen
+  - day: Monday
+    period: 3pm - 5pm
+    volunteers:
+      - yelton
+      - oshea
+  - day: Tuesday
+    period: 9am - 11am
+    volunteers:
+      - phetteplace
+      - derven
+  - day: Tuesday
+    period: 11am - 1pm
+    volunteers:
+      - derven
+      - allen
+  - day: Tuesday
+    period: 1pm - 3pm
+    volunteers:
+      - mesco
+      - oshea
+  - day: Tuesday
+    period: 3pm - 5pm
+    volunteers:
+      - allen
+      - clapp
+  - day: Wednesday
+    period: 8:30am - 11am
+    volunteers:
+      - phetteplace
+      - fox
+  - day: Wednesday
+    period: 11am - 12:45pm
+    volunteers:
+      - nelson
+      - mesco
+  - day: Thursday
+    period: Morning Workshops
+    volunteers:
+      - mesco
+
+online:
+  - day: Monday
+    period: 9am - 11am
+    volunteer: oshea
+  - day: Monday
+    period: 11am - 1pm
+    volunteer: nelson
+  - day: Monday
+    period: 1pm - 3pm
+    volunteer: han
+  - day: Monday
+    period: 3pm - 5pm
+    volunteer: han
+  - day: Tuesday
+    period: 9am - 11am
+    volunteer: fox
+  - day: Tuesday
+    period: 11am - 1pm
+    volunteer: giarlo
+  - day: Tuesday
+    period: 1pm - 3pm
+    volunteer: yelton
+  - day: Tuesday
+    period: 3pm - 5pm
+    volunteer: derven
+  - day: Wednesday
+    period: 8:30am - 11am
+    volunteer: clapp
+  - day: Wednesday
+    period: 11am - 12:45pm
+    volunteer: giarlo
+  - day: Thursday
+    period: Morning Workshops
+    volunteer: giarlo
+  - day: Thursday
+    period: Afternoon Workshops
+    volunteer: giarlo
