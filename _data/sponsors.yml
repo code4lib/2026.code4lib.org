@@ -82,6 +82,11 @@
   link: https://www.clir.org/
   level: bronze
 
+- name: Johns Hopkins Sheridan Libraries
+  img: /assets/img/sponsors/jhu-sheridan.png
+  link: https://library.jhu.edu/
+  level: bronze
+
 # - contributor
 - name: ArchivesSpace
   img: /assets/img/sponsors/archivesspace.png
@@ -106,14 +111,23 @@
   link: https://library.villanova.edu/
   level: supporter
 
-- name: Keenious
-  img: /assets/img/sponsors/keenious.png
-  link: https://www.keenious.com/landing
+- name: Project ReShare
+  img: /assets/img/sponsors/project-reshare.png
+  link: https://projectreshare.org/
   level: supporter
-  annotation: Exhibitor
 
 # - exhibitor
 - name: Discovery Garden Inc
   img: /assets/img/sponsors/discovery-garden.svg
   link: https://www.discoverygarden.com/
+  level: exhibitor
+
+- name: 4Science
+  img: /assets/img/sponsors/4science.png
+  link: https://4science.com
+  level: exhibitor
+
+- name: Hosting Solutions and Library Consulting
+  img: /assets/img/sponsors/hslc.png
+  link: https://hslc.org/
   level: exhibitor
