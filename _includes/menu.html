@@ -26,6 +26,13 @@
                         {% if note == "DF" %}
                         (DF)
                         {% endif %}
+                        {% if note == "CL" %}
+                        (CL)
+                        {% endif %}
+                        {% if note == "AL" %}
+                        (AL)
+                        {% endif %}
+
                         {% endfor %}
                     </li>
                     {% endfor %}
@@ -37,7 +44,9 @@
         <p style="text-align:center">
             <img src="/assets/img/persistent/vegetarian.svg" alt="vegetarian" height="35"/> = Vegetarian &nbsp; &nbsp; <img src="/assets/img/persistent/vegan.svg" alt="vegan" height="35"/> = Vegan
             &nbsp; &nbsp; (GF) = Made without Gluten
-            &nbsp; &nbsp; (DF) = Dairy Free
+            &nbsp; &nbsp; (DF) = Dairy-Free
+            &nbsp; &nbsp; (CL) = Celiac-appropriate
+            &nbsp; &nbsp; (AL) = Allium-Free
         </p>
         <p style="text-align:center">
         	Dietary features may be updated as information becomes available.
