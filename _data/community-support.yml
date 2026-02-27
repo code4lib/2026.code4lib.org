@@ -1,0 +1,111 @@
+allen:
+    name: Natasha Allen
+    last: Allen
+    pronouns: she/her
+    img: /assets/img/conduct/natasha-allen.jpg
+    img_alt: "A woman with a friendly smile. She has light skin, hazel eyes, and pink highlights in her dark hair. She is wearing a dark colored outfit and has facial piercings on her nose."
+    slack_handle: natasha
+    onsite: true
+    online: false
+
+clapp:
+    name: Sharon Clapp
+    last: Clapp
+    pronouns: she/her/hers
+    img: /assets/img/conduct/sharon-clapp.jpg
+    img_alt: "Smiling middle aged white woman wearing headset and reading glasses. Not a professional photo, but quick recent image from her pc camera to remind you that she is here to be helpful, community support volunteer."
+    slack_handle: sclapp
+    onsite: true
+    online: true
+
+derven:
+    name: Caleb Derven
+    last: Derven
+    pronouns: he/him/his
+    img: /assets/img/conduct/caleb-derven.jpg
+    img_alt: "Caleb Derven (he/him) is the Head of Digital Scholarship & Library Systems at the University of Limerick."
+    slack_handle: Caleb Derven
+    onsite: true
+    online: true
+
+fox:
+    name: Bobbi Fox
+    last: Fox
+    pronouns: she/her/hers
+    img: /assets/img/conduct/bobbi-fox.jpg
+    img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
+    slack_handle: bobbifox
+    onsite: true
+    online: true
+
+giarlo:
+    name: Mike Giarlo
+    last: Giarlo
+    pronouns: he/him/his
+    img: /assets/img/conduct/mike-giarlo.jpg
+    img_alt: A white, freckle-faced male with blue eyes, chin-length curly dark brown hair, and a beard is smiling in front of a light green wall. He is wearing a green t-shirt and a grey & green Seattle Supersonics baseball cap.
+    slack_handle: mjgiarlo
+    onsite: false
+    online: true
+
+han:
+    name: Jing Han
+    last: Han
+    pronouns:
+    img:
+    img_alt:
+    slack_handle: Jing Han
+    onsite: false
+    online: true
+
+mesco:
+    name: Ann Marie Mesco
+    last: Mesco
+    pronouns: she/her
+    img: /assets/img/conduct/ann-marie-mesco.jpg
+    img_alt: "Woman with blonde hair, blue eyes, wearing glasses and a black sweater"
+    slack_handle: Ann Marie
+    onsite: true
+    online: false
+
+nelson:
+    name: Chad Nelson
+    last: Nelson
+    pronouns: he/him
+    img: /assets/img/speakers/chad-nelson.jpg
+    img_alt: "Headshot of middle aged white man with a beard and glasses being gently
+    engulfed by flowers and bushes."
+    slack_handle: bibliotechy
+    onsite: true
+    online: true
+
+oshea:
+    name: Louise O'Shea
+    last: O'Shea
+    pronouns: she/her/hers
+    img:
+    img_alt:
+    slack_handle: erin
+    onsite: true
+    online: true
+
+phetteplace:
+    name: Eric Phetteplace
+    last: Phetteplace
+    pronouns: he/him
+    img: /assets/img/speakers/eric-phetteplace.jpg
+    img_alt: "A white man with a short reddish beard and scant tuft of hair stares
+    at the camera wearing a white collared shirt against a dark blue background."
+    slack_handle: phette23
+    onsite: true
+    online: false
+
+yelton:
+    name: Andromeda Yelton
+    last: Yelton
+    pronouns: she/her
+    img: /assets/img/conduct/andromeda-yelton.jpg
+    img_alt: "A white woman looks straight at the camera with a half-smile. She has curly brown hair and glasses. There's a soft white-and-grey cat draped over her shoulder."
+    slack_handle: thatandromeda
+    onsite: true
+    online: true
