@@ -116,6 +116,12 @@
   link: https://projectreshare.org/
   level: supporter
 
+- name: Keenious
+  img: /assets/img/sponsors/keenious.png
+  link: https://www.keenious.com/landing
+  level: supporter
+  annotation: Exhibitor
+
 # - exhibitor
 - name: Discovery Garden Inc
   img: /assets/img/sponsors/discovery-garden.svg
@@ -130,4 +136,9 @@
 - name: Hosting Solutions and Library Consulting
   img: /assets/img/sponsors/hslc.png
   link: https://hslc.org/
+  level: exhibitor
+
+- name: Keenious
+  img: /assets/img/sponsors/keenious.png
+  link: https://www.keenious.com/landing
   level: exhibitor
