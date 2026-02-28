@@ -83,8 +83,8 @@ oshea:
     name: Louise O'Shea
     last: O'Shea
     pronouns: she/her/hers
-    img:
-    img_alt:
+    img: /assets/img/conduct/louise-oshea.jpg
+    img_alt: A white female with brunette hair tied back and a fringe needing a brush, wearing a floral top by a window, smiling while working from home as she enjoys the thought of the weekend ahead and the joy of no long commute.
     slack_handle: Louise O'Shea
     onsite: true
     online: true
