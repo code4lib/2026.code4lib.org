@@ -379,13 +379,15 @@
   last: Fisher
 - id: tyrone-fontaine
   keynote: false
-  name: Tyrone Fontaine
-  pronouns:
-  position-title:
-  institution:
+  name: Tyrone J. Fontaine
+  pronouns: He/Him/His
+  position-title: Web Designer
+  institution: Cleveland Public Library
   bio:
   slack:
   last: Fontaine
+  image_alt: A person sits comfortably cross-legged before a mural of animals, bundled in a jacket and beanie, projecting a reflective mood with a hint of quiet humor.
+  image_src: "/assets/img/speakers/tyrone-fontaine.jpg"
 - id: corey-halpin
   keynote: false
   name: Corey Halpin
