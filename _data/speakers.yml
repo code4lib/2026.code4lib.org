@@ -184,12 +184,14 @@
 - id: sabrina-bocanegra
   keynote: false
   name: Sabrina Bocanegra
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her/hers
+  position-title: Head of Digital Access
+  institution: American Philosophical Society
+  bio: Sabrina Bocanegra is the Head of Digital Access at the American Philosophical Society as well as the Revolutionary City Project Manager. Before joining the APS she worked on two major collaborative digital projects, In Her Own Right and For the Health of the New Nation. Along with digital access expertise, Sabrina has dabbled in reference, outreach, and education using archival and museum materials and their digital surrogates, giving her a deep appreciation of the broad value of digital collections. She earned her B.A. in Anthropology from Temple University and her M.S.L.I.S. from Drexel University.
   slack:
   last: Bocanegra
+  image_alt: A woman with medium-length dark brown hair smiles broadly, teeth showing, wearing a bright lime-green long-sleeve shirt that stands out against the neutral tones of the basement archival storage room.
+  image_src: "/assets/img/speakers/sabrina-bocanegra.jpg"
 - id: cameron-boucher
   keynote: false
   name: Cameron Boucher
@@ -371,12 +373,14 @@
 - id: natasha-fisher
   keynote: false
   name: Natasha Fisher
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/they
+  position-title: Digital Archivist
+  institution: The ArQuives
+  bio: Natasha is the Digital Archivist at The ArQuives. She has a particular interest in digital preservation and web archives. She is also the archivist of the Montreal Roller Derby (MTLRD) Archives, and she advocates for the advancement and awareness of the archival field as a whole through her position as Communications Committee Chair for the Association of Canadian Archivists (ACA) and a member of the CARL Digital Preservation Working Group (DPWG).
   slack:
   last: Fisher
+  image_alt: A person with light brown hair and freckles smiles and stands in front of the McGill University campus.
+  image_src: "/assets/img/speakers/natasha-fisher.jpg"
 - id: tyrone-fontaine
   keynote: false
   name: Tyrone J. Fontaine
@@ -723,11 +727,13 @@
   keynote: false
   name: Gregory Wiedeman
   last: Wiedeman
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: he/him
+  position-title: University Archivist
+  institution: University at Albany, SUNY
+  bio: "Gregory Wiedeman is the university archivist at the University at Albany, SUNY where he oversees collecting, processing, and reference for the University Archives and supports born-digital collecting, and systems implementation for the department’s outside collecting areas. He is the PI of the IMLS-funded ArcLight Integration Project which fostered Delivering Archives and Digital Objects: a Conceptual Model (DadoCM) and aims to integrate digital materials into archives access systems."
   slack:
+  image_alt: Gregory Wiedeman, a white man with brown hair and a blue shirt with a grey background.
+  image_src: "/assets/img/speakers/gregory-wiedeman.jpeg"
 - id: mike-williams
   keynote: false
   name: Mike Williams
