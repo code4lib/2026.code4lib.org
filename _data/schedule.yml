@@ -3,97 +3,118 @@
   title: Registration
   day1: true
   time: 08:30-09:30
+  livestream: false
 - timeImg: 8.00.png
   title: Registration
   day2: true
   time: 08:00-09:00
+  livestream: false
 - timeImg: 8.30.png
   title: Registration
   day3: true
   time: 08:30-09:00
+  livestream: false
 
 # announcements
 - timeImg: 9.30.png
   title: Announcements
   time: 09:30-09:45
   day1: true
+  livestream: true
 - timeImg: 1.00.png
   title: Announcements
   time: 13:00-13:15
   day1: true
+  livestream: true
 - timeImg: 5.00.png
   title: Announcements
   time: 17:00-17:15
   day1: true
+  livestream: true
 - timeImg: 9.00.png
   title: Announcements
   time: 09:00-09:15
   day2: true
   day3: true
+  livestream: true
 - timeImg: 1.15.png
   title: Announcements
   time: 13:15-13:30
   day2: true
+  livestream: true
 - timeImg: 5.20.png
   title: Announcements
   time: 17:20-17:35
   day2: true
+  livestream: true
 - timeImg: 12.35.png
   title: Announcements
   time: 12:35-12:45
   day3: true
+  livestream: true
 
 # breaks
 - timeImg: 10.30.png
   title: Break
   time: 10:30-10:45
   day1: true
+  livestream: false
 - timeImg: 2.45.png
   title: Break
   time: 14:45-15:00
   day1: true
+  livestream: false
 - timeImg: 10.50.png
   title: Break
   time: 10:50-11:10
   day2: true
+  livestream: false
 - timeImg: 3.45.png
   title: Break
   time: 15:45-16:00
   day2: true
+  livestream: false
 - timeImg: 10.45.png
   title: Break
   time: 10:45-11:05
   day3: true
+  livestream: false
 
 # breakout sessions
 - timeImg: 2.30.png
   title: Breakouts
   time: 14:30-15:45
   day2: true
+  livestream: false
 - timeImg: 11.05.png
   title: Breakouts
   time: 11:05-11:50
   day3: true
+  livestream: false
 
 # lightning talks
 - timeImg: 3.00.png
   title: Lightning Talks 1
   time: 15:00-16:00
   day1: true
+  livestream: true
 - timeImg: 11.10.png
   title: Lightning Talks 2
   time: 11:10-12:00
   day2: true
+  livestream: true
 - timeImg: 10.00.png
   title: Lightning Talks 3
   time: 10:00-10:45
   day3: true
+  livestream: true
 
 # poster session
 - timeImg: 4.00.png
   title: Poster Session
   time: 16:00-16:30
   day2: true
+  livestream: false
 
 # Lunches
 - timeImg: 12.00.png
@@ -102,12 +123,14 @@
   time: 12:00-13:00
   menu: day1-menus
   submenu: Lunch
+  livestream: false
 - timeImg: 12.00.png
   title: Lunch
   day2: true
   time: 12:00-13:15
   menu: day2-menus
   submenu: Lunch
+  livestream: false
 
 # keynotes
 - timeImg: 9.45.png
@@ -115,11 +138,13 @@
   day1: true
   groupId: key-open
   time: 09:45-10:30
+  livestream: true
 - timeImg: 9.15.png
   title: Closing Keynote
   day3: true
   groupId: key-close
   time: 09:15-10:00
+  livestream: true
 
 # groups of talks
 - timeImg: 10.45.png
@@ -127,33 +152,63 @@
   title: Group 1 Talks
   groupId: 1
   day1: true
+  livestream: true
 - timeImg: 1.15.png
   time: 13:15-14:45
   title: Group 2 Talks
   groupId: 2
   day1: true
+  livestream: true
 - timeImg: 4.00.png
   time: 16:00-17:00
   title: Group 3 Talks
   groupId: 3
   day1: true
+  livestream: true
 - timeImg: 9.15.png
   time: 09:15-10:50
   title: Group 4 Talks
   groupId: 4
   day2: true
+  livestream: true
 - timeImg: 1.30.png
   time: 13:30-14:30
   title: Group 5 Talks
   groupId: 5
   day2: true
+  livestream: true
 - timeImg: 4.30.png
   time: 16:30-17:20
   title: Group 6 Talks
   groupId: 6
   day2: true
+  livestream: true
 - timeImg: 11.50.png
   time: 11:50-12:35
   title: Group 7 Talks
   groupId: 7
   day3: true
+  livestream: true
+
+# social events
+- timeImg: 6.00.png
+  time: 18:00-20:00
+  title: Newcomer Dinner
+  day1: true
+  livestream: false
+  link: https://docs.google.com/document/d/11Ay8FLbKXEbYNiiu64t3IUgIlAMbPbWwe_5TV1XegL4/edit
+  button_label: Sign Up
+- timeImg: 6.00.png
+  time: 18:00-20:00
+  title: Reception at Buffalo Billiards
+  day2: true
+  livestream: false
+  link: https://2026.code4lib.org/general-info/venues/#reception
+  button_label: View reception details
+- timeImg: 7.00.png
+  time: 19:00-22:00
+  title: Game Night
+  day2: true
+  livestream: false
+  link: https://docs.google.com/spreadsheets/d/1nS7WWFRbjGrdfga3MRCr_Dy8xW6AyW0dyAsK5egHuPM/edit?gid=0#gid=0
+  button_label: Sign Up

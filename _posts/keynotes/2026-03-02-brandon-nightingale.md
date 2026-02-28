@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Brandon Nightingale
+speaker-text: Brandon Nightingale
 speakers:
   - brandon-nightingale
 day: 1
