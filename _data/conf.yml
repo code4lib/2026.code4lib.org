@@ -154,7 +154,7 @@ livestream:
 
 slides:
   # show = display link below on home page
-  show: false
+  show: true
   label: 'Code4Lib Zenodo Community'
   url: 'https://zenodo.org/communities/code4lib/'
   # These are not used on the site anywhere
@@ -208,7 +208,7 @@ peri:
 # If false, hides sponsors link in navigation and footer
 show-sponsors: true
 # Toggles whether prospectus button displays on homepage and sponsor pages
-sponsor-buttons: true
+sponsor-buttons: false
 # if true, the nav/footer links go to /prospectus/ instead of /sponsors/
 # for use early on when we are looking for, but do not have many, sponsors
 sponsors-links-to-prospectus: false

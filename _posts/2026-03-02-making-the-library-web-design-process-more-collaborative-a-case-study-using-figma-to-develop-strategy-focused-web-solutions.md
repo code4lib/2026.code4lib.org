@@ -13,6 +13,7 @@ speakers:
 - tyrone-fontaine
 speaker-text: "Tyrone Fontaine"
 title: "Making the library web design process more collaborative // A case study using Figma to develop strategy-focused web solutions"
+slides: https://zenodo.org/records/18815169
 ---
 At a time when libraries are doing ambitious digital work, it’s deeply rewarding to shape the tools that share those stories. This session explores how one public library began building a lightweight design library in Figma, focused on reusable page patterns, motion guidelines, and shared documentation.
 
