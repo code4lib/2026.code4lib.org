@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:code4lib {{ site.data.year }}
+{% assign day1_date = site.data.conf.days[1].date-data | date: "%Y%m%d" %}
+{% assign day1_events = site.data.schedule | where: "day1", true | where: "livestream", include.livestream %}
+{% include calendar-day.ics date=day1_date events=day1_events %}
+
+{% assign day2_date = site.data.conf.days[2].date-data | date: "%Y%m%d" %}
+{% assign day2_events = site.data.schedule | where: "day2", true | where: "livestream", include.livestream %}
+{% include calendar-day.ics date=day2_date events=day2_events %}
+
+{% assign day3_date = site.data.conf.days[3].date-data | date: "%Y%m%d" %}
+{% assign day3_events = site.data.schedule | where: "day3", true | where: "livestream", include.livestream %}
+{% include calendar-day.ics date=day3_date events=day3_events %}
+END:VCALENDAR
