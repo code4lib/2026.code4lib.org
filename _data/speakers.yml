@@ -847,13 +847,3 @@
     light gray studio background.
   image_src: "/assets/img/speakers/kaylee-p-alexander.jpg"
   last: Alexander
-- id: ruth-tillman
-  keynote: false
-  name: Ruth Tillman
-  pronouns: she/her
-  position-title: Cataloging Systems & Linked Data Strategist
-  institution: Penn State
-  bio: just trying to make things work
-  slack:
-  image_alt:
-  last: Tillman
