@@ -1,0 +1,26 @@
+{% for event in include.events %}
+BEGIN:VEVENT
+SUMMARY:{{ event.title }}
+{% if event.groupId %}
+{% assign talks = site.posts | where: "group", event.groupId | sort: "spot" %}
+{%- capture desc -%}
+  {% unless event.groupId == 'key-open' or event.groupId == 'key-close' %}
+    {{ event.title }} ({{talks | size}} talks):
+  {% endunless %}
+{%- endcapture -%}
+DESCRIPTION: {{ desc | strip }}\n\n
+  {% for talk in talks %}
+ {{ talk.speaker-text }}\n
+ {{ talk.title }} ({{ talk.length }} minutes)\n
+ {{ talk.url | absolute_url }}\n\n
+  {% endfor %}
+{% endif %}
+{% if event.link %}
+DESCRIPTION: {{event.button_label}}\n {{event.link}}
+{% endif %}
+{% assign times = event.time | remove: ":" | split: "-" %}
+DTSTART;TZID=America/New_York:{{include.date}}T{{times[0]}}00
+DTEND;TZID=America/New_York:{{include.date}}T{{times[1]}}00
+{% comment %}LOCATION:http://example.org/TODO{% endcomment %}
+END:VEVENT
+{% endfor %}
