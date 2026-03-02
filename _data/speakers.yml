@@ -718,11 +718,13 @@
   keynote: false
   name: Melanie Walsh
   last: Walsh
-  pronouns:
-  position-title:
-  institution:
-  bio:
+  pronouns: she/her
+  position-title: Assistant Professor
+  institution: University of Washington
+  bio: "Melanie Walsh is an Assistant Professor in the Information School and an Adjunct Assistant Professor in the English Department at the University of Washington. She serves on the Executive Council for UW's Center for Advances in Libraries, Archives, and Museums (CALMA). She is co-editor of the Post45 Data Collective and Responsible Datasets in Context, among other projects."
   slack:
+  image_alt: "Close up white woman with brown hair and light blue glasses, with library books in background."
+  image_src: "/assets/img/speakers/Walsh-Bio-2024.png"
 - id: gregory-wiedeman
   keynote: false
   name: Gregory Wiedeman
