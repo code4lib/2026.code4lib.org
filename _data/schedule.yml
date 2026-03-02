@@ -106,6 +106,27 @@
   title: Lightning Talks 2
   time: 11:10-12:00
   day2: true
+  sessions:
+  - presenter: Christy Bailey-Tomecek
+    title: Return of the Jank
+  - presenter: John Mark Ockerbloom
+    title: Trails and Tours in Library Online Environments
+  - presenter: Alessandra Vertrees
+    title: TBD
+  - presenter: Andromeda Yelton
+    title: Your Magical Boolean Box
+  - presenter: You
+    title: Your Intriguing Talk
+  - presenter: You
+    title: Your Intriguing Talk
+  - presenter: You
+    title: Your Intriguing Talk
+  - presenter: You
+    title: Your Intriguing Talk
+  - presenter: You
+    title: Your Intriguing Talk
+  - presenter: You
+    title: Your Intriguing Talk
 
 - timeImg: 10.00.png
   title: Lightning Talks 3
