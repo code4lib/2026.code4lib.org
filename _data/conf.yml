@@ -148,7 +148,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 homepage-display: peri
 
 livestream:
-  show: false
+  show: true
   button-label: 'Livestream'
   url: 'https://www.youtube.com/c/Code4Lib'
 
