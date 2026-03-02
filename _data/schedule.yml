@@ -80,10 +80,33 @@
   title: Lightning Talks 1
   time: 15:00-16:00
   day1: true
+  sessions:
+  - presenter: Steve Meyer
+    title: TBD
+  - presenter: Justin Uhr
+    title: TBD
+  - presenter: Eric Morgan
+    title: Building a Library
+  - presenter: Kate Deibel
+    title: TBD
+  - presenter: Jeremy Nelson
+    title: TBD
+  - presenter: Jonathan Rochkind
+    title: TBD
+  - presenter: Will Martin
+    title: When EZ Proxy Gets Weird
+  - presenter: Daniel Sanford
+    title: TBD
+  - presenter: Emily Lynema
+    title: TBD
+  - presenter: Ed Summers
+    title: TBD
+
 - timeImg: 11.10.png
   title: Lightning Talks 2
   time: 11:10-12:00
   day2: true
+
 - timeImg: 10.00.png
   title: Lightning Talks 3
   time: 10:00-10:45
