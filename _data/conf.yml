@@ -465,13 +465,13 @@ diversity-scholarship-sponsors:
 live-captioning:
   show: true
   # name of captioning company, URL is above under closed-captioning.url
-  service:
+  service: Streambox
 
 quiet-room:
-  show: false
+  show: true
   # Room number(s)
-  location: 'Friend Center 004'
-  notes: A classroom on the lower level, with carpet and dimmable lights.
+  location: 'Cook conference room'
+  notes: 
 
 public-transportation:
   show: false
