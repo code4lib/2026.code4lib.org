@@ -162,7 +162,7 @@ slides:
   email: ''
 
 closed-captioning:
-#  url: https://www.streamtext.net/player?event=code4lib
+  url: https://2020archive.1capapp.com/event/code4lib/
 
 workshops:
   show: true
@@ -463,7 +463,7 @@ diversity-scholarship-sponsors:
 ################
 
 live-captioning:
-  show: false
+  show: true
   # name of captioning company, URL is above under closed-captioning.url
   service:
 
