@@ -5,7 +5,9 @@
         {% assign timestamp = event.time | split: "-" | first | replace: ":", "_" %}
         <div class="cd-timeline-block" id="_{{ timestamp }}">
             <div class="cd-timeline-img">
-                <img src="/assets/img/clockface/{{ event.timeImg }}" alt="">
+                <a href="#_{{ timestamp }}">
+                    <img src="/assets/img/clockface/{{ event.timeImg }}" alt="">
+                </a>
             </div>
 
             <div class="cd-timeline-content">
