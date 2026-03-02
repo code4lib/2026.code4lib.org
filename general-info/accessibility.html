@@ -29,23 +29,11 @@ subnav:
 	<h2 id="contactus">Accommodation Requests or Questions</h2>
 	<p>Contact <a href="mailto:{{site.data.conf.accessibility-email}}">{{site.data.conf.accessibility-email}}</a> with any questions, concerns, or accommodation requests related to the conference.</p>
 
-	<h2 id="dietary">Meals and dietary needs</h2>
-	<p>Information on dietary needs and accommodations will go here.</p>
-
-	<h2 id="captioning">Live Captioning</h2>
-	<p>
-		During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning by {{site.data.conf.live-captioning.service}}. In order to improve the quality of this service, we ask everyone to speak slowly and clearly so the captioning service is able to accurately capture what you say. Any prerecorded sessions or talks will also be live captioned.
-		{% if site.data.conf.closed-captioning.show %}
-			Attendees, both local and remote, may view the text stream at:
-			<a href="{{site.data.conf.closed-captioning.url}}">{{site.data.conf.closed-captioning.url}}</a>.
-		{% endif %}
-		These transcriptions will be applied to the captioning on the YouTube archive soon after the completion of the conference.
-	</p>
 	{% if site.data.conf.live-captioning.show %}
 		<h2 id="captioning">Live Captioning</h2>
 		<p>
 			During the general conference, Code4Lib {{site.data.conf.year}} will feature live captioning by {{site.data.conf.live-captioning.service}}. In order to improve the quality of this service, we ask everyone to speak slowly and clearly so the captioning service is able to accurately capture what you say. Any prerecorded sessions or talks will also be live captioned.
-			{% if site.data.conf.closed-captioning.show %}
+			{% if site.data.conf.live-captioning.show %}
 				Attendees, both local and remote, may view the text stream at:
 				<a href="{{site.data.conf.closed-captioning.url}}">{{site.data.conf.closed-captioning.url}}</a>.
 			{% endif %}
