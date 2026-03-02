@@ -1,4 +1,5 @@
 ---
+slides: https://zenodo.org/records/18835764
 layout: presentation
 type: talk
 categories: talks
