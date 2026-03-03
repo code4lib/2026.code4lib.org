@@ -43,6 +43,7 @@
   link: https://github.com/pulibrary
   level: silver
   annotation: Scholarship
+  diversity: true
 
 # - bronze
 - name: UCLA Library
@@ -86,6 +87,13 @@
   img: /assets/img/sponsors/jhu-sheridan.png
   link: https://library.jhu.edu/
   level: bronze
+
+- name: Lehigh University Libraries
+  img:
+  link: https://lts.lehigh.edu/
+  level: bronze
+  annotation: Diversity Scholarships
+  diversity: true
 
 # - contributor
 - name: ArchivesSpace
