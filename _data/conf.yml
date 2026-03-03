@@ -318,11 +318,11 @@ newcomer-dinner:
   link: '/general-info/social/#newcomer-dinner'
 
 morning-run:
-  show: false
-  location: 'Start at the  <a href="https://maps.app.goo.gl/dSjMwdQFE7vwLVAB6">Alexander Rd. Parking area</a>.'
-  description: "Jog4lib! Walk, jog or run on the scenic Delaware and Raritan Canal towpath. Out and back flat course. All paces. Go half as far as you want to, then turn around."
+  show: true
+  location: 'Meet in the lobby.'
+  description: "Jog4lib! Walk, jog, or run around historic Philadelphia."
   contact: '@gluejar'
-  date: '2025-03-11'
+  date: '2026-03-04'
   time: '7:00AM'
 
 reception:
@@ -471,7 +471,7 @@ quiet-room:
   show: true
   # Room number(s)
   location: 'Cook conference room'
-  notes: 
+  notes:
 
 public-transportation:
   show: false
