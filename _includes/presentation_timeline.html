@@ -3,10 +3,11 @@
     {% assign sorted_events = include.events | sort: "time" %}
     {% for event in sorted_events %}
         {% assign timestamp = event.time | split: "-" | first | replace: ":", "_" %}
+        {% assign time12h = event.timeImg | remove: ".png" | replace: ".", ":" %}
         <div class="cd-timeline-block" id="_{{ timestamp }}">
             <div class="cd-timeline-img">
                 <a href="#_{{ timestamp }}">
-                    <img src="/assets/img/clockface/{{ event.timeImg }}" alt="">
+                    <img src="/assets/img/clockface/{{ event.timeImg }}" alt="Clock face showing {{ time12h }}">
                 </a>
             </div>
 
