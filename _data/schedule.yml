@@ -70,6 +70,13 @@
   title: Breakouts
   time: 14:30-15:45
   day2: true
+  sessions:
+  - title: ArchivesSpace with Devs (Ballroom A1)
+  - title: Local & Open Source Discovery Systems (Ballroom A2)
+  - title: GenAI/LLM (Ballroom E2)
+  - title: Digitization Workflows (Main Ballroom front)
+  - title: Tech Lead Safe Space (Main Ballroom left)
+  - title: Islandora (Main Ballroom right)
 - timeImg: 11.05.png
   title: Breakouts
   time: 11:05-11:50
