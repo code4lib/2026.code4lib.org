@@ -1,7 +1,12 @@
 BEGIN:VCALENDAR
 CALSCALE:GREGORIAN
 VERSION:2.0
-X-WR-CALNAME:code4lib {{ site.data.year }}
+{% if include.livestream %}
+{% assign ver = "livestream" %}
+{% else %}
+{% assign ver = "in-person" %}
+{% endif %}
+X-WR-CALNAME:Code4Lib {{ site.data.conf.year }} {{ ver }}
 {% assign day1_date = site.data.conf.days[1].date-data | date: "%Y%m%d" %}
 {% assign day1_events = site.data.schedule | where: "day1", true | where: "livestream", include.livestream %}
 {% include calendar-day.ics date=day1_date events=day1_events %}
