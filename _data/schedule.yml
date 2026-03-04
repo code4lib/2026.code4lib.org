@@ -137,6 +137,25 @@
   title: Lightning Talks 3
   time: 10:00-10:45
   day3: true
+  sessions:
+  - presenter: Corey Halpin
+    title: A Story About Keyboards
+  - presenter: Cynthia Schwarz
+    title: Why You Need Governance
+  - presenter: Kayla Camacho
+    title: Accessible Info for Users in Distress
+  - presenter: Corey Schmidt
+    title: Gapminder Improvements
+  - presenter: Brock Stuessi
+    title: Archiving for KCHUNG Radio
+  - presenter: Andromeda Yelton
+    title: Your Magical Boolean Box
+  - presenter: Matt Sherman
+    title: More Product Less Process in Digital Collections?
+  - presenter: Susan Hoover
+    title: 30 Seconds of ASMR Cats?
+  - presenter: Cary Gordon
+    title: 2027
 
 # poster session
 - timeImg: 4.00.png
