@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Dr. Siobahn Day Grady
+speaker-text: Dr. Siobahn Day Grady
 speaker: siobahn-day-grady
 categories: past-keynotes
 title: The Future Is ...

@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Dr. J. Nathan Matias
+speaker-text: Dr. J. Nathan Matias
 speakers:
   - nate-matias
 day: 1

@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Rudo Kemper
+speaker-text: Rudo Kemper
 speaker: rudo-kemper
 categories: past-keynote
 title: Open-source tech built with Indigenous communities for mapping, safeguarding, and protecting traditional knowledge

@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Dr. Patricia Garcia
+speaker-text: Dr. Patricia Garcia
 speaker: dr-patricia-garcia
 categories: past-keynote
 title:

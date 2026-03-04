@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Crystal Lee
+speaker-text: Crystal Lee
 speaker: crystal-lee
 categories: past-keynote
 title: Crystal Lee Keynote

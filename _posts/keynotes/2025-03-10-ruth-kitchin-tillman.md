@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Ruth Kitchin Tillman
+speaker-text: Ruth Kitchin Tillman
 speaker: ruth-tillman
 categories: past-keynote
 title: Ruth Kitchin Tillman Keynote

@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Lauren Chambers
+speaker-text: Lauren Chambers
 speaker: lauren-chambers
 categories: past-keynote
 title: Lauren Chambers Keynote

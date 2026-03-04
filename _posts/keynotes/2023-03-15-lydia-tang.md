@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Dr. Lydia Tang
+speaker-text: Dr. Lydia Tang
 speaker: lydia-tang
 categories: past-keynote
 title: Reimagining a More Accessible Future

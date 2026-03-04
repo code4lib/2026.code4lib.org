@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Libby Hemphill
+speaker-text: Libby Hemphill
 speaker: libby-hemphill
 title:
 
