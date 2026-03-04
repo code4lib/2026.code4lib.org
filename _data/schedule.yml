@@ -81,6 +81,10 @@
   title: Breakouts
   time: 11:05-11:50
   day3: true
+  sessions:
+    - title: ArcLight Interest Breakout (Ballroom A1)
+    - title: Code4Lib 2027 - Let's Talk Planning (Main Ballroom front)
+    - title: Science History Institute Library Tour (Meet Eddie at 11am in front of Marriott)
 
 # lightning talks
 - timeImg: 3.00.png
