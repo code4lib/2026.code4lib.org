@@ -10,7 +10,7 @@ time: pm
 startTime: 1:30pm
 endTime: 4:30pm
 location: marriott
-room: a2
+room: a1
 speakers:
 - eric-lease-morgan
 speaker-text: Eric Lease Morgan
