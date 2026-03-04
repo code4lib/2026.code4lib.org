@@ -1,6 +1,6 @@
 ---
 layout: presentation
-speakers-text: Dr. Nikko Stevens
+speaker-text: Dr. Nikko Stevens
 speaker: nikko-stevens
 categories: past-keynote
 title: Dr. Nikko Stevens Keynote
