@@ -8,8 +8,6 @@
 </div>
 {% endcomment %}
 
-</div>
-
 <div class="row">
     <div class="col-md-3 event-day" data-date="{{ site.data.conf.days[1].date-data }}">
         <h2 class="text-center">{{site.data.conf.days[1].date | date: "%b %d"}}</h2>
@@ -32,12 +30,18 @@
         <h2 class="text-center">{{site.data.conf.days[4].date | date: "%b %d"}}</h2>
         {% include homepage/event_card.html icon='am' link=site.data.conf.peri.day4.am.link title=site.data.conf.peri.day4.am.title description=site.data.conf.peri.day4.am.desc menu=site.data.conf.peri.day4.am.menu %}
     </div>
+</div>
 
-    <div class="col-12 text-center">
+<div class="row">
+    <div class="col-md-6 text-center">
         <h2>Need help?</h2>
         <a href="/conduct/#volunteers" class="btn ct-btn-light btn-lg">Contact a Community Support Volunteer</a>
     </div>
-
+    <div class="col-md-6 text-center">
+        <h2>Add to your calendar</h2>
+        <a href="/ics/livestream.ics" class="btn ct-btn-light btn-lg">Livestreamed Events</a>
+        <a href="/ics/in-person.ics" class="btn ct-btn-light btn-lg">In-Person Events</a>
+    </div>
 </div>
 
 {% if site.data.conf.show-sponsors %}
