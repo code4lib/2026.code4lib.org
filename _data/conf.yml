@@ -145,7 +145,7 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 # - post:   for after the conference is over
 #
 ####################
-homepage-display: peri
+homepage-display: post
 
 livestream:
   show: true
@@ -163,7 +163,7 @@ slides:
 
 closed-captioning:
   # display on home page and general-info/accessibility
-  show: true
+  show: false
   # name of captioning company, URL is above under closed-captioning.url
   service: Streambox
   url: https://2020archive.1capapp.com/event/code4lib/
@@ -310,13 +310,16 @@ shirt-voting:
 #social-activities-url: '/general-info/social/'
 
 diy-social:
-  show: true
+  show: false
 
 newcomer-dinner:
   show: true
   description: 'The Newcomer Dinner is an opportunity for veterans of the code4lib conference to meet and welcome first-timers. Attendees sign up to join others for dinner as a gentle introduction to the code4lib conference.'
-  signup-url: 'https://docs.google.com/document/d/11Ay8FLbKXEbYNiiu64t3IUgIlAMbPbWwe_5TV1XegL4/edit?usp=sharing'
-  signup-button-text: 'Code4Lib 2026 Newcomer Dinner Information and Sign Up'
+#  Commenting allows the next year's crew to see what these values were.
+#  signup-url: 'https://docs.google.com/document/d/11Ay8FLbKXEbYNiiu64t3IUgIlAMbPbWwe_5TV1XegL4/edit?usp=sharing'
+#  signup-button-text: 'Code4Lib 2026 Newcomer Dinner Information and Sign Up'
+  sign-up-url: ''
+  sign-up-button-text: ''
   date: '2026-03-02'
   time: '6pm or later'
   link: '/general-info/social/#newcomer-dinner'
@@ -398,8 +401,11 @@ game-night:
   description: 'Join fellow Code4Libers at Game Night! Hotel bar and food service is available.'
   event-url: ''
   event-url-button-text: 'Sign Up'
-  sign-up-url: 'https://docs.google.com/spreadsheets/d/1nS7WWFRbjGrdfga3MRCr_Dy8xW6AyW0dyAsK5egHuPM/edit?gid=0#gid=0'
-  sign-up-button-text: 'Sign Up for Game Night'
+#  Commenting allows the next year's crew to see what these values were.
+#   sign-up-url: 'https://docs.google.com/spreadsheets/d/1nS7WWFRbjGrdfga3MRCr_Dy8xW6AyW0dyAsK5egHuPM/edit?gid=0#gid=0'
+#   sign-up-button-text: 'Sign Up for Game Night'
+  sign-up-url: ''
+  sign-up-button-text: ''
 
 ###############
 # Volunteer
