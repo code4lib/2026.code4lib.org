@@ -162,6 +162,10 @@ slides:
   email: ''
 
 closed-captioning:
+  # display on home page and general-info/accessibility
+  show: true
+  # name of captioning company, URL is above under closed-captioning.url
+  service: Streambox
   url: https://2020archive.1capapp.com/event/code4lib/
 
 workshops:
@@ -461,12 +465,6 @@ diversity-scholarship-sponsors:
 ################
 # Other
 ################
-
-live-captioning:
-  show: true
-  # name of captioning company, URL is above under closed-captioning.url
-  service: Streambox
-
 quiet-room:
   show: true
   # Room number(s)
