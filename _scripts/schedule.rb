@@ -9,6 +9,10 @@ prev_desc = nil
 
 fmt = "%H:%M"
 
+def livestream?(title)
+  title.match?(/Announcements/) || title.match?(/Talks/) || title.match?(/Keynote/)
+end
+
 CSV.foreach(ARGV[0], headers: true).each do |row|
   day   = row["Day"]
   start = row["Start"]
@@ -23,6 +27,7 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
     puts "- timeImg: #{clockface}"
     puts "  time: #{d1.strftime(fmt)}-#{d2.strftime(fmt)}"
     puts "  day#{day}: true"
+    puts "  livestream: #{livestream?(prev_desc)}"
     puts "  title: #{prev_desc}"
 
     if prev_desc == "Opening Keynote"
