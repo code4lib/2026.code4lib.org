@@ -162,11 +162,11 @@ slides:
   email: ''
 
 closed-captioning:
-  # display on home page and general-info/accessibility
-  show: false
-  # name of captioning company, URL is above under closed-captioning.url
+  # name of captioning company
   service: 1CapApp
-  url: https://2020archive.1capapp.com/event/code4lib/
+#  Commenting allows the next year's crew to see what these values were.
+#   url: https://2020archive.1capapp.com/event/code4lib/
+  url: 
 
 workshops:
   show: true
