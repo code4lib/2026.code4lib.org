@@ -186,7 +186,7 @@ active: 'Conduct & Safety'
                             <div class="row">
                               {% assign onsite_volunteers = site.data.community-support | where:"onsite","true" | sort: 'last'%}
                                 {% for volunteer in onsite_volunteers %}
-                                <div class="col-4">
+                                <div class="col-lg-4">
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
 											<div class="speaker-mini">
@@ -219,7 +219,7 @@ active: 'Conduct & Safety'
 
                           {% assign online_volunteers = site.data.community-support | where:"online","true" | sort: 'last'%}
                           {% for volunteer in online_volunteers %}
-                            <div class="col-4">
+                            <div class="col-lg-4">
                                     <div class="speaker-box text-center">
                                         <div class="speaker-box-inner">
 											<div class="speaker-mini">
