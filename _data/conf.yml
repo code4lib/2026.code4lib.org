@@ -146,6 +146,11 @@ anonymous-form: 'https://css4csv.clir.org/anonymous-incident-report-form/'
 #
 ####################
 homepage-display: post
+# Other changes needed to change state (may not be exhaustive):
+# * closed-captioning.url
+# * game-night.sign-up-url
+# * newcomer-dinner.sign-up.url
+# * diy-social.show
 
 livestream:
   show: true
