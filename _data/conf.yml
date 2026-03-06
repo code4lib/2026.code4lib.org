@@ -165,7 +165,7 @@ closed-captioning:
   # display on home page and general-info/accessibility
   show: false
   # name of captioning company, URL is above under closed-captioning.url
-  service: Streambox
+  service: 1CapApp
   url: https://2020archive.1capapp.com/event/code4lib/
 
 workshops:
