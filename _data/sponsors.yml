@@ -150,3 +150,29 @@
   img: /assets/img/sponsors/keenious.png
   link: https://www.keenious.com/landing
   level: exhibitor
+
+# - giveaway
+- name: Facet Publishing
+  img: /assets/img/sponsors/FacetPublishing.png
+  link: https://www.facetpublishing.co.uk
+  level: giveaway
+
+- name: O'Reilly
+  img: /assets/img/sponsors/OReilly.png
+  link: https://www.oreilly.com
+  level: giveaway
+
+- name: Pragmatic Bookshelf
+  img: /assets/img/sponsors/PragmaticBookshelf.png
+  link: https://pragprog.com
+  level: giveaway
+
+- name: Rosenfeld Media
+  img: /assets/img/sponsors/RosenfeldMedia.png
+  link: https://rosenfeldmedia.com
+  level: giveaway
+
+- name: University of Minnesota Press
+  img: /assets/img/sponsors/UofMinnesotaPress.jpg
+  link: https://www.upress.umn.edu/
+  level: giveaway
