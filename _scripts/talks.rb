@@ -2,19 +2,18 @@
 
 require "csv"
 require "time"
-require "active_support/all"
 
-    def parameterize(string, separator: "-")
-      # Turn unwanted chars into the separator.
-      parameterized_string = string.downcase.gsub!(/[^a-z0-9\-_]+/, separator)
+def parameterize(string, separator: "-")
+  # Turn unwanted chars into the separator.
+  parameterized_string = string.downcase.gsub!(/[^a-z0-9\-_]+/, separator)
 
-      unless separator.nil? || separator.empty?
-        re_leading_trailing_separator = /^-|-$/
-        parameterized_string.gsub!(re_leading_trailing_separator, "".freeze)
-      end
+  unless separator.nil? || separator.empty?
+    re_leading_trailing_separator = /^-|-$/
+    parameterized_string.gsub!(re_leading_trailing_separator, "".freeze)
+  end
 
-      parameterized_string
-    end
+  parameterized_string
+end
 
 CSV.foreach(ARGV[0], headers: true).each do |row|
   title = row["title"]
