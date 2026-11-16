@@ -16,18 +16,30 @@ def parameterize(string, separator: "-")
   parameterized_string
 end
 
+def stub_speaker(name)
+  return unless name
+  id = parameterize(name)
+  return if @speakers.select { |x| x["id"] == id }.first
+
+  last = name.gsub(/.* /, "")
+  @speakers << { id: id, name: name, last: last }.stringify_keys
+end
+
+# open speakers so we can add to it
+speakers_yml = "_data/speakers.yml"
+@speakers = File.file?(speakers_yml) ? YAML.load_file(speakers_yml) : []
+
 # parse _data/conf.yml to get workshop date string
 conf = YAML.load_file("_data/conf.yml")
 workshop_day = conf["days"].find {|d| d["workshops"]}["date-data"].gsub(/T.*/, "")
-
 
 CSV.foreach(ARGV[0], headers: true).each do |row|
   outcomes = row["outcomes"]
   requirements = row["requirements"]
   max = row["max"]
   time = row["time"].downcase
-  speaker1 = row["speaker1"]
-  speaker2 = row["speaker2"] || ""
+  speaker1 = row["speaker1"]&.strip
+  speaker2 = row["speaker2"]&.strip || ""
   speaker3 = speaker2.empty? ? speaker1 : "#{speaker1}, #{speaker2}"
   title = row["title"]
   description = row["description"]
@@ -60,4 +72,10 @@ CSV.foreach(ARGV[0], headers: true).each do |row|
     f.puts "---"
     f.puts description
   end
+
+  # stub speakers
+  [speaker1, speaker2].each { |s| stub_speaker(s) }
 end
+
+# write updated speakers
+File.open(speakers_yml, "w") { |file| file.write(@speakers.to_yaml) }
